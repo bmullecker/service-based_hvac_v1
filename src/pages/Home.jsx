@@ -131,7 +131,7 @@ export default function Home() {
         <div className="absolute inset-0" style={{ backgroundColor: 'rgba(26, 54, 93, 0.85)' }} />
         <div className="relative z-10 max-w-7xl mx-auto px-4 py-20 md:py-28 text-center w-full">
           <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight">
-            York, PA's Most Trusted<br className="hidden md:block" />
+            York, PA's Most Trusted{' '}<br className="hidden md:block" />
             HVAC &amp; Plumbing Experts — 24/7
           </h1>
           <p className="text-lg md:text-xl text-blue-100 mb-10 max-w-2xl mx-auto">
@@ -140,7 +140,8 @@ export default function Home() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
             <a
               href="#quote"
-              className="bg-orange-500 hover:bg-orange-600 text-white font-bold text-lg px-8 py-4 rounded-xl transition-colors duration-200 shadow-lg"
+              onClick={(e) => { e.preventDefault(); document.getElementById('quote')?.scrollIntoView({ behavior: 'smooth' }); }}
+              className="bg-orange-500 hover:bg-orange-600 text-white font-bold text-lg px-8 py-4 rounded-xl transition-colors duration-200 shadow-lg cursor-pointer"
               style={{ backgroundColor: '#f97316' }}
             >
               Get a Free Quote

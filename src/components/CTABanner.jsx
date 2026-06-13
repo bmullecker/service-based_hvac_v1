@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom'
+
 export default function CTABanner({ heading, subtext }) {
   return (
     <section style={{ backgroundColor: '#f97316' }} className="py-12 px-4">
@@ -15,12 +17,12 @@ export default function CTABanner({ heading, subtext }) {
           >
             📞 (267) 300-2400
           </a>
-          <a
-            href="#quote"
+          <Link
+            to="/contact"
             className="border-2 border-white text-white font-bold text-lg px-8 py-4 rounded-xl hover:bg-orange-600 transition-colors duration-200"
           >
             Get a Free Quote
-          </a>
+          </Link>
         </div>
         <p className="text-orange-100 text-sm mt-4">24/7 Emergency Service Available • No After-Hours Surcharges</p>
       </div>

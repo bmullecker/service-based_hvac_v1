@@ -40,7 +40,7 @@ export default function Footer() {
                 { to: '/about', label: 'About Us' },
                 { to: '/contact', label: 'Contact' },
                 { to: '/contact', label: 'Careers' },
-                { to: '/contact', label: 'Privacy Policy' },
+                { to: '/privacy-policy', label: 'Privacy Policy' },
               ].map((link) => (
                 <li key={link.label}>
                   <Link
