@@ -6,19 +6,19 @@ const teamMembers = [
   {
     name: 'Mike Cornerstone',
     role: 'Founder & Master HVAC Technician',
-    image: 'https://placehold.co/300x300/cccccc/333333?text=Team+Member',
+    image: 'https://i.pravatar.cc/300?img=51',
     bio: 'Mike founded Cornerstone HVAC & Plumbing in 2012 with a simple mission: bring honest, expert HVAC service to York, PA homeowners. NATE-certified with 20+ years of experience.',
   },
   {
     name: 'Sarah Johnson',
     role: 'Licensed Master Plumber',
-    image: 'https://placehold.co/300x300/cccccc/333333?text=Team+Member',
+    image: 'https://i.pravatar.cc/300?img=25',
     bio: 'Sarah leads our plumbing division with 15 years of experience in residential and light commercial plumbing throughout York County, PA. PA Licensed Master Plumber.',
   },
   {
     name: 'Dave Reyes',
     role: 'Lead HVAC Technician',
-    image: 'https://placehold.co/300x300/cccccc/333333?text=Team+Member',
+    image: 'https://i.pravatar.cc/300?img=12',
     bio: 'Dave is NATE-certified in both heating and cooling and has served York, PA homeowners for over a decade. Known for his thoroughness and clear communication.',
   },
 ]
@@ -53,7 +53,7 @@ export default function About() {
       <section className="relative py-20 md:py-28 flex items-center" style={{ minHeight: '300px' }}>
         <div
           className="absolute inset-0 bg-cover bg-center"
-          style={{ backgroundImage: 'url(https://placehold.co/1920x400/1a365d/ffffff?text=About+Cornerstone+HVAC)' }}
+          style={{ backgroundImage: 'url(https://picsum.photos/seed/professional-team/1920/400)' }}
         />
         <div className="absolute inset-0" style={{ backgroundColor: 'rgba(26, 54, 93, 0.85)' }} />
         <div className="relative z-10 max-w-7xl mx-auto px-4 w-full">

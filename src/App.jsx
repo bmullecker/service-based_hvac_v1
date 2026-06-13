@@ -16,7 +16,7 @@ export default function App() {
   return (
     <HashRouter>
       <ScrollToTop />
-      <div className="flex flex-col min-h-screen">
+      <div className="flex flex-col min-h-[100svh]">
         <Header />
         <main className="flex-grow">
           <Routes>

@@ -43,25 +43,25 @@ const services = [
   {
     title: 'Heating Services',
     description: 'Expert furnace repair, heat pump service & boiler maintenance. Stay warm all winter with our certified heating technicians.',
-    image: 'https://placehold.co/400x250/1a365d/f97316?text=Heating+Services',
+    image: 'https://picsum.photos/seed/heating-warmth/800/500',
     link: '/heating',
   },
   {
     title: 'Cooling Services',
     description: 'AC repair, installation & tune-ups for central air and ductless mini-split systems across York, PA.',
-    image: 'https://placehold.co/400x250/1a365d/ffffff?text=Cooling+Services',
+    image: 'https://picsum.photos/seed/cooling-comfort/800/500',
     link: '/cooling',
   },
   {
     title: 'Plumbing Services',
     description: 'Water heater repair, drain cleaning, leak detection & pipe repair. Licensed York, PA plumbers.',
-    image: 'https://placehold.co/400x250/2563eb/ffffff?text=Plumbing+Services',
+    image: 'https://picsum.photos/seed/plumbing-repair/800/500',
     link: '/plumbing',
   },
   {
     title: '24/7 Emergency Service',
     description: 'No heat? Burst pipe? We answer every call — nights, weekends, and holidays. No extra charge.',
-    image: 'https://placehold.co/400x250/dc2626/ffffff?text=Emergency+Service',
+    image: 'https://picsum.photos/seed/emergency-service/800/500',
     link: '/emergency',
   },
 ]
@@ -121,12 +121,12 @@ export default function Home() {
 
       {/* Hero Section */}
       <section
-        className="relative min-h-screen md:min-h-0 md:h-auto flex items-center"
+        className="relative flex items-center"
         style={{ minHeight: '600px' }}
       >
         <div
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-          style={{ backgroundImage: 'url(https://placehold.co/1920x700/1a365d/ffffff?text=York+PA+HVAC+%26+Plumbing+Experts)' }}
+          style={{ backgroundImage: 'url(https://picsum.photos/seed/hvac-york-pa/1920/700)' }}
         />
         <div className="absolute inset-0" style={{ backgroundColor: 'rgba(26, 54, 93, 0.85)' }} />
         <div className="relative z-10 max-w-7xl mx-auto px-4 py-20 md:py-28 text-center w-full">

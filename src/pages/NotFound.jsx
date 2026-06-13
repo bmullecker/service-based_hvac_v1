@@ -9,7 +9,7 @@ export default function NotFound() {
         <meta name="robots" content="noindex" />
       </Helmet>
 
-      <section className="min-h-screen bg-gray-50 flex items-center justify-center px-4 py-20">
+      <section className="bg-gray-50 flex items-center justify-center px-4 py-24">
         <div className="max-w-lg w-full text-center">
           <div className="text-8xl font-bold mb-4" style={{ color: '#1a365d' }}>404</div>
           <h1 className="text-3xl font-bold text-gray-900 mb-4">Page Not Found</h1>

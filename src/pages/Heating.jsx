@@ -6,32 +6,32 @@ import CTABanner from '../components/CTABanner'
 const heatingServices = [
   {
     title: 'Furnace Repair & Installation',
-    image: 'https://placehold.co/400x250/1a365d/f97316?text=Furnace+Repair',
+    image: 'https://picsum.photos/seed/furnace-repair/800/500',
     description: 'Fast, reliable furnace repair and new furnace installation throughout York, PA. We service all major brands including Carrier, Trane, Lennox, and Rheem.',
   },
   {
     title: 'Heat Pump Service & Repair',
-    image: 'https://placehold.co/400x250/1a365d/ffffff?text=Heat+Pump+Service',
+    image: 'https://picsum.photos/seed/heat-pump/800/500',
     description: 'Heat pump tune-ups, repairs, and replacements. Keep your heat pump running efficiently year-round in York and surrounding communities.',
   },
   {
     title: 'Boiler Repair & Maintenance',
-    image: 'https://placehold.co/400x250/2563eb/ffffff?text=Boiler+Repair',
+    image: 'https://picsum.photos/seed/boiler-system/800/500',
     description: 'Boiler diagnostics, repairs, and maintenance for hot water and steam boiler systems throughout York County, PA.',
   },
   {
     title: 'Heating System Tune-Up',
-    image: 'https://placehold.co/400x250/1a365d/f97316?text=Heating+Tune-Up',
+    image: 'https://picsum.photos/seed/maintenance-inspection/800/500',
     description: 'Annual heating tune-ups to maximize efficiency, extend equipment life, and prevent costly breakdowns during Pennsylvania winters.',
   },
   {
     title: 'Ductwork Repair & Sealing',
-    image: 'https://placehold.co/400x250/1a365d/ffffff?text=Ductwork+Repair',
+    image: 'https://picsum.photos/seed/ductwork-ventilation/800/500',
     description: 'Leaky ducts waste up to 30% of your heating energy. Our York, PA technicians seal and repair ductwork to restore efficiency.',
   },
   {
     title: 'Thermostat Installation & Programming',
-    image: 'https://placehold.co/400x250/2563eb/ffffff?text=Thermostat+Install',
+    image: 'https://picsum.photos/seed/smart-thermostat/800/500',
     description: 'Smart thermostat installation and programming for energy savings and better home comfort control in York, PA.',
   },
 ]
@@ -71,7 +71,7 @@ export default function Heating() {
       <section className="relative py-20 md:py-28 flex items-center" style={{ minHeight: '300px' }}>
         <div
           className="absolute inset-0 bg-cover bg-center"
-          style={{ backgroundImage: 'url(https://placehold.co/1920x400/1a365d/ffffff?text=Heating+Services+York+PA)' }}
+          style={{ backgroundImage: 'url(https://picsum.photos/seed/furnace-heating/1920/400)' }}
         />
         <div className="absolute inset-0" style={{ backgroundColor: 'rgba(26, 54, 93, 0.85)' }} />
         <div className="relative z-10 max-w-7xl mx-auto px-4 w-full">

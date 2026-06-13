@@ -14,7 +14,7 @@ export default function Contact() {
       <section className="relative py-20 md:py-24 flex items-center" style={{ minHeight: '260px' }}>
         <div
           className="absolute inset-0 bg-cover bg-center"
-          style={{ backgroundImage: 'url(https://placehold.co/1920x400/1a365d/ffffff?text=Contact+Cornerstone+HVAC)' }}
+          style={{ backgroundImage: 'url(https://picsum.photos/seed/customer-service/1920/400)' }}
         />
         <div className="absolute inset-0" style={{ backgroundColor: 'rgba(26, 54, 93, 0.85)' }} />
         <div className="relative z-10 max-w-7xl mx-auto px-4 w-full">

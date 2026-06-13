@@ -6,32 +6,32 @@ import CTABanner from '../components/CTABanner'
 const plumbingServices = [
   {
     title: 'Water Heater Repair & Replacement',
-    image: 'https://placehold.co/400x250/1a365d/f97316?text=Water+Heater',
+    image: 'https://picsum.photos/seed/water-heater/800/500',
     description: 'No hot water? Our licensed York, PA plumbers repair and replace all types of water heaters — tank, tankless, gas, and electric. Same-day service available.',
   },
   {
     title: 'Drain Cleaning & Unclogging',
-    image: 'https://placehold.co/400x250/1a365d/ffffff?text=Drain+Cleaning',
+    image: 'https://picsum.photos/seed/drain-cleaning/800/500',
     description: 'Slow drains and stubborn clogs cleared fast. We use professional drain snakes and hydro-jetting equipment to clear any drain in your York, PA home.',
   },
   {
     title: 'Leak Detection & Repair',
-    image: 'https://placehold.co/400x250/2563eb/ffffff?text=Leak+Detection',
+    image: 'https://picsum.photos/seed/water-leak/800/500',
     description: 'Hidden leaks cause serious water damage. Our York, PA plumbers use advanced leak detection equipment to find and fix leaks before they become costly disasters.',
   },
   {
     title: 'Pipe Repair & Replacement',
-    image: 'https://placehold.co/400x250/1a365d/f97316?text=Pipe+Repair',
+    image: 'https://picsum.photos/seed/pipe-plumbing/800/500',
     description: 'Burst pipes, corroded pipes, and aging plumbing repaired or replaced. We handle emergency pipe repairs 24/7 throughout York County, PA.',
   },
   {
     title: 'Toilet & Faucet Repair',
-    image: 'https://placehold.co/400x250/1a365d/ffffff?text=Toilet+Faucet+Repair',
+    image: 'https://picsum.photos/seed/bathroom-fixtures/800/500',
     description: 'Running toilets, leaky faucets, low water pressure, and fixture replacements. Fast, affordable plumbing repairs for York, PA homeowners.',
   },
   {
     title: 'Sump Pump Installation & Service',
-    image: 'https://placehold.co/400x250/2563eb/ffffff?text=Sump+Pump',
+    image: 'https://picsum.photos/seed/basement-water/800/500',
     description: 'Keep your York, PA basement dry with a properly installed and maintained sump pump. We install, repair, and replace all sump pump systems.',
   },
 ]
@@ -71,7 +71,7 @@ export default function Plumbing() {
       <section className="relative py-20 md:py-28 flex items-center" style={{ minHeight: '300px' }}>
         <div
           className="absolute inset-0 bg-cover bg-center"
-          style={{ backgroundImage: 'url(https://placehold.co/1920x400/1a365d/ffffff?text=Plumbing+Services+York+PA)' }}
+          style={{ backgroundImage: 'url(https://picsum.photos/seed/plumbing-water/1920/400)' }}
         />
         <div className="absolute inset-0" style={{ backgroundColor: 'rgba(26, 54, 93, 0.85)' }} />
         <div className="relative z-10 max-w-7xl mx-auto px-4 w-full">
