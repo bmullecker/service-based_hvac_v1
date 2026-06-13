@@ -57,10 +57,10 @@ export default function About() {
         />
         <div className="absolute inset-0" style={{ backgroundColor: 'rgba(26, 54, 93, 0.85)' }} />
         <div className="relative z-10 max-w-7xl mx-auto px-4 w-full">
-          <nav className="text-blue-200 text-sm mb-4">
+          <nav className="text-blue-200 text-sm mb-4" aria-label="Breadcrumb">
             <Link to="/" className="hover:text-white transition-colors">Home</Link>
-            <span className="mx-2">/</span>
-            <span className="text-white">About Us</span>
+            <span className="mx-2" aria-hidden="true">/</span>
+            <span className="text-white" aria-current="page">About Us</span>
           </nav>
           <h1 className="text-3xl md:text-5xl font-bold text-white mb-4">
             About Cornerstone HVAC &amp; Plumbing
@@ -96,7 +96,7 @@ export default function About() {
               { number: '100%', label: 'Satisfaction Goal' },
             ].map((stat) => (
               <div key={stat.label} className="text-center p-6 bg-gray-50 rounded-xl">
-                <div className="text-3xl font-bold mb-2" style={{ color: '#f97316' }}>{stat.number}</div>
+                <div className="text-3xl font-bold mb-2" style={{ color: '#c2410c' }}>{stat.number}</div>
                 <div className="text-gray-600 text-sm">{stat.label}</div>
               </div>
             ))}
@@ -142,7 +142,7 @@ export default function About() {
                 />
                 <div className="p-6">
                   <h3 className="text-xl font-bold text-gray-900 mb-1">{member.name}</h3>
-                  <p className="text-orange-500 font-medium mb-3">{member.role}</p>
+                  <p className="text-orange-700 font-medium mb-3">{member.role}</p>
                   <p className="text-gray-600 text-sm leading-relaxed">{member.bio}</p>
                 </div>
               </div>

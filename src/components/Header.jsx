@@ -23,8 +23,8 @@ export default function Header() {
 
   const getLinkClass = ({ isActive }) =>
     isActive
-      ? 'text-orange-500 font-semibold border-b-2 border-orange-500 pb-0.5'
-      : 'text-gray-700 hover:text-orange-500 transition-colors duration-200'
+      ? 'text-orange-700 font-semibold border-b-2 border-orange-700 pb-0.5'
+      : 'text-gray-700 hover:text-orange-700 transition-colors duration-200'
 
   const getEmergencyLinkClass = ({ isActive }) =>
     isActive
@@ -52,7 +52,7 @@ export default function Header() {
         </Link>
 
         {/* Desktop Nav */}
-        <nav className="hidden md:flex items-center gap-6">
+        <nav className="hidden md:flex items-center gap-6" aria-label="Main navigation">
           {navLinks.map((link) => (
             <NavLink
               key={link.to}
@@ -69,27 +69,29 @@ export default function Header() {
         <div className="hidden md:flex items-center">
           <a
             href="tel:2673002400"
-            className="bg-orange-500 hover:bg-orange-600 text-white font-bold px-5 py-2 rounded-lg transition-colors duration-200 flex items-center gap-2"
-            style={{ backgroundColor: '#f97316' }}
+            className="text-white font-bold px-5 py-2 rounded-lg transition-colors duration-200 flex items-center gap-2 focus:outline-none focus:ring-2 focus:ring-orange-700 focus:ring-offset-2"
+            style={{ backgroundColor: '#c2410c' }}
           >
-            📞 (267) 300-2400
+            <span aria-hidden="true">📞</span> (267) 300-2400
           </a>
         </div>
 
         {/* Mobile Hamburger */}
         <button
-          className="md:hidden text-gray-700 hover:text-orange-500 text-2xl p-2 transition-colors duration-200"
+          className="md:hidden text-gray-700 hover:text-orange-700 text-2xl p-2 transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-orange-700 rounded"
           onClick={() => setMenuOpen(!menuOpen)}
-          aria-label="Toggle menu"
+          aria-label="Toggle navigation menu"
+          aria-expanded={menuOpen}
+          aria-controls="mobile-menu"
         >
-          {menuOpen ? '✕' : '☰'}
+          <span aria-hidden="true">{menuOpen ? '✕' : '☰'}</span>
         </button>
       </div>
 
       {/* Mobile Menu */}
       {menuOpen && (
-        <div className="md:hidden bg-white border-t border-gray-100 shadow-lg">
-          <nav className="flex flex-col px-4 py-4 gap-1">
+        <div className="md:hidden bg-white border-t border-gray-100 shadow-lg" id="mobile-menu">
+          <nav className="flex flex-col px-4 py-4 gap-1" aria-label="Mobile navigation">
             {navLinks.map((link) => (
               <NavLink
                 key={link.to}
@@ -102,7 +104,7 @@ export default function Header() {
                         ? 'bg-red-50 text-red-700 font-bold'
                         : 'text-red-600 hover:bg-red-50'
                       : isActive
-                      ? 'bg-orange-50 text-orange-600 font-semibold'
+                      ? 'bg-orange-50 text-orange-700 font-semibold'
                       : 'text-gray-700 hover:bg-gray-50'
                   }`
                 }
@@ -113,11 +115,11 @@ export default function Header() {
             ))}
             <a
               href="tel:2673002400"
-              className="mt-3 bg-orange-500 hover:bg-orange-600 text-white font-bold px-4 py-3 rounded-lg text-center transition-colors duration-200"
-              style={{ backgroundColor: '#f97316' }}
+              className="mt-3 text-white font-bold px-4 py-3 rounded-lg text-center transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-orange-700 focus:ring-offset-2"
+              style={{ backgroundColor: '#c2410c' }}
               onClick={() => setMenuOpen(false)}
             >
-              📞 Call (267) 300-2400
+              <span aria-hidden="true">📞</span> Call (267) 300-2400
             </a>
           </nav>
         </div>

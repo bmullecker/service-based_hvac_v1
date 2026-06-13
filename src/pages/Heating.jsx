@@ -75,10 +75,10 @@ export default function Heating() {
         />
         <div className="absolute inset-0" style={{ backgroundColor: 'rgba(26, 54, 93, 0.85)' }} />
         <div className="relative z-10 max-w-7xl mx-auto px-4 w-full">
-          <nav className="text-blue-200 text-sm mb-4">
+          <nav className="text-blue-200 text-sm mb-4" aria-label="Breadcrumb">
             <Link to="/" className="hover:text-white transition-colors">Home</Link>
-            <span className="mx-2">/</span>
-            <span className="text-white">Heating Services</span>
+            <span className="mx-2" aria-hidden="true">/</span>
+            <span className="text-white" aria-current="page">Heating Services</span>
           </nav>
           <h1 className="text-3xl md:text-5xl font-bold text-white mb-4">
             Furnace Repair &amp; Heating Service in York, PA
@@ -88,10 +88,10 @@ export default function Heating() {
           </p>
           <a
             href="tel:2673002400"
-            className="mt-6 inline-flex items-center gap-2 bg-orange-500 hover:bg-orange-600 text-white font-bold px-7 py-3 rounded-xl transition-colors duration-200"
-            style={{ backgroundColor: '#f97316' }}
+            className="mt-6 inline-flex items-center gap-2 text-white font-bold px-7 py-3 rounded-xl transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-blue-900"
+            style={{ backgroundColor: '#c2410c' }}
           >
-            📞 Call (267) 300-2400
+            <span aria-hidden="true">📞</span> Call (267) 300-2400
           </a>
         </div>
       </section>

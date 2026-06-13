@@ -19,8 +19,14 @@ export default function App() {
     <HashRouter>
       <ScrollToTop />
       <div className="flex flex-col min-h-screen">
+        <a
+          href="#main-content"
+          className="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:z-[100] focus:px-4 focus:py-2 focus:bg-white focus:text-gray-900 focus:font-semibold focus:rounded-lg focus:shadow-lg focus:outline-none focus:ring-2 focus:ring-orange-700"
+        >
+          Skip to main content
+        </a>
         <Header />
-        <main className="flex-grow flex flex-col">
+        <main id="main-content" className="flex-grow flex flex-col">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/heating" element={<Heating />} />

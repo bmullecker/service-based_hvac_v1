@@ -13,10 +13,10 @@ export default function PrivacyPolicy() {
       {/* Hero Banner */}
       <section className="relative py-16 md:py-20 flex items-center" style={{ minHeight: '200px', backgroundColor: '#1a365d' }}>
         <div className="relative z-10 max-w-7xl mx-auto px-4 w-full">
-          <nav className="text-blue-200 text-sm mb-4">
+          <nav className="text-blue-200 text-sm mb-4" aria-label="Breadcrumb">
             <Link to="/" className="hover:text-white transition-colors">Home</Link>
-            <span className="mx-2">/</span>
-            <span className="text-white">Privacy Policy</span>
+            <span className="mx-2" aria-hidden="true">/</span>
+            <span className="text-white" aria-current="page">Privacy Policy</span>
           </nav>
           <h1 className="text-3xl md:text-4xl font-bold text-white mb-2">Privacy Policy</h1>
           <p className="text-blue-200">Last updated: January 1, 2024</p>

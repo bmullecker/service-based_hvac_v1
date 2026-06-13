@@ -68,8 +68,8 @@ export default function Emergency() {
       {/* Emergency Hero */}
       <section className="py-20 md:py-28" style={{ backgroundColor: '#1a1a1a' }}>
         <div className="max-w-4xl mx-auto px-4 text-center">
-          <div className="inline-block bg-red-600 text-white text-sm font-bold px-4 py-2 rounded-full mb-6 animate-pulse">
-            🚨 AVAILABLE RIGHT NOW — 24/7/365
+          <div className="inline-block bg-red-600 text-white text-sm font-bold px-4 py-2 rounded-full mb-6 animate-pulse motion-reduce:animate-none">
+            <span aria-hidden="true">🚨</span> AVAILABLE RIGHT NOW — 24/7/365
           </div>
           <h1 className="text-3xl md:text-5xl font-bold text-white mb-6">
             24/7 Emergency HVAC &amp; Plumbing<br className="hidden md:block" />
@@ -125,7 +125,7 @@ export default function Emergency() {
                 key={situation.title}
                 className="bg-gray-800 border border-gray-700 rounded-xl p-6 hover:border-red-500 transition-colors duration-200"
               >
-                <div className="text-4xl mb-4">{situation.icon}</div>
+                <div className="text-4xl mb-4" aria-hidden="true">{situation.icon}</div>
                 <h3 className="text-xl font-bold text-white mb-3">{situation.title}</h3>
                 <p className="text-gray-400 leading-relaxed">{situation.description}</p>
               </div>

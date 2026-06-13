@@ -141,8 +141,8 @@ export default function Home() {
             <a
               href="#quote"
               onClick={(e) => { e.preventDefault(); document.getElementById('quote')?.scrollIntoView({ behavior: 'smooth' }); }}
-              className="bg-orange-500 hover:bg-orange-600 text-white font-bold text-lg px-8 py-4 rounded-xl transition-colors duration-200 shadow-lg cursor-pointer"
-              style={{ backgroundColor: '#f97316' }}
+              className="text-white font-bold text-lg px-8 py-4 rounded-xl transition-colors duration-200 shadow-lg cursor-pointer focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-blue-900"
+              style={{ backgroundColor: '#c2410c' }}
             >
               Get a Free Quote
             </a>
@@ -193,9 +193,10 @@ export default function Home() {
                   <p className="text-gray-600 text-xs md:text-sm leading-relaxed mb-3 hidden sm:block">{service.description}</p>
                   <Link
                     to={service.link}
-                    className="text-orange-500 font-semibold text-sm hover:text-orange-700 transition-colors"
+                    className="text-orange-700 font-semibold text-sm hover:text-orange-900 transition-colors focus:outline-none focus:underline"
+                    aria-label={`Learn more about ${service.title}`}
                   >
-                    Learn More →
+                    Learn More <span aria-hidden="true">→</span>
                   </Link>
                 </div>
               </div>
@@ -304,7 +305,7 @@ export default function Home() {
       </section>
 
       {/* Quote Form */}
-      <section id="quote" className="py-16 px-4" style={{ backgroundColor: '#f97316' }}>
+      <section id="quote" className="py-16 px-4" style={{ backgroundColor: '#c2410c' }}>
         <div className="max-w-3xl mx-auto">
           <div className="text-center mb-10">
             <h2 className="text-3xl md:text-4xl font-bold text-white mb-3">Get Your Free Quote Today</h2>

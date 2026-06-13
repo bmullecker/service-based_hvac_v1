@@ -25,20 +25,24 @@ export default function QuoteForm({ darkBg = false }) {
     : 'block text-gray-700 font-medium mb-1 text-sm'
 
   const inputClass =
-    'w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-orange-400 focus:border-transparent text-gray-900 bg-white'
+    'w-full px-4 py-3 rounded-lg border border-gray-500 focus:outline-none focus:ring-2 focus:ring-orange-600 focus:border-transparent text-gray-900 bg-white'
 
   return (
     <form onSubmit={handleSubmit} className="space-y-4">
+      <p className={darkBg ? 'text-orange-100 text-xs' : 'text-gray-500 text-xs'}>
+        Fields marked <span aria-hidden="true">*</span><span className="sr-only">with an asterisk</span> are required.
+      </p>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         <div>
           <label htmlFor="name" className={labelClass}>
-            Full Name <span className="text-red-400">*</span>
+            Full Name <span aria-hidden="true" className="text-red-500">*</span>
           </label>
           <input
             type="text"
             id="name"
             name="name"
             required
+            autoComplete="name"
             value={formData.name}
             onChange={handleChange}
             placeholder="John Smith"
@@ -47,13 +51,14 @@ export default function QuoteForm({ darkBg = false }) {
         </div>
         <div>
           <label htmlFor="phone" className={labelClass}>
-            Phone Number <span className="text-red-400">*</span>
+            Phone Number <span aria-hidden="true" className="text-red-500">*</span>
           </label>
           <input
             type="tel"
             id="phone"
             name="phone"
             required
+            autoComplete="tel"
             value={formData.phone}
             onChange={handleChange}
             placeholder="(717) 555-0100"
@@ -63,13 +68,14 @@ export default function QuoteForm({ darkBg = false }) {
       </div>
       <div>
         <label htmlFor="email" className={labelClass}>
-          Email Address <span className="text-red-400">*</span>
+          Email Address <span aria-hidden="true" className="text-red-500">*</span>
         </label>
         <input
           type="email"
           id="email"
           name="email"
           required
+          autoComplete="email"
           value={formData.email}
           onChange={handleChange}
           placeholder="john@example.com"
@@ -111,16 +117,18 @@ export default function QuoteForm({ darkBg = false }) {
       </div>
       <button
         type="submit"
-        className="w-full bg-orange-500 hover:bg-orange-600 text-white font-bold py-4 px-8 rounded-lg text-lg transition-colors duration-200 shadow-md"
-        style={{ backgroundColor: '#f97316' }}
+        className="w-full text-white font-bold py-4 px-8 rounded-lg text-lg transition-colors duration-200 shadow-md focus:outline-none focus:ring-2 focus:ring-orange-700 focus:ring-offset-2"
+        style={{ backgroundColor: '#c2410c' }}
+        onMouseEnter={(e) => { e.currentTarget.style.backgroundColor = '#9a3412' }}
+        onMouseLeave={(e) => { e.currentTarget.style.backgroundColor = '#c2410c' }}
       >
         Submit Request — We'll Call You Within 2 Hours
       </button>
       <p className="text-center text-sm text-gray-500">
         {darkBg ? (
-          <span className="text-orange-100">🔒 Your info is safe. No spam, ever.</span>
+          <span className="text-orange-100"><span aria-hidden="true">🔒</span> Your info is safe. No spam, ever.</span>
         ) : (
-          '🔒 Your info is safe. No spam, ever.'
+          <><span aria-hidden="true">🔒</span> Your info is safe. No spam, ever.</>
         )}
       </p>
     </form>

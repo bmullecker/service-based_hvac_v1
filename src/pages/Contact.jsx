@@ -18,10 +18,10 @@ export default function Contact() {
         />
         <div className="absolute inset-0" style={{ backgroundColor: 'rgba(26, 54, 93, 0.85)' }} />
         <div className="relative z-10 max-w-7xl mx-auto px-4 w-full">
-          <nav className="text-blue-200 text-sm mb-4">
+          <nav className="text-blue-200 text-sm mb-4" aria-label="Breadcrumb">
             <Link to="/" className="hover:text-white transition-colors">Home</Link>
-            <span className="mx-2">/</span>
-            <span className="text-white">Contact</span>
+            <span className="mx-2" aria-hidden="true">/</span>
+            <span className="text-white" aria-current="page">Contact</span>
           </nav>
           <h1 className="text-3xl md:text-5xl font-bold text-white mb-3">Contact Us</h1>
           <p className="text-blue-100 text-lg max-w-xl">
@@ -37,7 +37,7 @@ export default function Contact() {
             {/* Left: Form */}
             <div className="bg-white rounded-2xl p-6 md:p-8 shadow-md">
               <h2 className="text-2xl font-bold text-gray-900 mb-2">Send Us a Message</h2>
-              <p className="text-gray-600 mb-6">We'll respond within 2 hours during business hours. For emergencies, call <a href="tel:2673002400" className="text-orange-500 font-semibold hover:text-orange-700">(267) 300-2400</a>.</p>
+              <p className="text-gray-600 mb-6">We'll respond within 2 hours during business hours. For emergencies, call <a href="tel:2673002400" className="text-orange-700 font-semibold hover:text-orange-700">(267) 300-2400</a>.</p>
               <QuoteForm />
             </div>
 
@@ -47,51 +47,51 @@ export default function Contact() {
                 <h2 className="text-2xl font-bold text-gray-900 mb-6">Contact Information</h2>
                 <div className="space-y-5">
                   <div className="flex items-start gap-4">
-                    <span className="text-2xl mt-0.5">📞</span>
+                    <span className="text-2xl mt-0.5" aria-hidden="true">📞</span>
                     <div>
                       <p className="font-semibold text-gray-900">Phone</p>
-                      <a href="tel:2673002400" className="text-orange-500 hover:text-orange-700 text-lg font-bold transition-colors">
+                      <a href="tel:2673002400" className="text-orange-700 hover:text-orange-700 text-lg font-bold transition-colors">
                         (267) 300-2400
                       </a>
                       <p className="text-gray-500 text-sm">24/7 Emergency Service Available</p>
                     </div>
                   </div>
                   <div className="flex items-start gap-4">
-                    <span className="text-2xl mt-0.5">✉️</span>
+                    <span className="text-2xl mt-0.5" aria-hidden="true">✉️</span>
                     <div>
                       <p className="font-semibold text-gray-900">Email</p>
-                      <a href="mailto:info@cornerstonehvac.com" className="text-orange-500 hover:text-orange-700 transition-colors">
+                      <a href="mailto:info@cornerstonehvac.com" className="text-orange-700 hover:text-orange-700 transition-colors">
                         info@cornerstonehvac.com
                       </a>
                     </div>
                   </div>
                   <div className="flex items-start gap-4">
-                    <span className="text-2xl mt-0.5">📍</span>
+                    <span className="text-2xl mt-0.5" aria-hidden="true">📍</span>
                     <div>
                       <p className="font-semibold text-gray-900">Address</p>
                       <p className="text-gray-700">123 Commerce Dr<br />York, PA 17401</p>
                     </div>
                   </div>
                   <div className="flex items-start gap-4">
-                    <span className="text-2xl mt-0.5">🕐</span>
+                    <span className="text-2xl mt-0.5" aria-hidden="true">🕐</span>
                     <div>
                       <p className="font-semibold text-gray-900 mb-2">Business Hours</p>
                       <table className="text-sm text-gray-700 w-full">
                         <tbody>
                           <tr className="border-b border-gray-100">
-                            <td className="py-1.5 pr-6 font-medium">Emergency:</td>
-                            <td className="py-1.5 text-orange-500 font-bold">24/7 — Always Available</td>
+                            <th scope="row" className="py-1.5 pr-6 font-medium text-left">Emergency:</th>
+                            <td className="py-1.5 text-orange-700 font-bold">24/7 — Always Available</td>
                           </tr>
                           <tr className="border-b border-gray-100">
-                            <td className="py-1.5 pr-6 font-medium">Mon – Fri:</td>
+                            <th scope="row" className="py-1.5 pr-6 font-medium text-left">Mon – Fri:</th>
                             <td className="py-1.5">7:00 AM – 7:00 PM</td>
                           </tr>
                           <tr className="border-b border-gray-100">
-                            <td className="py-1.5 pr-6 font-medium">Saturday:</td>
+                            <th scope="row" className="py-1.5 pr-6 font-medium text-left">Saturday:</th>
                             <td className="py-1.5">8:00 AM – 5:00 PM</td>
                           </tr>
                           <tr>
-                            <td className="py-1.5 pr-6 font-medium">Sunday:</td>
+                            <th scope="row" className="py-1.5 pr-6 font-medium text-left">Sunday:</th>
                             <td className="py-1.5">Emergency Service Only</td>
                           </tr>
                         </tbody>

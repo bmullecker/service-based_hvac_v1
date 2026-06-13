@@ -46,7 +46,7 @@ export default function Footer() {
                     to={link.to}
                     className="text-blue-200 hover:text-white text-sm transition-colors duration-200"
                   >
-                    → {link.label}
+                    <span aria-hidden="true">→ </span>{link.label}
                   </Link>
                 </li>
               ))}
@@ -69,7 +69,7 @@ export default function Footer() {
                     to={link.to}
                     className="text-blue-200 hover:text-white text-sm transition-colors duration-200"
                   >
-                    → {link.label}
+                    <span aria-hidden="true">→ </span>{link.label}
                   </Link>
                 </li>
               ))}
@@ -101,19 +101,19 @@ export default function Footer() {
                 <table className="text-xs text-blue-200 w-full">
                   <tbody>
                     <tr>
-                      <td className="pr-3 py-0.5">Emergency:</td>
+                      <th scope="row" className="pr-3 py-0.5 font-normal text-left">Emergency:</th>
                       <td className="text-orange-400 font-semibold">24/7</td>
                     </tr>
                     <tr>
-                      <td className="pr-3 py-0.5">Mon–Fri:</td>
+                      <th scope="row" className="pr-3 py-0.5 font-normal text-left">Mon–Fri:</th>
                       <td>7am – 7pm</td>
                     </tr>
                     <tr>
-                      <td className="pr-3 py-0.5">Saturday:</td>
+                      <th scope="row" className="pr-3 py-0.5 font-normal text-left">Saturday:</th>
                       <td>8am – 5pm</td>
                     </tr>
                     <tr>
-                      <td className="pr-3 py-0.5">Sunday:</td>
+                      <th scope="row" className="pr-3 py-0.5 font-normal text-left">Sunday:</th>
                       <td>Emergency only</td>
                     </tr>
                   </tbody>
