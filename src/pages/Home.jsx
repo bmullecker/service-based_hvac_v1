@@ -4,6 +4,7 @@ import { Helmet } from 'react-helmet-async'
 import { Link } from 'react-router-dom'
 import FAQAccordion from '../components/FAQAccordion'
 import QuoteForm from '../components/QuoteForm'
+import CTABanner from '../components/CTABanner'
 
 const schemaData = {
   "@context": "https://schema.org",
@@ -119,89 +120,146 @@ export default function Home() {
         <script type="application/ld+json">{JSON.stringify(schemaData)}</script>
       </Helmet>
 
-      {/* Hero Section */}
-      <section
-        className="relative flex items-center"
-        style={{ minHeight: '600px' }}
-      >
-        <div
-          className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-          style={{ backgroundImage: 'url(https://picsum.photos/seed/hvac-york-pa/1920/700)' }}
-        />
-        <div className="absolute inset-0" style={{ backgroundColor: 'rgba(26, 54, 93, 0.85)' }} />
-        <div className="relative z-10 max-w-7xl mx-auto px-4 py-20 md:py-28 text-center w-full">
-          <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight">
-            York, PA's Most Trusted{' '}<br className="hidden md:block" />
-            HVAC &amp; Plumbing Experts — 24/7
+      {/* Hero — Text-Forward, No Image */}
+      <section className="bg-white pt-16 pb-8 px-4">
+        <div className="max-w-7xl mx-auto">
+          {/* Label chip */}
+          <span className="inline-flex items-center gap-2 bg-orange-50 text-orange-700 text-xs font-bold px-3 py-1.5 rounded-full border border-orange-200 mb-6">
+            York, PA Since 2012
+          </span>
+
+          {/* Giant headline */}
+          <h1 className="text-5xl md:text-7xl lg:text-8xl font-black text-gray-900 leading-none tracking-tight mb-6">
+            York's HVAC &amp; Plumbing Experts
           </h1>
-          <p className="text-lg md:text-xl text-blue-100 mb-10 max-w-2xl mx-auto">
-            Fast, reliable heating, cooling &amp; plumbing repairs. Over 1,000 local families served. Licensed &amp; insured.
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
-            <a
-              href="#quote"
-              onClick={(e) => { e.preventDefault(); document.getElementById('quote')?.scrollIntoView({ behavior: 'smooth' }); }}
-              className="text-white font-bold text-lg px-8 py-4 rounded-xl transition-colors duration-200 shadow-lg cursor-pointer focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-blue-900"
-              style={{ backgroundColor: '#c2410c' }}
-            >
-              Get a Free Quote
-            </a>
-            <a
-              href="tel:2673002400"
-              className="border-2 border-white text-white font-bold text-lg px-8 py-4 rounded-xl hover:bg-white hover:text-navy transition-colors duration-200"
-              style={{ '--tw-text-opacity': '1' }}
-            >
-              📞 Call (267) 300-2400
-            </a>
-          </div>
-          {/* Trust Badges */}
-          <div className="flex flex-wrap gap-4 justify-center">
-            {['✔ Licensed & Insured', '✔ 24/7 Emergency', '✔ Satisfaction Guarantee'].map((badge) => (
-              <span
-                key={badge}
-                className="bg-white bg-opacity-20 border border-white border-opacity-40 text-white px-5 py-2 rounded-full text-sm font-medium"
+
+          {/* Two-column row */}
+          <div className="flex flex-col md:flex-row md:items-start gap-6 md:gap-12">
+            {/* Left: subtext */}
+            <p className="text-gray-500 text-xl leading-relaxed max-w-md">
+              Fast repairs, honest pricing, and 24/7 emergency service for York, PA homeowners since 2012.
+            </p>
+
+            {/* Right: action buttons */}
+            <div className="flex flex-col gap-3">
+              <a
+                href="tel:2673002400"
+                className="inline-block text-white font-bold px-6 py-3 rounded-xl text-center"
+                style={{ backgroundColor: '#c2410c' }}
               >
-                {badge}
-              </span>
-            ))}
+                Call (267) 300-2400
+              </a>
+              <Link
+                to="/contact"
+                className="inline-block border-2 border-gray-900 text-gray-900 font-bold px-6 py-3 rounded-xl text-center hover:bg-gray-900 hover:text-white transition"
+              >
+                Get a Free Quote
+              </Link>
+            </div>
           </div>
         </div>
       </section>
 
-      {/* Primary Services */}
-      <section className="py-16 px-4 bg-white">
-        <div className="max-w-7xl mx-auto">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Our Primary Services</h2>
-            <p className="text-gray-600 text-lg max-w-2xl mx-auto">
-              From furnace repairs to emergency plumbing — Cornerstone HVAC &amp; Plumbing serves York, PA and surrounding communities including Springettsbury, West York, Red Lion, and Dallastown.
-            </p>
+      {/* Bento Grid */}
+      <section className="px-4 pb-12 bg-white">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-3 md:gap-4 max-w-7xl mx-auto">
+
+          {/* Cell 1 — Main Hero Image: col-span-2 row-span-2 */}
+          <div
+            className="col-span-2 row-span-2 rounded-2xl overflow-hidden relative"
+            style={{ minHeight: '320px' }}
+          >
+            <div
+              className="absolute inset-0 bg-cover bg-center"
+              style={{ backgroundImage: 'url(https://picsum.photos/seed/hvac-york-pa/800/600)' }}
+            />
+            {/* Dark navy gradient overlay from bottom */}
+            <div
+              className="absolute inset-0"
+              style={{ background: 'linear-gradient(to top, rgba(26,54,93,0.85) 0%, transparent 60%)' }}
+            />
+            <div className="absolute bottom-0 left-0 p-6">
+              <p className="text-white font-bold text-xl">1,000+ York Families Served</p>
+            </div>
           </div>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6">
-            {services.map((service) => (
-              <div
-                key={service.title}
-                className="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-200 border border-gray-100"
+
+          {/* Cell 2 — Emergency CTA: col-span-2 md:col-span-1 */}
+          <div
+            className="col-span-2 md:col-span-1 rounded-2xl p-6 flex flex-col justify-between"
+            style={{ backgroundColor: '#c2410c', minHeight: '160px' }}
+          >
+            <div className="text-5xl font-black text-white">24/7</div>
+            <div>
+              <p className="text-orange-200 text-sm font-medium mb-1">Emergency Service</p>
+              <a
+                href="tel:2673002400"
+                className="text-white font-bold text-sm hover:underline"
               >
-                <img
-                  src={service.image}
-                  alt={service.title}
-                  className="w-full h-36 md:h-48 object-cover"
-                />
-                <div className="p-4">
-                  <h3 className="text-base md:text-lg font-bold text-gray-900 mb-2">{service.title}</h3>
-                  <p className="text-gray-600 text-xs md:text-sm leading-relaxed mb-3 hidden sm:block">{service.description}</p>
-                  <Link
-                    to={service.link}
-                    className="text-orange-700 font-semibold text-sm hover:text-orange-900 transition-colors focus:outline-none focus:underline"
-                    aria-label={`Learn more about ${service.title}`}
-                  >
-                    Learn More <span aria-hidden="true">→</span>
-                  </Link>
-                </div>
-              </div>
-            ))}
+                Call Now →
+              </a>
+            </div>
           </div>
+
+          {/* Cell 3 — Stats: col-span-1 */}
+          <div className="col-span-1 bg-gray-900 rounded-2xl p-6 text-white flex flex-col justify-center">
+            <div className="text-3xl font-black mb-1">Since 2012</div>
+            <div className="text-gray-400 text-xs font-medium uppercase tracking-wide">NATE Certified</div>
+          </div>
+
+          {/* Cell 4 — Heating card: col-span-1 */}
+          <div className="col-span-1 bg-gray-50 rounded-2xl p-5 relative overflow-hidden">
+            <h3 className="font-bold text-gray-900 text-lg mb-1">Heating</h3>
+            <p className="text-gray-500 text-xs mb-3 leading-relaxed">Furnace repair, heat pumps &amp; boiler service.</p>
+            <Link
+              to="/heating"
+              className="text-orange-700 font-semibold text-sm hover:text-orange-900 transition-colors"
+            >
+              Learn More →
+            </Link>
+          </div>
+
+          {/* Cell 5 — Cooling card: col-span-1 */}
+          <div className="col-span-1 bg-blue-50 rounded-2xl p-5 relative overflow-hidden">
+            <h3 className="font-bold text-gray-900 text-lg mb-1">Cooling</h3>
+            <p className="text-gray-500 text-xs mb-3 leading-relaxed">AC repair, installation &amp; tune-ups.</p>
+            <Link
+              to="/cooling"
+              className="text-orange-700 font-semibold text-sm hover:text-orange-900 transition-colors"
+            >
+              Learn More →
+            </Link>
+          </div>
+
+          {/* Cell 6 — Testimonial pullquote: col-span-2 */}
+          <div
+            className="col-span-2 rounded-2xl p-6 md:p-8"
+            style={{ backgroundColor: '#1a365d' }}
+          >
+            <div className="text-6xl font-serif leading-none mb-2" style={{ color: '#93c5fd' }}>"</div>
+            <p className="text-white text-xl font-medium italic mb-4">
+              Fast response, fixed our furnace on a cold night!
+            </p>
+            <p className="text-blue-300 text-sm">— Tom S., York PA</p>
+          </div>
+
+          {/* Cell 7 — Plumbing card: col-span-1 */}
+          <div className="col-span-1 bg-green-50 rounded-2xl p-5">
+            <h3 className="font-bold text-gray-900 text-lg mb-1">Plumbing</h3>
+            <p className="text-gray-500 text-xs mb-3 leading-relaxed">Water heaters, drains &amp; leak detection.</p>
+            <Link
+              to="/plumbing"
+              className="text-orange-700 font-semibold text-sm hover:text-orange-900 transition-colors"
+            >
+              Learn More →
+            </Link>
+          </div>
+
+          {/* Cell 8 — No Hidden Fees badge: col-span-1 */}
+          <div className="col-span-1 bg-yellow-400 rounded-2xl p-6 flex flex-col items-center justify-center text-center">
+            <p className="font-black text-gray-900 text-xl mb-1">No Hidden Fees</p>
+            <p className="text-gray-700 text-xs">Upfront pricing guaranteed</p>
+          </div>
+
         </div>
       </section>
 
@@ -214,7 +272,7 @@ export default function Home() {
               York, PA homeowners trust us because we deliver on our promises — every time.
             </p>
           </div>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {[
               {
                 icon: '⏰',
@@ -237,9 +295,11 @@ export default function Home() {
                 description: 'York family serving York families since 2012. We live and work in this community.',
               },
             ].map((item) => (
-              <div key={item.title} className="text-center">
-                <div className="text-4xl mb-4">{item.icon}</div>
-                <h3 className="text-lg font-bold text-gray-900 mb-2">{item.title}</h3>
+              <div key={item.title} className="border-l-4 border-orange-700 pl-4">
+                <div className="flex items-center gap-3 mb-2">
+                  <span className="text-2xl">{item.icon}</span>
+                  <h3 className="text-lg font-bold text-gray-900">{item.title}</h3>
+                </div>
                 <p className="text-gray-600 text-sm leading-relaxed">{item.description}</p>
               </div>
             ))}
@@ -318,6 +378,9 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      {/* CTA Banner */}
+      <CTABanner />
     </>
   )
 }
