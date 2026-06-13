@@ -10,37 +10,51 @@ export default function ThankYou() {
         <meta name="robots" content="noindex, nofollow" />
       </Helmet>
 
-      <section className="flex-grow bg-gray-50 flex items-center justify-center px-4 py-24">
-        <div className="max-w-lg w-full text-center">
-          <div className="text-7xl mb-6">✅</div>
-          <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-            Thank You! We'll Be in Touch Soon.
-          </h1>
-          <p className="text-gray-600 text-lg mb-4 leading-relaxed">
-            Your request has been received. Our team will call you within <strong>2 hours during business hours</strong>.
-          </p>
-          <p className="text-gray-600 mb-8">
-            Monday–Friday 7am–7pm | Saturday 8am–5pm
-          </p>
+      <section className="flex-grow bg-[#1a365d] flex items-center justify-center px-6 py-24">
+        <div className="max-w-2xl mx-auto text-center">
 
-          <div className="bg-orange-50 border border-orange-200 rounded-xl p-6 mb-8">
-            <p className="text-gray-700 font-medium mb-2">For immediate help, call us now:</p>
-            <a
-              href="tel:2673002400"
-              className="text-2xl font-bold text-orange-500 hover:text-orange-700 transition-colors"
-            >
-              📞 (267) 300-2400
-            </a>
-            <p className="text-gray-500 text-sm mt-2">Available 24/7 for emergencies</p>
+          {/* Checkmark */}
+          <div
+            className="w-24 h-24 rounded-full bg-white bg-opacity-20 flex items-center justify-center text-white font-black text-4xl mx-auto mb-8"
+            aria-hidden="true"
+          >
+            ✓
           </div>
 
-          <Link
-            to="/"
-            className="inline-flex items-center gap-2 bg-navy text-white font-bold px-8 py-4 rounded-xl hover:opacity-90 transition-opacity"
-            style={{ backgroundColor: '#1a365d' }}
+          <h1
+            className="font-black text-white"
+            style={{ fontSize: 'clamp(2.5rem, 5vw, 4rem)' }}
           >
-            ← Back to Home
-          </Link>
+            Thank You!
+          </h1>
+
+          <p className="text-blue-200 text-xl mt-4 mb-10">
+            We received your request and will call you within 2 hours.
+          </p>
+
+          {/* Buttons */}
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <Link
+              to="/"
+              className="bg-white text-gray-900 font-black px-8 py-4 rounded-xl hover:opacity-90 transition-opacity"
+            >
+              Back to Home
+            </Link>
+            <a
+              href="tel:2673002400"
+              className="border-2 border-white text-white font-bold px-8 py-4 rounded-xl hover:bg-white hover:bg-opacity-10 transition-colors"
+            >
+              Call Us Now
+            </a>
+          </div>
+
+          {/* Trust chips */}
+          <div className="mt-12 flex justify-center gap-8 flex-wrap">
+            <span className="text-blue-300 text-sm font-medium">✓ Licensed &amp; Insured</span>
+            <span className="text-blue-300 text-sm font-medium">✓ 24/7 Emergency Service</span>
+            <span className="text-blue-300 text-sm font-medium">✓ Free Estimates</span>
+          </div>
+
         </div>
       </section>
     </>
