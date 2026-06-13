@@ -1,9 +1,8 @@
-import { useNavigate } from 'react-router-dom'
-import { useState } from 'react'
 import { Helmet } from 'react-helmet-async'
 import { Link } from 'react-router-dom'
 import FAQAccordion from '../components/FAQAccordion'
 import QuoteForm from '../components/QuoteForm'
+import CTABanner from '../components/CTABanner'
 
 const schemaData = {
   "@context": "https://schema.org",
@@ -119,56 +118,66 @@ export default function Home() {
         <script type="application/ld+json">{JSON.stringify(schemaData)}</script>
       </Helmet>
 
-      {/* Hero Section */}
-      <section
-        className="relative flex items-center"
-        style={{ minHeight: '600px' }}
-      >
+      {/* Hero — Split Screen */}
+      <section className="min-h-screen flex flex-col md:flex-row">
+        {/* Left half — cover image, desktop only */}
         <div
-          className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-          style={{ backgroundImage: 'url(https://picsum.photos/seed/hvac-york-pa/1920/700)' }}
-        />
-        <div className="absolute inset-0" style={{ backgroundColor: 'rgba(26, 54, 93, 0.85)' }} />
-        <div className="relative z-10 max-w-7xl mx-auto px-4 py-20 md:py-28 text-center w-full">
-          <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight">
-            York, PA's Most Trusted{' '}<br className="hidden md:block" />
-            HVAC &amp; Plumbing Experts — 24/7
-          </h1>
-          <p className="text-lg md:text-xl text-blue-100 mb-10 max-w-2xl mx-auto">
-            Fast, reliable heating, cooling &amp; plumbing repairs. Over 1,000 local families served. Licensed &amp; insured.
+          className="hidden md:flex md:w-1/2 relative"
+          style={{
+            backgroundImage: 'url(https://picsum.photos/seed/hvac-york-pa/1200/900)',
+            backgroundSize: 'cover',
+            backgroundPosition: 'center',
+            backgroundRepeat: 'no-repeat',
+          }}
+        >
+          <div
+            className="absolute inset-0"
+            style={{ backgroundColor: 'rgba(0,0,0,0.15)' }}
+          />
+        </div>
+
+        {/* Right half — content + form */}
+        <div className="md:w-1/2 bg-white flex flex-col justify-center px-8 md:px-12 py-12">
+          <p className="text-sm font-semibold uppercase tracking-widest mb-4" style={{ color: '#c2410c' }}>
+            York, PA's Home Comfort Experts
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
-            <a
-              href="#quote"
-              onClick={(e) => { e.preventDefault(); document.getElementById('quote')?.scrollIntoView({ behavior: 'smooth' }); }}
-              className="text-white font-bold text-lg px-8 py-4 rounded-xl transition-colors duration-200 shadow-lg cursor-pointer focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-blue-900"
-              style={{ backgroundColor: '#c2410c' }}
-            >
-              Get a Free Quote
-            </a>
-            <a
-              href="tel:2673002400"
-              className="border-2 border-white text-white font-bold text-lg px-8 py-4 rounded-xl hover:bg-white hover:text-navy transition-colors duration-200"
-              style={{ '--tw-text-opacity': '1' }}
-            >
-              📞 Call (267) 300-2400
-            </a>
-          </div>
-          {/* Trust Badges */}
-          <div className="flex flex-wrap gap-4 justify-center">
-            {['✔ Licensed & Insured', '✔ 24/7 Emergency', '✔ Satisfaction Guarantee'].map((badge) => (
+          <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 leading-tight mb-4">
+            Fast, Reliable HVAC &amp; Plumbing Service
+          </h1>
+          <p className="text-gray-600 text-lg mb-6">
+            Licensed technicians. Upfront pricing. 24/7 emergency service.
+          </p>
+
+          {/* Trust badges */}
+          <div className="flex flex-wrap gap-2 mb-8">
+            {['✔ Licensed', '✔ NATE Certified', '✔ 24/7 Service'].map((badge) => (
               <span
                 key={badge}
-                className="bg-white bg-opacity-20 border border-white border-opacity-40 text-white px-5 py-2 rounded-full text-sm font-medium"
+                className="bg-gray-100 rounded-full px-3 py-1 text-xs text-gray-700 font-medium"
               >
                 {badge}
               </span>
             ))}
           </div>
+
+          {/* Quote form */}
+          <QuoteForm />
+
+          {/* Phone CTA */}
+          <div className="mt-6">
+            <span className="text-gray-500 text-sm">Or call us now: </span>
+            <a
+              href="tel:2673002400"
+              className="text-lg font-bold"
+              style={{ color: '#c2410c' }}
+            >
+              (267) 300-2400
+            </a>
+          </div>
         </div>
       </section>
 
-      {/* Primary Services */}
+      {/* Primary Services — Horizontal Cards on Desktop */}
       <section className="py-16 px-4 bg-white">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-12">
@@ -177,26 +186,56 @@ export default function Home() {
               From furnace repairs to emergency plumbing — Cornerstone HVAC &amp; Plumbing serves York, PA and surrounding communities including Springettsbury, West York, Red Lion, and Dallastown.
             </p>
           </div>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6">
+
+          {/* Mobile: 1-col grid; Desktop: vertical stack of horizontal cards */}
+          <div className="grid grid-cols-1 md:hidden gap-4">
             {services.map((service) => (
               <div
                 key={service.title}
-                className="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-200 border border-gray-100"
+                className="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden"
               >
                 <img
                   src={service.image}
                   alt={service.title}
-                  className="w-full h-36 md:h-48 object-cover"
+                  className="w-full h-36 object-cover"
                 />
                 <div className="p-4">
-                  <h3 className="text-base md:text-lg font-bold text-gray-900 mb-2">{service.title}</h3>
-                  <p className="text-gray-600 text-xs md:text-sm leading-relaxed mb-3 hidden sm:block">{service.description}</p>
+                  <h3 className="font-bold text-gray-900 text-lg mb-1">{service.title}</h3>
+                  <p className="text-gray-600 text-sm leading-relaxed mb-3">{service.description}</p>
                   <Link
                     to={service.link}
-                    className="text-orange-700 font-semibold text-sm hover:text-orange-900 transition-colors focus:outline-none focus:underline"
+                    className="font-semibold text-sm hover:opacity-80 transition-opacity focus:outline-none focus:underline"
+                    style={{ color: '#c2410c' }}
                     aria-label={`Learn more about ${service.title}`}
                   >
-                    Learn More <span aria-hidden="true">→</span>
+                    Learn More →
+                  </Link>
+                </div>
+              </div>
+            ))}
+          </div>
+
+          <div className="hidden md:block space-y-4">
+            {services.map((service) => (
+              <div
+                key={service.title}
+                className="bg-white rounded-2xl shadow-sm border border-gray-100 p-4 flex gap-4 items-start"
+              >
+                <img
+                  src={service.image}
+                  alt={service.title}
+                  className="md:w-48 h-32 object-cover rounded-xl flex-shrink-0"
+                />
+                <div>
+                  <h3 className="font-bold text-gray-900 text-lg mb-1">{service.title}</h3>
+                  <p className="text-gray-600 text-sm leading-relaxed mb-3">{service.description}</p>
+                  <Link
+                    to={service.link}
+                    className="font-semibold text-sm hover:opacity-80 transition-opacity focus:outline-none focus:underline"
+                    style={{ color: '#c2410c' }}
+                    aria-label={`Learn more about ${service.title}`}
+                  >
+                    Learn More →
                   </Link>
                 </div>
               </div>
@@ -304,20 +343,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Quote Form */}
-      <section id="quote" className="py-16 px-4" style={{ backgroundColor: '#c2410c' }}>
-        <div className="max-w-3xl mx-auto">
-          <div className="text-center mb-10">
-            <h2 className="text-3xl md:text-4xl font-bold text-white mb-3">Get Your Free Quote Today</h2>
-            <p className="text-orange-100 text-lg">
-              Serving York, Springettsbury, West York, Red Lion, Dallastown &amp; surrounding areas.
-            </p>
-          </div>
-          <div className="bg-white rounded-2xl p-6 md:p-10 shadow-2xl">
-            <QuoteForm />
-          </div>
-        </div>
-      </section>
+      <CTABanner />
     </>
   )
 }
