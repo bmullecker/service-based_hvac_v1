@@ -1,90 +1,124 @@
 import { Helmet } from 'react-helmet-async'
 import { Link } from 'react-router-dom'
-import CTABanner from '../components/CTABanner'
 import FAQAccordion from '../components/FAQAccordion'
+import CTABanner from '../components/CTABanner'
 
 const plumbingServices = [
-  { title: 'Water Heater Repair & Replacement', desc: 'Fast water heater repair or same-day replacement. We service tank, tankless, and heat-pump water heaters throughout York County.', img: 'https://placehold.co/380x220/1a365d/f97316?text=Water+Heater+Repair' },
-  { title: 'Drain Cleaning & Unclogging', desc: 'Slow drains, clogs, or backed-up sewer lines — we clear them fast with professional drain-cleaning equipment. No more chemical guesswork.', img: 'https://placehold.co/380x220/1a365d/f97316?text=Drain+Cleaning' },
-  { title: 'Leak Detection & Repair', desc: 'Hidden leaks waste thousands of gallons and cause serious damage. We use non-invasive detection methods to find and fix leaks quickly.', img: 'https://placehold.co/380x220/1a365d/f97316?text=Leak+Detection' },
-  { title: 'Pipe Repair & Replacement', desc: 'Burst pipes, corroded lines, pinhole leaks — we repair or replace all types of plumbing pipe with durable, code-compliant materials.', img: 'https://placehold.co/380x220/1a365d/f97316?text=Pipe+Repair' },
-  { title: 'Toilet & Faucet Repair', desc: 'Running toilets waste up to 200 gallons a day. Dripping faucets add up fast. We fix or replace fixtures quickly and affordably.', img: 'https://placehold.co/380x220/1a365d/f97316?text=Toilet+%26+Faucet' },
-  { title: 'Sump Pump Installation & Service', desc: 'Protect your York, PA basement from flooding with a properly sized sump pump. We install, repair, and replace sump pumps year-round.', img: 'https://placehold.co/380x220/1a365d/f97316?text=Sump+Pump' },
+  {
+    title: 'Water Heater Repair & Replacement',
+    image: 'https://placehold.co/400x250/1a365d/f97316?text=Water+Heater',
+    description: 'No hot water? Our licensed York, PA plumbers repair and replace all types of water heaters — tank, tankless, gas, and electric. Same-day service available.',
+  },
+  {
+    title: 'Drain Cleaning & Unclogging',
+    image: 'https://placehold.co/400x250/1a365d/ffffff?text=Drain+Cleaning',
+    description: 'Slow drains and stubborn clogs cleared fast. We use professional drain snakes and hydro-jetting equipment to clear any drain in your York, PA home.',
+  },
+  {
+    title: 'Leak Detection & Repair',
+    image: 'https://placehold.co/400x250/2563eb/ffffff?text=Leak+Detection',
+    description: 'Hidden leaks cause serious water damage. Our York, PA plumbers use advanced leak detection equipment to find and fix leaks before they become costly disasters.',
+  },
+  {
+    title: 'Pipe Repair & Replacement',
+    image: 'https://placehold.co/400x250/1a365d/f97316?text=Pipe+Repair',
+    description: 'Burst pipes, corroded pipes, and aging plumbing repaired or replaced. We handle emergency pipe repairs 24/7 throughout York County, PA.',
+  },
+  {
+    title: 'Toilet & Faucet Repair',
+    image: 'https://placehold.co/400x250/1a365d/ffffff?text=Toilet+Faucet+Repair',
+    description: 'Running toilets, leaky faucets, low water pressure, and fixture replacements. Fast, affordable plumbing repairs for York, PA homeowners.',
+  },
+  {
+    title: 'Sump Pump Installation & Service',
+    image: 'https://placehold.co/400x250/2563eb/ffffff?text=Sump+Pump',
+    description: 'Keep your York, PA basement dry with a properly installed and maintained sump pump. We install, repair, and replace all sump pump systems.',
+  },
 ]
 
-const benefits = [
-  { icon: '🔍', title: 'Licensed PA Plumbers', desc: 'All of our plumbers hold active Pennsylvania plumbing licenses. Fully insured — your home is protected on every job.' },
-  { icon: '🚿', title: 'Same-Day Appointments', desc: 'Most plumbing issues are addressed same day. We keep our schedule flexible so you\'re never stuck waiting.' },
-  { icon: '💰', title: 'Flat-Rate Pricing', desc: 'We quote the job, not the hour. You know the full price before we pick up a single tool.' },
-]
-
-const faqs = [
-  { question: 'How do I know if I have a hidden water leak?', answer: 'Signs include unexplained spikes in your water bill, the sound of running water when all fixtures are off, warm spots on floors, discoloration or mold on walls or ceilings, and a water meter that runs when all fixtures are off. If you suspect a leak, call us — early detection prevents major structural damage.' },
-  { question: 'How long does a water heater last?', answer: 'Traditional tank water heaters last 8–12 years; tankless systems can last 15–20 years with proper maintenance. Annual flushing, anode rod inspection, and temperature checks extend life significantly. If yours is over 10 years old and starting to fail, replacement is usually the smarter investment.' },
-  { question: 'What should I do if a pipe bursts?', answer: 'Immediately shut off the main water supply valve (usually near the water meter). Open faucets to drain remaining water and relieve pressure. Call Cornerstone at (267) 300-2400 — we offer 24/7 emergency plumbing service with fast response times across York, PA.' },
-  { question: 'Can you unclog a drain without chemicals?', answer: 'Absolutely — and we recommend it. Chemical drain cleaners damage pipes over time and don\'t address the root cause. We use professional hydro-jetting and mechanical snake equipment to clear clogs completely and safely.' },
-  { question: 'Do you offer emergency plumbing service?', answer: 'Yes. We provide 24/7 emergency plumbing throughout York, PA and York County. Whether it\'s a burst pipe, sewage backup, or flooding, we respond fast — with no extra charge for after-hours calls.' },
+const plumbingFaqs = [
+  {
+    question: 'How quickly can you respond to a plumbing emergency in York, PA?',
+    answer: 'For plumbing emergencies like burst pipes, flooding, or sewage backups, we typically arrive within 60–90 minutes anywhere in York County. We offer 24/7 emergency plumbing service throughout York, Springettsbury, West York, Red Lion, Dallastown, and surrounding communities — with no extra charge for nights or weekends.',
+  },
+  {
+    question: 'What should I do if I have a burst pipe?',
+    answer: 'If you have a burst pipe, immediately turn off the main water shut-off valve to your home (usually in the basement or utility room). Then call Cornerstone HVAC & Plumbing at (267) 300-2400. Move valuables away from water and take photos for insurance purposes while you wait. Our emergency plumbers will arrive quickly to repair the pipe and assess any damage.',
+  },
+  {
+    question: 'Do you replace water heaters in York, PA?',
+    answer: 'Yes! We install, repair, and replace all types of water heaters including traditional tank water heaters, tankless (on-demand) water heaters, gas water heaters, and electric water heaters. We carry multiple brands and can often install a new water heater same-day in York, PA. A standard water heater lasts 8–12 years, so if yours is older and failing, replacement is usually the smart choice.',
+  },
+  {
+    question: 'Why do I have low water pressure throughout my house?',
+    answer: 'Low water pressure throughout your entire home (not just one fixture) typically indicates a problem with your main water line, pressure regulator, or a significant leak somewhere in your system. It could also be a municipal water supply issue. Our York, PA plumbers can diagnose the cause and restore proper water pressure. Call (267) 300-2400 for a diagnostic visit.',
+  },
+  {
+    question: 'Are your plumbers licensed in Pennsylvania?',
+    answer: 'Yes, all of our plumbers are fully licensed in Pennsylvania (License #PL-67890) and carry comprehensive liability insurance. We\'re also background-checked and drug-tested for your safety and peace of mind. When Cornerstone sends a plumber to your York, PA home, you can trust they\'re qualified, professional, and trustworthy.',
+  },
 ]
 
 export default function Plumbing() {
   return (
     <>
       <Helmet>
-        <title>Plumber York PA | Pipe Repair, Drain Cleaning & Water Heaters | Cornerstone</title>
-        <meta name="description" content="Licensed plumbers in York, PA. Water heater repair & replacement, drain cleaning, leak detection, pipe repair. Same-day service available. Call (267) 300-2400." />
-        <meta name="keywords" content="plumber York PA, plumbing repair York PA, drain cleaning York PA, water heater repair York PA, emergency plumber York Pennsylvania" />
-        <meta property="og:title" content="Licensed Plumbing Services in York, PA | Cornerstone HVAC & Plumbing" />
-        <meta property="og:description" content="Licensed plumbers serving York, PA. Water heater repair, drain cleaning, leak detection & more. Same-day service. Call (267) 300-2400." />
-        <link rel="canonical" href="https://www.cornerstonehvac.com/plumbing" />
+        <title>Plumber York PA | Pipe Repair, Drain Cleaning &amp; Water Heaters | Cornerstone</title>
+        <meta name="description" content="Licensed plumbers in York, PA. Water heater repair & replacement, drain cleaning, leak detection, pipe repair. Same-day service. Call (267) 300-2400." />
       </Helmet>
 
-      {/* HERO */}
-      <section
-        className="relative bg-[#1a365d] py-16 md:py-20 px-4"
-        style={{ backgroundImage: 'url(https://placehold.co/1920x400/1a365d/ffffff?text=Plumbing+Services+York+PA)', backgroundSize: 'cover', backgroundPosition: 'center' }}
-      >
-        <div className="absolute inset-0 bg-[#1a365d]/85" />
-        <div className="relative max-w-4xl mx-auto">
-          <p className="text-blue-200 text-sm mb-2">
-            <Link to="/" className="hover:text-white">Home</Link> / Plumbing Services
-          </p>
-          <h1 className="text-3xl md:text-4xl font-extrabold text-white mb-4">
+      {/* Hero Banner */}
+      <section className="relative py-20 md:py-28 flex items-center" style={{ minHeight: '300px' }}>
+        <div
+          className="absolute inset-0 bg-cover bg-center"
+          style={{ backgroundImage: 'url(https://placehold.co/1920x400/1a365d/ffffff?text=Plumbing+Services+York+PA)' }}
+        />
+        <div className="absolute inset-0" style={{ backgroundColor: 'rgba(26, 54, 93, 0.85)' }} />
+        <div className="relative z-10 max-w-7xl mx-auto px-4 w-full">
+          <nav className="text-blue-200 text-sm mb-4">
+            <Link to="/" className="hover:text-white transition-colors">Home</Link>
+            <span className="mx-2">/</span>
+            <span className="text-white">Plumbing Services</span>
+          </nav>
+          <h1 className="text-3xl md:text-5xl font-bold text-white mb-4">
             Licensed Plumbing Services in York, PA
           </h1>
-          <p className="text-blue-100 text-lg max-w-2xl mb-6">
-            From a dripping faucet to a burst pipe emergency, Cornerstone's licensed York, PA plumbers are ready to respond fast — with flat-rate pricing and guaranteed work.
+          <p className="text-blue-100 text-lg max-w-2xl">
+            Licensed York, PA plumbers serving Springettsbury, West York, Red Lion, Dallastown &amp; all of York County.
           </p>
-          <div className="flex flex-col sm:flex-row gap-3">
-            <a href="tel:2673002400" className="bg-[#f97316] text-white font-bold px-6 py-3 rounded-lg hover:bg-orange-600 transition-colors">
-              📞 Call Now: (267) 300-2400
-            </a>
-            <a href="#quote" className="border-2 border-white text-white font-bold px-6 py-3 rounded-lg hover:bg-white hover:text-[#1a365d] transition-colors">
-              Schedule a Plumber
-            </a>
-          </div>
+          <a
+            href="tel:2673002400"
+            className="mt-6 inline-flex items-center gap-2 bg-orange-500 hover:bg-orange-600 text-white font-bold px-7 py-3 rounded-xl transition-colors duration-200"
+            style={{ backgroundColor: '#f97316' }}
+          >
+            📞 Call (267) 300-2400
+          </a>
         </div>
       </section>
 
-      {/* INTRO */}
-      <section className="bg-white py-12 px-4">
+      {/* Intro */}
+      <section className="py-12 px-4 bg-white">
         <div className="max-w-4xl mx-auto">
-          <p className="text-[#374151] text-base leading-relaxed">
-            Plumbing problems don't keep business hours — and neither do we. <strong>Cornerstone HVAC &amp; Plumbing</strong> provides comprehensive plumbing repair and installation services across York, Pennsylvania. Our fully licensed plumbers arrive stocked and prepared, so most repairs are completed in a single visit. We serve York, Springettsbury, Dallastown, Red Lion, West York, Dover, and all surrounding communities throughout York County.
+          <p className="text-gray-700 text-lg leading-relaxed mb-4">
+            When you have a plumbing problem in York, PA, you need a licensed, reliable plumber who responds fast. <strong>Cornerstone HVAC &amp; Plumbing</strong> provides comprehensive plumbing services throughout York, Pennsylvania — from routine drain cleaning and faucet repairs to emergency burst pipe repair and water heater replacement. Our PA-licensed plumbers (License #PL-67890) are background-checked, drug-tested, and trained to solve any plumbing issue.
+          </p>
+          <p className="text-gray-700 text-lg leading-relaxed">
+            We serve all of York County including York City, Springettsbury Township, West York, Red Lion, Dallastown, Spring Garden Township, and surrounding communities. Call <strong>(267) 300-2400</strong> for same-day plumbing service or 24/7 emergency plumbing repair.
           </p>
         </div>
       </section>
 
-      {/* SERVICES GRID */}
-      <section className="bg-[#f8fafc] py-14 px-4">
+      {/* Services Grid */}
+      <section className="py-14 px-4 bg-gray-50">
         <div className="max-w-7xl mx-auto">
-          <h2 className="text-2xl md:text-3xl font-extrabold text-[#1a365d] text-center mb-10">Our Plumbing Services in York, PA</h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-            {plumbingServices.map((s) => (
-              <div key={s.title} className="bg-white rounded-2xl shadow-sm hover:shadow-md transition-shadow overflow-hidden">
-                <img src={s.img} alt={s.title} className="w-full h-44 object-cover" />
+          <h2 className="text-3xl font-bold text-gray-900 text-center mb-10">Our Plumbing Services in York, PA</h2>
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+            {plumbingServices.map((service) => (
+              <div key={service.title} className="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-200">
+                <img src={service.image} alt={service.title} className="w-full h-44 object-cover" />
                 <div className="p-5">
-                  <h3 className="font-bold text-[#1a365d] text-base mb-2">{s.title}</h3>
-                  <p className="text-[#6b7280] text-sm leading-relaxed">{s.desc}</p>
+                  <h3 className="text-lg font-bold text-gray-900 mb-2">{service.title}</h3>
+                  <p className="text-gray-600 text-sm leading-relaxed">{service.description}</p>
                 </div>
               </div>
             ))}
@@ -92,41 +126,50 @@ export default function Plumbing() {
         </div>
       </section>
 
-      {/* BENEFITS */}
-      <section className="bg-white py-14 px-4">
-        <div className="max-w-5xl mx-auto">
-          <h2 className="text-2xl font-extrabold text-[#1a365d] text-center mb-8">Why Homeowners Choose Cornerstone Plumbing</h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            {benefits.map((b) => (
-              <div key={b.title} className="text-center p-6 rounded-2xl border border-gray-100 hover:border-[#f97316] transition-colors">
-                <div className="text-4xl mb-3">{b.icon}</div>
-                <h3 className="font-bold text-[#1a365d] mb-2">{b.title}</h3>
-                <p className="text-[#6b7280] text-sm leading-relaxed">{b.desc}</p>
+      {/* Benefits */}
+      <section className="py-14 px-4 bg-white">
+        <div className="max-w-7xl mx-auto">
+          <h2 className="text-3xl font-bold text-gray-900 text-center mb-10">Why Choose Cornerstone for Plumbing?</h2>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            {[
+              {
+                icon: '⚡',
+                title: 'Same-Day Plumbing',
+                description: 'Plumbing problems don\'t wait. We offer same-day plumbing service throughout York County, PA, with 24/7 emergency response for urgent issues like burst pipes and flooding.',
+              },
+              {
+                icon: '📋',
+                title: 'Upfront Pricing',
+                description: 'You\'ll receive a written estimate before any work begins. Our York, PA plumbers explain the problem clearly and give you options — you choose what fits your budget.',
+              },
+              {
+                icon: '✅',
+                title: 'Licensed & Insured',
+                description: 'All work performed by PA-licensed plumbers (License #PL-67890) with full liability insurance. We pull permits when required to protect your York, PA home.',
+              },
+            ].map((benefit) => (
+              <div key={benefit.title} className="text-center p-6 bg-gray-50 rounded-xl">
+                <div className="text-4xl mb-4">{benefit.icon}</div>
+                <h3 className="text-xl font-bold text-gray-900 mb-3">{benefit.title}</h3>
+                <p className="text-gray-600 leading-relaxed">{benefit.description}</p>
               </div>
             ))}
           </div>
         </div>
       </section>
 
-      {/* CTA */}
-      <CTABanner heading="Plumbing Issue? Don't Wait — Call Now." subtext="Licensed York, PA plumbers available same-day and 24/7 for emergencies." />
-
       {/* FAQ */}
-      <section className="bg-[#f8fafc] py-14 px-4" id="quote">
-        <div className="max-w-3xl mx-auto">
-          <h2 className="text-2xl font-extrabold text-[#1a365d] text-center mb-8">Frequently Asked Plumbing Questions</h2>
-          <FAQAccordion faqs={faqs} />
+      <section className="py-14 px-4 bg-gray-50">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-3xl font-bold text-gray-900 text-center mb-10">Plumbing FAQ</h2>
+          <FAQAccordion faqs={plumbingFaqs} />
         </div>
       </section>
 
-      {/* SERVICE AREA */}
-      <section className="bg-white py-8 px-4 border-t border-gray-100">
-        <div className="max-w-4xl mx-auto text-center">
-          <p className="text-sm text-[#6b7280]">
-            <strong className="text-[#1a365d]">Plumbing service areas:</strong> York · West York · Springettsbury · Red Lion · Dallastown · Dover · Manchester · Spring Garden · Windsor · Wrightsville · Hellam · New Freedom · Jacobus
-          </p>
-        </div>
-      </section>
+      <CTABanner
+        heading="Plumbing Problem? Call York's Trusted Plumbers"
+        subtext="Licensed, insured, and available 24/7. Same-day service throughout York County, PA."
+      />
     </>
   )
 }
