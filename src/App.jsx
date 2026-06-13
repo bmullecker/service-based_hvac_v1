@@ -9,6 +9,7 @@ import Plumbing from './pages/Plumbing'
 import Emergency from './pages/Emergency'
 import About from './pages/About'
 import Contact from './pages/Contact'
+import Maintenance from './pages/Maintenance'
 import ThankYou from './pages/ThankYou'
 import PrivacyPolicy from './pages/PrivacyPolicy'
 import NotFound from './pages/NotFound'
@@ -28,6 +29,7 @@ export default function App() {
             <Route path="/emergency" element={<Emergency />} />
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/maintenance" element={<Maintenance />} />
             <Route path="/thank-you" element={<ThankYou />} />
             <Route path="/privacy-policy" element={<PrivacyPolicy />} />
             <Route path="*" element={<NotFound />} />

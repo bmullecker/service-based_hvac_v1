@@ -39,7 +39,6 @@ export default function Footer() {
                 { to: '/', label: 'Home' },
                 { to: '/about', label: 'About Us' },
                 { to: '/contact', label: 'Contact' },
-                { to: '/contact', label: 'Careers' },
                 { to: '/privacy-policy', label: 'Privacy Policy' },
               ].map((link) => (
                 <li key={link.label}>
@@ -63,7 +62,7 @@ export default function Footer() {
                 { to: '/cooling', label: 'AC & Cooling Services' },
                 { to: '/plumbing', label: 'Plumbing Services' },
                 { to: '/emergency', label: '24/7 Emergency Service' },
-                { to: '/heating', label: 'Preventive Maintenance' },
+                { to: '/maintenance', label: 'Preventive Maintenance' },
               ].map((link) => (
                 <li key={link.label}>
                   <Link
