@@ -1,0 +1,36 @@
+import { HashRouter, Routes, Route } from 'react-router-dom'
+import Header from './components/Header'
+import Footer from './components/Footer'
+import Home from './pages/Home'
+import Heating from './pages/Heating'
+import Cooling from './pages/Cooling'
+import Plumbing from './pages/Plumbing'
+import Emergency from './pages/Emergency'
+import About from './pages/About'
+import Contact from './pages/Contact'
+import ThankYou from './pages/ThankYou'
+import NotFound from './pages/NotFound'
+
+export default function App() {
+  return (
+    <HashRouter>
+      <div className="flex flex-col min-h-screen">
+        <Header />
+        <main className="flex-grow">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/heating" element={<Heating />} />
+            <Route path="/cooling" element={<Cooling />} />
+            <Route path="/plumbing" element={<Plumbing />} />
+            <Route path="/emergency" element={<Emergency />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/thank-you" element={<ThankYou />} />
+            <Route path="*" element={<NotFound />} />
+          </Routes>
+        </main>
+        <Footer />
+      </div>
+    </HashRouter>
+  )
+}
