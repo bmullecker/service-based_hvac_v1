@@ -1,38 +1,51 @@
 import { Helmet } from 'react-helmet-async'
-import { Link } from 'react-router-dom'
 import FAQAccordion from '../components/FAQAccordion'
 import CTABanner from '../components/CTABanner'
+import BoldPageHero from '../components/BoldPageHero'
+import StickyCallSidebar from '../components/StickyCallSidebar'
 
 const heatingServices = [
   {
     title: 'Furnace Repair & Installation',
-    image: 'https://picsum.photos/seed/furnace-repair/800/500',
     description: 'Fast, reliable furnace repair and new furnace installation throughout York, PA. We service all major brands including Carrier, Trane, Lennox, and Rheem.',
   },
   {
     title: 'Heat Pump Service & Repair',
-    image: 'https://picsum.photos/seed/heat-pump/800/500',
     description: 'Heat pump tune-ups, repairs, and replacements. Keep your heat pump running efficiently year-round in York and surrounding communities.',
   },
   {
     title: 'Boiler Repair & Maintenance',
-    image: 'https://picsum.photos/seed/boiler-system/800/500',
     description: 'Boiler diagnostics, repairs, and maintenance for hot water and steam boiler systems throughout York County, PA.',
   },
   {
     title: 'Heating System Tune-Up',
-    image: 'https://picsum.photos/seed/maintenance-inspection/800/500',
     description: 'Annual heating tune-ups to maximize efficiency, extend equipment life, and prevent costly breakdowns during Pennsylvania winters.',
   },
   {
     title: 'Ductwork Repair & Sealing',
-    image: 'https://picsum.photos/seed/ductwork-ventilation/800/500',
     description: 'Leaky ducts waste up to 30% of your heating energy. Our York, PA technicians seal and repair ductwork to restore efficiency.',
   },
   {
     title: 'Thermostat Installation & Programming',
-    image: 'https://picsum.photos/seed/smart-thermostat/800/500',
     description: 'Smart thermostat installation and programming for energy savings and better home comfort control in York, PA.',
+  },
+]
+
+const heatingBenefits = [
+  {
+    icon: '⚡',
+    title: 'Same-Day Service',
+    description: 'We know a broken furnace can\'t wait. That\'s why we offer same-day heating repair appointments throughout York County, PA — including 24/7 emergency service at no extra charge.',
+  },
+  {
+    icon: '💰',
+    title: 'Upfront Pricing',
+    description: 'You\'ll always know the cost before we start. Our technicians provide a detailed, written estimate before any heating repair or installation work begins. No surprises on your bill.',
+  },
+  {
+    icon: '🛡️',
+    title: '1-Year Parts Warranty',
+    description: 'All heating repairs come with a 1-year parts warranty. We stand behind our work and want you to have peace of mind knowing your heating system is covered.',
   },
 ]
 
@@ -67,106 +80,75 @@ export default function Heating() {
         <meta name="description" content="Expert furnace repair, heat pump service & boiler repair in York, PA. Same-day heating service available 24/7. Licensed technicians. Call (267) 300-2400." />
       </Helmet>
 
-      {/* Hero Banner */}
-      <section className="relative py-20 md:py-28 flex items-center" style={{ minHeight: '300px' }}>
-        <div
-          className="absolute inset-0 bg-cover bg-center"
-          style={{ backgroundImage: 'url(https://picsum.photos/seed/furnace-heating/1920/400)' }}
-        />
-        <div className="absolute inset-0" style={{ backgroundColor: 'rgba(26, 54, 93, 0.85)' }} />
-        <div className="relative z-10 max-w-7xl mx-auto px-4 w-full">
-          <nav className="text-blue-200 text-sm mb-4" aria-label="Breadcrumb">
-            <Link to="/" className="hover:text-white transition-colors">Home</Link>
-            <span className="mx-2" aria-hidden="true">/</span>
-            <span className="text-white" aria-current="page">Heating Services</span>
-          </nav>
-          <h1 className="text-3xl md:text-5xl font-bold text-white mb-4">
-            Furnace Repair &amp; Heating Service in York, PA
-          </h1>
-          <p className="text-blue-100 text-lg max-w-2xl">
-            NATE-certified heating technicians serving York, Springettsbury, West York, Red Lion, Dallastown &amp; all of York County, PA.
-          </p>
-          <a
-            href="tel:2673002400"
-            className="mt-6 inline-flex items-center gap-2 text-white font-bold px-7 py-3 rounded-xl transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-blue-900"
-            style={{ backgroundColor: '#c2410c' }}
-          >
-            <span aria-hidden="true">📞</span> Call (267) 300-2400
-          </a>
-        </div>
-      </section>
+      <BoldPageHero
+        title="Furnace Repair &amp; Heating Service in York, PA"
+        subtitle="NATE-certified heating technicians serving York, Springettsbury, West York, Red Lion, Dallastown &amp; all of York County, PA."
+        breadcrumbLabel="Heating Services"
+      />
 
-      {/* Intro */}
-      <section className="py-12 px-4 bg-white">
-        <div className="max-w-4xl mx-auto">
-          <p className="text-gray-700 text-lg leading-relaxed mb-4">
-            When your furnace breaks down in the middle of a York, PA winter, you need a trusted heating repair company that responds fast. <strong>Cornerstone HVAC &amp; Plumbing</strong> has provided expert heating service to York, Pennsylvania homeowners since 2012. Our NATE-certified technicians handle furnace repair, heat pump service, boiler repair, and full heating system replacements — all with upfront pricing and a 1-year parts warranty.
-          </p>
-          <p className="text-gray-700 text-lg leading-relaxed">
-            We service all of York County including Springettsbury Township, West York Borough, Red Lion, Dallastown, Spring Garden Township, and beyond. Whether you need a simple furnace tune-up or emergency heating repair at 2am, <strong>Cornerstone is your local heating expert</strong>.
-          </p>
-        </div>
-      </section>
+      <div className="md:grid md:grid-cols-[1fr_280px]">
+        <div>
+          {/* Intro */}
+          <section className="py-16 px-6 md:px-12 bg-white">
+            <p className="text-gray-700 text-lg leading-relaxed mb-4">
+              When your furnace breaks down in the middle of a York, PA winter, you need a trusted heating repair company that responds fast. <strong>Cornerstone HVAC &amp; Plumbing</strong> has provided expert heating service to York, Pennsylvania homeowners since 2012. Our NATE-certified technicians handle furnace repair, heat pump service, boiler repair, and full heating system replacements — all with upfront pricing and a 1-year parts warranty.
+            </p>
+            <p className="text-gray-700 text-lg leading-relaxed">
+              We service all of York County including Springettsbury Township, West York Borough, Red Lion, Dallastown, Spring Garden Township, and beyond. Whether you need a simple furnace tune-up or emergency heating repair at 2am, <strong>Cornerstone is your local heating expert</strong>.
+            </p>
+          </section>
 
-      {/* Services Grid */}
-      <section className="py-14 px-4 bg-gray-50">
-        <div className="max-w-7xl mx-auto">
-          <h2 className="text-3xl font-bold text-gray-900 text-center mb-10">Our Heating Services in York, PA</h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-            {heatingServices.map((service) => (
-              <div key={service.title} className="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-200">
-                <img src={service.image} alt={service.title} className="w-full h-44 object-cover" />
-                <div className="p-5">
-                  <h3 className="text-lg font-bold text-gray-900 mb-2">{service.title}</h3>
-                  <p className="text-gray-600 text-sm leading-relaxed">{service.description}</p>
+          {/* Services */}
+          <section className="py-20 px-6 md:px-12 bg-gray-50">
+            <h2 style={{ fontSize: 'clamp(1.8rem, 3.5vw, 3rem)', fontWeight: 900 }} className="text-gray-900 mb-12">
+              Our Heating Services in York, PA
+            </h2>
+            <div className="space-y-0 divide-y divide-gray-200">
+              {heatingServices.map((item, i) => (
+                <div key={item.title} className="flex items-start gap-6 py-10 group">
+                  <span
+                    className="font-black text-gray-200 leading-none flex-shrink-0 group-hover:text-orange-100 transition-colors"
+                    style={{ fontSize: 'clamp(3rem, 5vw, 4.5rem)' }}
+                  >
+                    {String(i + 1).padStart(2, '0')}
+                  </span>
+                  <div className="pt-2">
+                    <h3 className="font-black text-gray-900 text-xl mb-2">{item.title}</h3>
+                    <p className="text-gray-500 leading-relaxed">{item.description}</p>
+                  </div>
                 </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
+              ))}
+            </div>
+          </section>
 
-      {/* Benefits */}
-      <section className="py-14 px-4 bg-white">
-        <div className="max-w-7xl mx-auto">
-          <h2 className="text-3xl font-bold text-gray-900 text-center mb-10">Why Choose Cornerstone for Heating?</h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {[
-              {
-                icon: '⚡',
-                title: 'Same-Day Service',
-                description: 'We know a broken furnace can\'t wait. That\'s why we offer same-day heating repair appointments throughout York County, PA — including 24/7 emergency service at no extra charge.',
-              },
-              {
-                icon: '💰',
-                title: 'Upfront Pricing',
-                description: 'You\'ll always know the cost before we start. Our technicians provide a detailed, written estimate before any heating repair or installation work begins. No surprises on your bill.',
-              },
-              {
-                icon: '🛡️',
-                title: '1-Year Parts Warranty',
-                description: 'All heating repairs come with a 1-year parts warranty. We stand behind our work and want you to have peace of mind knowing your heating system is covered.',
-              },
-            ].map((benefit) => (
-              <div key={benefit.title} className="text-center p-6 bg-gray-50 rounded-xl">
-                <div className="text-4xl mb-4">{benefit.icon}</div>
-                <h3 className="text-xl font-bold text-gray-900 mb-3">{benefit.title}</h3>
-                <p className="text-gray-600 leading-relaxed">{benefit.description}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
+          {/* Benefits */}
+          <section className="py-20 px-6 md:px-12" style={{ backgroundColor: '#1a365d' }}>
+            <h2 style={{ fontSize: 'clamp(1.8rem, 3.5vw, 3rem)', fontWeight: 900 }} className="text-white mb-10">
+              Why Choose Cornerstone for Heating?
+            </h2>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+              {heatingBenefits.map(b => (
+                <div key={b.title} className="bg-white bg-opacity-10 rounded-2xl p-6 border border-blue-700">
+                  <div className="text-4xl mb-4" aria-hidden="true">{b.icon}</div>
+                  <h3 className="text-white font-black text-xl mb-2">{b.title}</h3>
+                  <p className="text-blue-200 leading-relaxed text-sm">{b.description}</p>
+                </div>
+              ))}
+            </div>
+          </section>
 
-      {/* FAQ */}
-      <section className="py-14 px-4 bg-gray-50">
-        <div className="max-w-4xl mx-auto">
-          <h2 className="text-3xl font-bold text-gray-900 text-center mb-10">Heating Service FAQ</h2>
-          <FAQAccordion faqs={heatingFaqs} />
+          {/* FAQ */}
+          <section className="py-20 px-6 md:px-12 bg-gray-900">
+            <h2 style={{ fontSize: 'clamp(1.8rem, 3.5vw, 3rem)', fontWeight: 900 }} className="text-white mb-10">
+              Frequently Asked Questions
+            </h2>
+            <FAQAccordion faqs={heatingFaqs} />
+          </section>
         </div>
-      </section>
 
-      {/* CTA Banner */}
+        <StickyCallSidebar />
+      </div>
+
       <CTABanner
         heading="Need Heating Repair in York, PA?"
         subtext="Call now for same-day service or schedule online. We're available 24/7 for emergencies."

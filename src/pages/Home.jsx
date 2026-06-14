@@ -1,8 +1,7 @@
-import { useNavigate } from 'react-router-dom'
 import { useState } from 'react'
 import { Helmet } from 'react-helmet-async'
 import { Link } from 'react-router-dom'
-import FAQAccordion from '../components/FAQAccordion'
+import CTABanner from '../components/CTABanner'
 import QuoteForm from '../components/QuoteForm'
 
 const schemaData = {
@@ -106,9 +105,34 @@ const processSteps = [
   {
     number: '4',
     title: 'Comfort Restored',
-    description: 'We leave your home clean and comfortable — and follow up to make sure you\'re 100% satisfied.',
+    description: "We leave your home clean and comfortable — and follow up to make sure you're 100% satisfied.",
   },
 ]
+
+const whyChooseUs = [
+  {
+    icon: '⏰',
+    title: 'Punctual Guarantee',
+    description: "We show up on time — every time. If we're late, you get a discount on your service.",
+  },
+  {
+    icon: '💰',
+    title: 'Transparent Pricing',
+    description: 'Upfront quotes with no surprises. You approve the price before we start any work.',
+  },
+  {
+    icon: '🏆',
+    title: 'Certified Technicians',
+    description: 'NATE-certified, background-checked technicians who treat your home with respect.',
+  },
+  {
+    icon: '🏠',
+    title: 'Local Small Business',
+    description: 'York family serving York families since 2012. We live and work in this community.',
+  },
+]
+
+const serviceLinks = ['/heating', '/cooling', '/plumbing', '/emergency']
 
 export default function Home() {
   return (
@@ -119,205 +143,225 @@ export default function Home() {
         <script type="application/ld+json">{JSON.stringify(schemaData)}</script>
       </Helmet>
 
-      {/* Hero Section */}
-      <section
-        className="relative flex items-center"
-        style={{ minHeight: '600px' }}
-      >
-        <div
-          className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-          style={{ backgroundImage: 'url(https://picsum.photos/seed/hvac-york-pa/1920/700)' }}
-        />
-        <div className="absolute inset-0" style={{ backgroundColor: 'rgba(26, 54, 93, 0.85)' }} />
-        <div className="relative z-10 max-w-7xl mx-auto px-4 py-20 md:py-28 text-center w-full">
-          <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight">
-            York, PA's Most Trusted{' '}<br className="hidden md:block" />
-            HVAC &amp; Plumbing Experts — 24/7
-          </h1>
-          <p className="text-lg md:text-xl text-blue-100 mb-10 max-w-2xl mx-auto">
-            Fast, reliable heating, cooling &amp; plumbing repairs. Over 1,000 local families served. Licensed &amp; insured.
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
-            <a
-              href="#quote"
-              onClick={(e) => { e.preventDefault(); document.getElementById('quote')?.scrollIntoView({ behavior: 'smooth' }); }}
-              className="text-white font-bold text-lg px-8 py-4 rounded-xl transition-colors duration-200 shadow-lg cursor-pointer focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-blue-900"
-              style={{ backgroundColor: '#c2410c' }}
-            >
-              Get a Free Quote
-            </a>
-            <a
-              href="tel:2673002400"
-              className="border-2 border-white text-white font-bold text-lg px-8 py-4 rounded-xl hover:bg-white hover:text-navy transition-colors duration-200"
-              style={{ '--tw-text-opacity': '1' }}
-            >
-              📞 Call (267) 300-2400
-            </a>
-          </div>
-          {/* Trust Badges */}
-          <div className="flex flex-wrap gap-4 justify-center">
-            {['✔ Licensed & Insured', '✔ 24/7 Emergency', '✔ Satisfaction Guarantee'].map((badge) => (
-              <span
-                key={badge}
-                className="bg-white bg-opacity-20 border border-white border-opacity-40 text-white px-5 py-2 rounded-full text-sm font-medium"
-              >
-                {badge}
-              </span>
-            ))}
-          </div>
-        </div>
-      </section>
+      {/* Page wrapper: two-column on desktop (content + sticky sidebar) */}
+      <div className="md:grid md:grid-cols-[1fr_280px]">
 
-      {/* Primary Services */}
-      <section className="py-16 px-4 bg-white">
-        <div className="max-w-7xl mx-auto">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Our Primary Services</h2>
-            <p className="text-gray-600 text-lg max-w-2xl mx-auto">
-              From furnace repairs to emergency plumbing — Cornerstone HVAC &amp; Plumbing serves York, PA and surrounding communities including Springettsbury, West York, Red Lion, and Dallastown.
+        {/* ── Left content column ── */}
+        <div>
+
+          {/* Section 1 — Hero */}
+          <section className="bg-[#1a365d] pt-20 pb-24 px-6 md:px-12">
+            <p className="text-blue-300 text-xs font-bold tracking-widest uppercase mb-6">
+              York, PA's Trusted HVAC &amp; Plumbing
             </p>
-          </div>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6">
-            {services.map((service) => (
+
+            <h1 style={{ fontSize: 'clamp(2.8rem, 7vw, 6.5rem)', lineHeight: 1, fontWeight: 900, color: 'white' }}>
+              We Fix It Fast.
+              <br />
+              <span style={{ color: '#c2410c' }}>Every Time.</span>
+            </h1>
+
+            <p className="text-blue-200 text-xl leading-relaxed max-w-xl mt-6 mb-10">
+              From furnace failures to burst pipes, Cornerstone has served over 1,000 York, PA homeowners since 2012.
+            </p>
+
+            <div className="flex gap-4 flex-wrap">
+              <a
+                href="tel:2673002400"
+                className="text-white font-black px-8 py-4 rounded-xl text-lg"
+                style={{ backgroundColor: '#c2410c' }}
+              >
+                (267) 300-2400
+              </a>
+              <a
+                href="#services"
+                onClick={(e) => { e.preventDefault(); document.getElementById('services')?.scrollIntoView({ behavior: 'smooth' }); }}
+                className="border-2 border-blue-400 text-blue-100 px-8 py-4 rounded-xl text-lg font-bold hover:bg-blue-800 transition cursor-pointer"
+              >
+                Our Services ↓
+              </a>
+            </div>
+
+            {/* Stats row */}
+            <div className="flex gap-8 mt-12 border-t border-blue-700 pt-8 flex-wrap">
+              {[
+                { value: '1,000+', label: 'Families Served' },
+                { value: '24/7', label: 'Emergency' },
+                { value: 'Since 2012', label: '' },
+              ].map((stat) => (
+                <div key={stat.value}>
+                  <div className="text-white font-black text-3xl">{stat.value}</div>
+                  {stat.label && <div className="text-blue-400 text-sm">{stat.label}</div>}
+                </div>
+              ))}
+            </div>
+          </section>
+
+          {/* Section 2 — Services */}
+          <section id="services" className="bg-white py-20 px-6 md:px-12">
+            <h2
+              className="font-black text-gray-900 mb-12"
+              style={{ fontSize: 'clamp(2rem, 4vw, 3.5rem)' }}
+            >
+              What We Do
+            </h2>
+
+            {services.map((service, index) => (
               <div
                 key={service.title}
-                className="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-200 border border-gray-100"
+                className="border-b border-gray-100 py-8 flex items-start gap-6 group"
               >
-                <img
-                  src={service.image}
-                  alt={service.title}
-                  className="w-full h-36 md:h-48 object-cover"
-                />
-                <div className="p-4">
-                  <h3 className="text-base md:text-lg font-bold text-gray-900 mb-2">{service.title}</h3>
-                  <p className="text-gray-600 text-xs md:text-sm leading-relaxed mb-3 hidden sm:block">{service.description}</p>
+                {/* Large ordinal number */}
+                <div className="font-black text-gray-200 text-6xl leading-none w-20 flex-shrink-0 group-hover:text-orange-100 transition select-none">
+                  {String(index + 1).padStart(2, '0')}
+                </div>
+                <div>
+                  <h3 className="font-black text-gray-900 text-2xl mb-2">{service.title}</h3>
+                  <p className="text-gray-500 leading-relaxed mb-4">{service.description}</p>
                   <Link
                     to={service.link}
-                    className="text-orange-700 font-semibold text-sm hover:text-orange-900 transition-colors focus:outline-none focus:underline"
-                    aria-label={`Learn more about ${service.title}`}
+                    className="text-orange-700 font-bold hover:text-orange-900 transition"
+                    aria-label={`Explore ${service.title}`}
                   >
-                    Learn More <span aria-hidden="true">→</span>
+                    Explore →
                   </Link>
                 </div>
               </div>
             ))}
-          </div>
-        </div>
-      </section>
+          </section>
 
-      {/* Why Choose Us */}
-      <section className="py-16 px-4 bg-gray-50">
-        <div className="max-w-7xl mx-auto">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Why Choose Cornerstone?</h2>
-            <p className="text-gray-600 text-lg max-w-2xl mx-auto">
-              York, PA homeowners trust us because we deliver on our promises — every time.
-            </p>
-          </div>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
-            {[
-              {
-                icon: '⏰',
-                title: 'Punctual Guarantee',
-                description: 'We show up on time — every time. If we\'re late, you get a discount on your service.',
-              },
-              {
-                icon: '💰',
-                title: 'Transparent Pricing',
-                description: 'Upfront quotes with no surprises. You approve the price before we start any work.',
-              },
-              {
-                icon: '🏆',
-                title: 'Certified Technicians',
-                description: 'NATE-certified, background-checked technicians who treat your home with respect.',
-              },
-              {
-                icon: '🏠',
-                title: 'Local Small Business',
-                description: 'York family serving York families since 2012. We live and work in this community.',
-              },
-            ].map((item) => (
-              <div key={item.title} className="text-center">
-                <div className="text-4xl mb-4">{item.icon}</div>
-                <h3 className="text-lg font-bold text-gray-900 mb-2">{item.title}</h3>
-                <p className="text-gray-600 text-sm leading-relaxed">{item.description}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
+          {/* Section 3 — Why Us */}
+          <section
+            className="py-20 px-6 md:px-12"
+            style={{ backgroundColor: '#c2410c' }}
+          >
+            <h2
+              className="font-black text-white mb-10"
+              style={{ fontSize: 'clamp(2rem, 4vw, 3.5rem)' }}
+            >
+              Why York Chooses Us
+            </h2>
 
-      {/* Testimonials */}
-      <section className="py-16 px-4 bg-white">
-        <div className="max-w-7xl mx-auto">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">What York Homeowners Are Saying</h2>
-            <p className="text-gray-600 text-lg">Real reviews from real York, PA customers.</p>
-          </div>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            {testimonials.map((testimonial) => (
-              <div
-                key={testimonial.name}
-                className="bg-gray-50 rounded-xl p-6 border border-gray-100 shadow-sm"
-              >
-                <div className="text-yellow-400 text-xl mb-3">⭐⭐⭐⭐⭐</div>
-                <p className="text-gray-700 mb-4 leading-relaxed italic">"{testimonial.quote}"</p>
-                <div className="flex items-center gap-3">
-                  <div className="w-10 h-10 rounded-full bg-blue-100 flex items-center justify-center text-blue-700 font-bold text-lg">
-                    {testimonial.name[0]}
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              {whyChooseUs.map((item) => (
+                <div
+                  key={item.title}
+                  className="bg-white bg-opacity-10 rounded-2xl p-6"
+                >
+                  <div className="text-3xl mb-3" aria-hidden="true">{item.icon}</div>
+                  <h3 className="text-white font-black text-xl mb-2">{item.title}</h3>
+                  <p className="text-orange-100 text-sm leading-relaxed">{item.description}</p>
+                </div>
+              ))}
+            </div>
+          </section>
+
+          {/* Section 4 — Testimonials */}
+          <section className="bg-gray-900 py-20 px-6 md:px-12">
+            <h2
+              className="text-white font-black mb-10"
+              style={{ fontSize: 'clamp(2rem, 4vw, 3.5rem)' }}
+            >
+              Real York Homeowners
+            </h2>
+
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+              {testimonials.map((testimonial) => (
+                <div
+                  key={testimonial.name}
+                  className="bg-gray-800 rounded-2xl p-6"
+                >
+                  <div className="text-yellow-400 text-lg mb-3">⭐⭐⭐⭐⭐</div>
+                  <p className="text-gray-300 italic leading-relaxed mb-4">"{testimonial.quote}"</p>
+                  <p className="text-white font-bold">{testimonial.name}</p>
+                  <p className="text-gray-500 text-sm">{testimonial.location}</p>
+                </div>
+              ))}
+            </div>
+          </section>
+
+          {/* Section 5 — How It Works */}
+          <section className="bg-white py-20 px-6 md:px-12">
+            <h2
+              className="font-black text-gray-900 mb-10"
+              style={{ fontSize: 'clamp(2rem, 4vw, 3.5rem)' }}
+            >
+              How It Works
+            </h2>
+
+            <div className="space-y-8">
+              {processSteps.map((step) => (
+                <div key={step.number} className="flex items-start gap-6">
+                  <div
+                    className="font-black text-4xl leading-none flex-shrink-0 w-12"
+                    style={{ color: '#c2410c' }}
+                  >
+                    {step.number}
                   </div>
                   <div>
-                    <p className="font-semibold text-gray-900">{testimonial.name}</p>
-                    <p className="text-gray-500 text-sm">{testimonial.location}</p>
+                    <h3 className="font-black text-gray-900 text-xl mb-1">{step.title}</h3>
+                    <p className="text-gray-500 leading-relaxed">{step.description}</p>
                   </div>
                 </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
+              ))}
+            </div>
+          </section>
 
-      {/* How It Works */}
-      <section className="py-16 px-4" style={{ backgroundColor: '#1a365d' }}>
-        <div className="max-w-7xl mx-auto">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">How It Works</h2>
-            <p className="text-blue-200 text-lg">Getting your home comfortable again is simple.</p>
-          </div>
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
-            {processSteps.map((step, index) => (
-              <div key={step.number} className="text-center relative">
-                {index < processSteps.length - 1 && (
-                  <div className="hidden md:block absolute top-8 left-3/4 w-1/2 h-0.5 bg-blue-500" />
-                )}
-                <div
-                  className="w-16 h-16 rounded-full flex items-center justify-center text-2xl font-bold text-white mx-auto mb-4 relative z-10"
-                  style={{ backgroundColor: '#f97316' }}
-                >
-                  {step.number}
+          {/* Section 6 — Quote Form */}
+          <section id="quote" className="bg-gray-50 py-20 px-6 md:px-12">
+            <h2
+              className="text-gray-900 font-black mb-10"
+              style={{ fontSize: 'clamp(2rem, 4vw, 3.5rem)' }}
+            >
+              Get Your Free Quote
+            </h2>
+
+            <div className="max-w-xl mx-auto bg-white shadow-lg rounded-2xl p-8">
+              <QuoteForm />
+            </div>
+          </section>
+
+        </div>
+        {/* ── End left content column ── */}
+
+        {/* ── Sticky Sidebar (desktop only) ── */}
+        <aside className="hidden md:block px-4 py-20">
+          <div className="sticky top-20 self-start bg-gray-900 rounded-2xl p-6 shadow-2xl">
+            <p className="text-white font-black text-2xl mb-2">Need Help Now?</p>
+            <p className="text-gray-400 text-sm mb-6">We answer every call.</p>
+
+            <a
+              href="tel:2673002400"
+              className="block text-white text-center font-black text-xl py-4 rounded-xl mb-3"
+              style={{ backgroundColor: '#c2410c' }}
+            >
+              (267) 300-2400
+            </a>
+
+            <Link
+              to="/contact"
+              className="block border border-gray-600 text-gray-300 text-center text-sm py-3 rounded-xl hover:border-gray-400 transition"
+            >
+              Or get a free quote
+            </Link>
+
+            <hr className="mt-6 mb-6 border-gray-700" />
+
+            <div className="space-y-2">
+              {['Licensed & Insured', 'NATE Certified', 'No Hidden Fees'].map((line) => (
+                <div key={line} className="flex items-center gap-2">
+                  <span style={{ color: '#c2410c' }} aria-hidden="true">✓</span>
+                  <span className="text-gray-400 text-xs">{line}</span>
                 </div>
-                <h3 className="text-lg font-bold text-white mb-2">{step.title}</h3>
-                <p className="text-blue-200 text-sm leading-relaxed">{step.description}</p>
-              </div>
-            ))}
+              ))}
+            </div>
           </div>
-        </div>
-      </section>
+        </aside>
+        {/* ── End sticky sidebar ── */}
 
-      {/* Quote Form */}
-      <section id="quote" className="py-16 px-4" style={{ backgroundColor: '#c2410c' }}>
-        <div className="max-w-3xl mx-auto">
-          <div className="text-center mb-10">
-            <h2 className="text-3xl md:text-4xl font-bold text-white mb-3">Get Your Free Quote Today</h2>
-            <p className="text-orange-100 text-lg">
-              Serving York, Springettsbury, West York, Red Lion, Dallastown &amp; surrounding areas.
-            </p>
-          </div>
-          <div className="bg-white rounded-2xl p-6 md:p-10 shadow-2xl">
-            <QuoteForm />
-          </div>
-        </div>
-      </section>
+      </div>
+
+      <CTABanner />
     </>
   )
 }

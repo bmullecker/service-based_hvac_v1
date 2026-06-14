@@ -9,29 +9,37 @@ export default function NotFound() {
         <meta name="robots" content="noindex" />
       </Helmet>
 
-      <section className="flex-grow bg-gray-50 flex items-center justify-center px-4 py-24">
-        <div className="max-w-lg w-full text-center">
-          <div className="text-8xl font-bold mb-4" style={{ color: '#1a365d' }}>404</div>
-          <h1 className="text-3xl font-bold text-gray-900 mb-4">Page Not Found</h1>
-          <p className="text-gray-600 text-lg mb-8">
-            Sorry, we couldn't find that page. But Cornerstone HVAC &amp; Plumbing is still here to help with your York, PA home comfort needs!
+      <section className="flex-grow bg-gray-900 flex items-center justify-center px-6 py-24">
+        <div className="max-w-2xl mx-auto text-center">
+
+          {/* 404 */}
+          <div style={{ fontSize: 'clamp(6rem, 15vw, 12rem)', fontWeight: 900, lineHeight: 1, color: '#c2410c' }}>
+            404
+          </div>
+
+          <h1 className="font-black text-white text-3xl md:text-4xl mt-4 mb-4">
+            Page Not Found
+          </h1>
+
+          <p className="text-gray-400 text-lg mb-10">
+            The page you're looking for doesn't exist. Let us help you get back on track.
           </p>
+
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
               to="/"
-              className="bg-orange-500 hover:bg-orange-600 text-white font-bold px-8 py-4 rounded-xl transition-colors"
-              style={{ backgroundColor: '#f97316' }}
+              className="bg-[#c2410c] text-white font-black px-8 py-4 rounded-xl hover:opacity-90 transition-opacity"
             >
-              Go to Home
+              Go Home
             </Link>
             <a
               href="tel:2673002400"
-              className="border-2 text-gray-900 font-bold px-8 py-4 rounded-xl hover:bg-gray-100 transition-colors"
-              style={{ borderColor: '#1a365d', color: '#1a365d' }}
+              className="border border-gray-600 text-gray-300 font-bold px-8 py-4 rounded-xl hover:border-gray-400 transition"
             >
-              📞 Call (267) 300-2400
+              Call Us
             </a>
           </div>
+
         </div>
       </section>
     </>
