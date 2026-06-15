@@ -191,29 +191,20 @@ export default function Home() {
             </div>
           </section>
 
-          {/* Section 1b — Real Work Photos */}
+          {/* Section 1b — Real Work Photo */}
           <section className="bg-gray-900 py-14 px-6 md:px-12">
             <p className="text-orange-400 text-xs font-bold tracking-widest uppercase mb-3">Real Work. Real Results.</p>
             <h2 className="font-black text-white mb-8" style={{ fontSize: 'clamp(1.6rem, 3vw, 2.4rem)' }}>
               26 Years of Quality You Can See
             </h2>
-            <div className="grid grid-cols-2 gap-3">
-              <div className="overflow-hidden rounded-xl">
-                <img
-                  src="/images/roland-work-2.jpg"
-                  alt="Custom bathroom remodel by Roland Plumbing — York County PA"
-                  className="w-full h-48 md:h-64 object-cover hover:scale-105 transition-transform duration-500"
-                />
-              </div>
-              <div className="overflow-hidden rounded-xl">
-                <img
-                  src="/images/roland-work-1.jpg"
-                  alt="Freestanding tub installation by Roland Plumbing — Dallastown PA"
-                  className="w-full h-48 md:h-64 object-cover hover:scale-105 transition-transform duration-500"
-                />
-              </div>
+            <div className="overflow-hidden rounded-xl">
+              <img
+                src="/images/roland-work-2.jpg"
+                alt="Bathroom remodel by Roland Plumbing Heating & Air — York County PA"
+                className="w-full h-64 md:h-80 object-cover hover:scale-105 transition-transform duration-500"
+              />
             </div>
-            <p className="text-gray-500 text-xs mt-4">Freestanding tub, floor-mounted faucet & custom tile shower — Dallastown, PA</p>
+            <p className="text-gray-500 text-xs mt-4">Custom bathroom installation — Dallastown, PA</p>
           </section>
 
           {/* Section 2 — Services */}
