@@ -22,7 +22,7 @@ Choose one:
 |---|---|
 | Wordmark / logo design (2 concepts, 1 revision) | $150 |
 | Google Business Profile cleanup & optimization | $150 |
-| Professional email setup (name@yourdomain.com) | $75 |
+| Professional email setup (name@yourdomain.com) | $75 one-time + $10/month |
 | Additional feature pages (gallery, coupons, etc.) | Quote on request |
 | Local SEO pages (if not included above) | $500 |
 
@@ -55,14 +55,15 @@ Accepted: Zelle / Check / Cash
 
 ---
 
-## Hosting & Domain
+## Hosting, Domain & Email
 
-Designer manages all hosting and domain registration on Client's behalf.
+Designer manages everything on Client's behalf. Client does not need accounts with any third-party services — Designer handles all setup, renewals, and technical management.
 
 | Service | Monthly | Annual (save ~15%) |
 |---|---|---|
 | Managed hosting | $35/month | $350/year |
 | Domain registration | — | ~$25/year |
+| Professional email (name@yourdomain.com) | $10/month | — |
 
 **Hosting is paid in advance before the site goes live.**
 Client may choose monthly or annual billing. Annual is recommended — saves ~$70 and removes the hassle of monthly payments.
