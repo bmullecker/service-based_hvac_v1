@@ -156,6 +156,33 @@ export default function Plumbing() {
         </div>
       </section>
 
+      {/* Our Work */}
+      <section className="py-14 px-4 bg-gray-900">
+        <div className="max-w-5xl mx-auto">
+          <h2 className="text-3xl font-bold text-white text-center mb-3">Our Work</h2>
+          <p className="text-gray-400 text-center mb-10">Real projects completed by Roland in York County, PA.</p>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div className="overflow-hidden rounded-2xl">
+              <img
+                src="/images/roland-work-1.jpg"
+                alt="Freestanding soaking tub installation by Roland Plumbing in York County PA"
+                className="w-full h-72 object-cover hover:scale-105 transition-transform duration-500"
+              />
+            </div>
+            <div className="overflow-hidden rounded-2xl">
+              <img
+                src="/images/roland-work-2.jpg"
+                alt="Custom bathroom remodel with glass shower and vanity by Roland Plumbing"
+                className="w-full h-72 object-cover hover:scale-105 transition-transform duration-500"
+              />
+            </div>
+          </div>
+          <p className="text-gray-500 text-sm text-center mt-6">
+            Freestanding tub installation, floor-mounted faucet, custom tile shower, and double vanity — Dallastown, PA
+          </p>
+        </div>
+      </section>
+
       {/* FAQ */}
       <section className="py-14 px-4 bg-gray-50">
         <div className="max-w-4xl mx-auto">
