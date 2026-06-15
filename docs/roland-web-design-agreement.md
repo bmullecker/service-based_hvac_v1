@@ -11,7 +11,7 @@
 Choose one:
 
 - [ ] **Base Site — $1,500**
-  Homepage, service pages (Heating, Cooling, Plumbing), and a Contact page with inquiry form.
+  Homepage, service pages (Heating, Cooling, Plumbing), and a Contact page with inquiry form. Includes professionally written copy customized to Client's business.
 
 - [ ] **Full Site + Local SEO Pages — $2,000**
   Everything in the Base Site, plus 5–6 town-specific pages (e.g. Dallastown, Red Lion, Shrewsbury, Glen Rock, Seven Valleys, York) designed to drive Google search traffic from surrounding communities.
@@ -21,7 +21,10 @@ Choose one:
 | Add-on | Price |
 |---|---|
 | Wordmark / logo design (2 concepts, 1 revision) | $150 |
+| Google Business Profile cleanup & optimization | $150 |
+| Professional email setup (name@yourdomain.com) | $75 |
 | Additional feature pages (gallery, coupons, etc.) | Quote on request |
+| Local SEO pages (if not included above) | $500 |
 
 ---
 
@@ -39,16 +42,34 @@ Choose one:
 
 ---
 
-## Payment
+## Payment — Build
 
 | | Amount | When |
 |---|---|---|
 | Deposit | 50% | Due at signing — work begins upon receipt |
 | Balance | 50% | Due before site goes live |
 
-Accepted: Venmo / Zelle / Check / Cash
+Accepted: Zelle / Check / Cash
 
 **Deposit is non-refundable if Client cancels after work has begun.**
+
+---
+
+## Hosting & Domain
+
+Designer manages all hosting and domain registration on Client's behalf.
+
+| Service | Monthly | Annual (save ~15%) |
+|---|---|---|
+| Managed hosting | $35/month | $350/year |
+| Domain registration | — | ~$25/year |
+
+**Hosting is paid in advance before the site goes live.**
+Client may choose monthly or annual billing. Annual is recommended — saves ~$70 and removes the hassle of monthly payments.
+
+If a monthly charge fails and is not resolved within **7 days**, the site may be taken offline until payment is cleared. Designer is not responsible for downtime resulting from non-payment.
+
+Upon request and receipt of all outstanding balances, all site files and domain access will be transferred to Client within 5 business days.
 
 ---
 
@@ -60,13 +81,12 @@ Designer targets a completed draft **within 1 week of receiving the deposit AND 
 
 ## After Launch
 
-**Hosting & Domain:** Client's responsibility, paid directly to the hosting provider (~$10–20/month). Designer will assist with setup at no extra charge.
-
 **Post-launch changes:**
 
-- **Retainer — $100/month:** Covers up to 2 hours of updates (content edits, photo swaps, hours changes). Unused hours do not carry over month to month.
-- **Hourly — $75/hr:** For clients who prefer pay-as-you-go. Invoiced per request.
+- **Retainer — $100/month:** Covers up to 2 hours of updates (content edits, photo swaps, hours changes, minor tweaks). Unused hours do not carry over month to month.
+- **Hourly — $75/hr:** For one-off requests with no monthly commitment. Invoiced per job.
 - **New features** (additional pages, booking systems, galleries, etc.): Quoted separately before work begins.
+- **Annual refresh — $350:** Full content and design review at the 12-month mark.
 
 ---
 
@@ -77,6 +97,8 @@ Client agrees to provide within **14 days of signing:**
 - Any logos, photos, or branding materials
 - Corrections to services, hours, credentials, and business information
 - Preferred contact email for the inquiry form
+
+**Photos:** If Client does not provide photos, Designer will source royalty-free stock photography at no additional cost. Client may supply real photos at any time — swapping them in after launch is covered under the retainer or billed at the hourly rate.
 
 If Client does not provide materials within 14 days, the project timeline adjusts accordingly.
 
