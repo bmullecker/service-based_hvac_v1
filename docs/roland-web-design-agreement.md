@@ -62,7 +62,7 @@ Designer manages everything on Client's behalf. Client does not need accounts wi
 | Service | Monthly | Annual (save ~15%) |
 |---|---|---|
 | Managed hosting | $35/month | $350/year |
-| Domain registration | — | ~$25/year |
+| Domain registration & renewal | $2/month | $25/year |
 | Professional email (name@yourdomain.com) | $10/month | — |
 
 **Hosting is paid in advance before the site goes live.**
