@@ -67,8 +67,7 @@ Designer manages everything on Client's behalf. Client does not need accounts wi
 
 All services billed monthly via card on file. No annual contracts.
 
-**Hosting is paid in advance before the site goes live.**
-Client may choose monthly or annual billing. Annual is recommended — saves ~$70 and removes the hassle of monthly payments.
+**First month of hosting, domain, and email services is due at signing** before work begins.
 
 If a monthly charge fails and is not resolved within **7 days**, the site may be taken offline until payment is cleared. Designer is not responsible for downtime resulting from non-payment.
 
@@ -86,10 +85,34 @@ Designer targets a completed draft **within 1 week of receiving the deposit AND 
 
 **Post-launch changes:**
 
-- **Retainer — $100/month:** Covers up to 2 hours of updates (content edits, photo swaps, hours changes, minor tweaks). Unused hours do not carry over month to month.
-- **Hourly — $75/hr:** For one-off requests with no monthly commitment. Invoiced per job.
-- **New features** (additional pages, booking systems, galleries, etc.): Quoted separately before work begins.
-- **Annual refresh — $350:** Full content and design review at the 12-month mark.
+**Retainer — $100/month**
+Covers up to 2 hours of maintenance and content updates per month:
+- Text and content edits
+- Photo swaps or additions to existing sections
+- Hours, contact info, or service description updates
+- Minor bug fixes
+
+Unused hours do not carry over. Retainer does not cover new features or structural changes.
+
+**Hourly — $75/hr**
+For one-off requests with no monthly commitment. Invoiced per job, due within 7 days.
+
+**Feature Work (quoted per request)**
+Anything that adds something new to the site that wasn't there before is a feature, not a maintenance task, and is quoted separately before work begins. Examples:
+
+| Feature | Starting Price |
+|---|---|
+| Gallery section (per page) | $150 first page, $75 each additional |
+| Photo optimization (client-supplied photos) | $10/photo |
+| Additional service or location page | $150–$200 |
+| Online booking integration | $300–$500 |
+| Live chat integration | $75–$100 |
+| Coupon or promotions page | $150 |
+| Blog setup | $200 |
+| Any other feature not listed above | Quoted on request |
+
+**Annual Refresh — $350**
+Full content and design review at the 12-month mark. Includes updated copy, new photos, service changes, and SEO touchup.
 
 ---
 
