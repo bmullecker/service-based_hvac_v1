@@ -1,0 +1,810 @@
+================================================================================
+WEB DESIGN AGENCY PLAYBOOK
+From First Call to Full-Time Business
+================================================================================
+Last updated: June 2026
+Written for: Local small business web design, York County PA and beyond
+================================================================================
+
+
+--------------------------------------------------------------------------------
+PART 1 — THE BUSINESS MODEL
+--------------------------------------------------------------------------------
+
+You build high-converting websites for local small businesses with no web
+presence — trades, restaurants, personal services — and package it with
+hosting, recurring support, local SEO, print assets, and Google optimization.
+
+You are not a freelancer who builds sites.
+You are the marketing department they never had.
+
+YOUR EDGE:
+- You show up with a demo already built. No one else does that.
+- You have a print partner for full identity packages.
+- You are local. You can meet them. That matters to a 55-year-old plumber
+  more than any portfolio.
+- You speak their language. Not "conversion funnels." Just: get the phone
+  to ring.
+
+
+IDEAL CLIENT PROFILE:
+- In business 10+ years (proven, not a startup risk)
+- Word-of-mouth only — no ads, no website
+- Owner-operated or small team (2-5 people)
+- Estimated $200K-$1M annual revenue
+- Trades: plumbers, HVAC, electricians, roofers, painters, landscapers
+- Food: local restaurants, diners, cafes
+- Personal services: salons, barbers, auto shops, dog groomers
+
+
+HOW YOU FIND THEM:
+1. Google Maps — search the trade/category in a town
+2. Filter for: locally named businesses, no website link in the listing,
+   reviews that mention the owner by name (signals small operation)
+3. Cross-reference on Angi, Yellow Pages, Yelp to get phone and details
+4. Build the demo. Then call.
+
+
+--------------------------------------------------------------------------------
+PART 2 — FULL SERVICE MENU & PRICING
+--------------------------------------------------------------------------------
+
+WEBSITES — ONE-TIME BUILD
+--------------------------
+Base Site                        $1,500
+  Homepage, 3 service pages, contact form, mobile responsive, basic SEO
+
+Full Site + Local SEO Pages      $2,000
+  Everything in base, plus 5-6 town-specific pages to drive Google traffic
+  from surrounding communities (e.g. Dallastown, Red Lion, Shrewsbury)
+
+Restaurant / Single Page          $750
+  One-page landing page, hours, menu preview, phone CTA, directions
+
+
+ONE-TIME ADD-ONS
+--------------------------
+Wordmark / Logo Design            $150
+  2 concepts, 1 revision round, text-based mark that works everywhere
+
+Content Writing                   $250
+  You write all copy so client doesn't have to fill out the intake form in
+  detail. They just answer questions on a call.
+
+Google Business Profile Cleanup   $150
+  Fix hours, categories, add photos, write business description, make sure
+  they show up in the right local searches. Fast win, huge SEO impact.
+  Best pitched as "while I'm in there anyway."
+
+Professional Email Setup          $75
+  Set up name@theirdomain.com via Google Workspace ($6/mo, client pays
+  Google directly). Takes 30 minutes. Huge perceived value.
+
+Domain Selection + Setup          FREE
+  Included. Takes 10 minutes. Builds trust. Don't charge for it.
+
+Hosting Setup / Walkthrough       FREE
+  Included. You help them get set up, they pay the host directly if not
+  on your managed hosting. Don't charge for this either.
+
+Print Assets (via your partner)
+  Business cards (250 qty)        $75
+  Door hangers (250 qty)          $150
+  Yard signs (5 qty)              $100
+  Truck magnets (pair)            $125
+  Trifold brochure (250 qty)      $175
+
+  HOW TO PITCH PRINT:
+  "I work with a local print shop, so once the logo and site are done I can
+  get you cards, truck magnets, door hangers — all matching the same look.
+  Makes you look like a real operation instead of a guy with a phone number
+  on a piece of paper."
+
+  HOW IT WORKS:
+  Your friend prints at cost. You mark up 40-60%. You handle the client
+  relationship. You design (Canva is fine) and send files to your friend.
+  You invoice the client, pay your friend separately. No formal contract
+  needed between you two until volume justifies it.
+
+
+RECURRING MONTHLY
+--------------------------
+Managed Hosting                   $35/month
+  You host all client sites under one reseller account. Client calls you
+  if anything goes wrong — not tech support. Includes SSL, backups, security.
+  (See Part 4 for full hosting breakdown)
+
+Monthly Retainer                  $100/month
+  2 hours of updates: content edits, photo swaps, hours changes, minor
+  tweaks. Use it or lose it — unused hours do NOT carry over.
+
+Hourly (no retainer)              $75/hour
+  For one-off requests. Invoiced per job.
+
+
+ANNUAL
+--------------------------
+Annual Refresh                    $350
+  3-4 hours of work. Includes:
+  - Rewrite service descriptions if offerings changed
+  - Swap in real photos accumulated over the year
+  - Update years in business, staff changes, new services
+  - Fresh testimonials from recent reviews
+  - Check all links, forms, mobile responsiveness
+  - Update meta titles/descriptions if focus shifted
+  - Verify Google Business Profile matches site
+  - Add new service area pages if they expanded
+
+  PITCH: "Things change over a year — your hours, your services, your photos.
+  A site that hasn't been touched since last year actually hurts you with
+  customers. This keeps everything current and accurate."
+
+Domain Renewal                    $25/year
+  Your cost is $10-15. You charge $25. Small but passive.
+
+
+--------------------------------------------------------------------------------
+PART 3 — WHAT A "FULL YES" LOOKS LIKE
+--------------------------------------------------------------------------------
+
+SCENARIO: Client says yes to everything on day one
+
+  Full Site + Local SEO Pages     $2,000
+  Logo / Wordmark                 $150
+  Content Writing                 $250
+  Google Business Profile         $150
+  Professional Email Setup        $75
+  --------------------------------
+  ONE-TIME TOTAL                  $2,625
+
+  Managed Hosting                 $35/month
+  Monthly Retainer                $100/month
+  --------------------------------
+  RECURRING TOTAL                 $135/month
+
+  Year 1 value (one-time + 12mo recurring):  $4,245
+  Year 2 value (recurring + annual refresh):  $1,970
+
+REALISTIC AVERAGE DEAL:
+Most clients will say yes to the site, maybe the GBP cleanup, and hosting.
+Retainer usually comes in month 2 after they see the site working.
+Call it $1,800-$2,200 upfront and $35-135/month after.
+
+
+--------------------------------------------------------------------------------
+PART 4 — HOSTING DEEP DIVE
+--------------------------------------------------------------------------------
+
+WHY HOSTING IS YOUR BEST LONG-TERM REVENUE:
+Every client you sign adds $35/month forever with zero additional work
+after setup. This is how recurring income compounds.
+
+  10 clients  = $350/month
+  20 clients  = $700/month
+  30 clients  = $1,050/month
+  40 clients  = $1,400/month
+
+At 40 clients on hosting alone you're making $1,400/month doing nothing.
+Stack retainers on top and the math gets very good.
+
+
+OPTION A — RESELLER HOSTING (use once you have 3+ clients)
+  Hostinger Reseller:   ~$30-40/month — host unlimited client sites
+  SiteGround Reseller:  ~$50-85/month — better performance
+  You charge clients:   $35/month each
+  Math at 10 clients:   You pay $40, collect $350, NET $310/month
+
+
+OPTION B — FREE HOSTING (use when starting out)
+  Netlify free tier is fast, reliable, includes SSL, free.
+  Problems with free hosting:
+  - No revenue for you
+  - Site lives in your account, messy at scale
+  - No upsell path (hard to later charge $35/month)
+  - No email hosting (can't do name@domain.com)
+  - Bandwidth limits at scale
+
+  Use Netlify to start. Move everyone to reseller once you have 3+ clients.
+
+
+THE EMAIL HOOK — HOW TO GET CLIENTS OFF FREE HOSTING:
+"One thing most business owners want eventually is a professional email —
+like ken@rolandplumbing.com instead of Gmail. That's not something I can
+do on free hosting, but if we move to managed hosting I can set that up
+for you. It's $35 a month and covers everything — hosting, security,
+backups, and the email."
+
+A professional email is tangible. Every client understands it immediately.
+
+
+DOMAIN MANAGEMENT:
+  Buy through Namecheap or Cloudflare Registrar (~$10-15/year)
+  Charge client $25/year
+  Keep in your account, you manage it
+  If they leave you, transfer it to them — make this clear upfront
+  Never hold a domain hostage, it destroys your reputation
+
+
+RECOMMENDED SETUP:
+  Domains:  Namecheap ($10-15/year per domain)
+  Hosting:  Hostinger Business Reseller (~$35/month, unlimited sites)
+  Email:    Google Workspace ($6/month per user, client pays directly)
+  Charge:   $35/month hosting + $25/year domain renewal
+
+
+--------------------------------------------------------------------------------
+PART 5 — CRM & LEAD MANAGEMENT (KNOW THIS, DON'T PITCH IT EARLY)
+--------------------------------------------------------------------------------
+
+RULE: Don't bring up CRM unless they ask or they mention losing track of leads.
+A solo tradesman who's been in business 26 years does not want to hear
+about CRM workflows on a first call. It will lose you the deal.
+
+BUT YOU SHOULD KNOW THIS SO YOU'RE READY:
+
+
+WHEN THE PROBLEM APPEARS:
+Client is getting 20+ inquiries a week and losing track, OR
+Multiple people need to see leads (partner, family member, dispatcher), OR
+They want to follow up systematically instead of randomly
+
+
+THE CRM SPECTRUM:
+
+Gmail + labels          Free      Solo, low volume. Completely fine to start.
+Google Sheets           Free      Solo, wants a simple log of leads.
+HubSpot Free            Free      Good pipeline view, general small biz.
+Jobber                  $49-149/mo  BEST FOR TRADES. Built exactly for
+                                    plumbers, HVAC, electricians. Scheduling,
+                                    invoicing, job tracking, customer history,
+                                    automatic follow-up texts. Recommend this
+                                    when they outgrow Gmail.
+HouseCall Pro           $65-250/mo  Similar to Jobber, more marketing features.
+GoHighLevel             $97-297/mo  Full agency-grade, marketing automation.
+                                    Overkill for most small trades guys.
+
+
+FOR ROLAND SPECIFICALLY:
+  Start: Contact form routes to Gmail. Done. This is fine.
+  Month 3-6: If he mentions losing track of leads, introduce Jobber.
+  Your fee: $300-500 setup + training. He pays Jobber directly monthly.
+
+
+WHAT TO SAY IF IT COMES UP ON THE CALL:
+"Honestly, for where you're starting, Gmail is fine. But if it ever
+becomes a problem — if you're getting more leads than you can track —
+there are simple tools that organize everything for you automatically.
+I can set that up when you need it. It's not something you need on day one."
+
+
+PROFESSIONAL EMAIL:
+  Google Workspace: $6/month per user (client pays Google directly)
+  Your setup fee: $75 one-time
+  Takes: 30 minutes
+  Pitch: "It's $6 a month straight to Google, I handle the setup for $75.
+  Half an hour and you've got ken@rolandplumbing.com instead of Gmail."
+
+
+--------------------------------------------------------------------------------
+PART 6 — THE SALES PROCESS (START TO FINISH)
+--------------------------------------------------------------------------------
+
+STEP 1 — PROSPECT
+  Find on Google Maps. No website = your target.
+  Cross-reference Angi, Yellow Pages, Yelp for phone and details.
+  Look for: years in business, owner name in reviews, service area.
+
+STEP 2 — BUILD THE DEMO FIRST (1-2 hours)
+  Pull their info from public listings.
+  Build on your template.
+  Use branded placeholders where real photos would go.
+  Deploy to a shareable URL.
+  THEN call. Never call without the demo ready.
+
+STEP 3 — THE CALL (see Part 7 for full script)
+  Lead with the demo link.
+  Get their name first.
+  Ask what they actually do before you pitch.
+  Close on a verbal yes.
+
+STEP 4 — FOLLOW UP SAME DAY (within 1 hour of call)
+  Text them:
+  - Demo link
+  - Contract
+  - Intake form
+  - Your Venmo/Zelle
+
+STEP 5 — INTAKE FORM RECEIVED
+  Build the real site within 1 week.
+  One revision round included.
+  Collect balance on approval.
+
+STEP 6 — LAUNCH
+  Set up hosting and domain.
+  Submit to Google Search Console.
+  Clean up Google Business Profile (if they bought it).
+
+STEP 7 — POST-LAUNCH (2-3 weeks after)
+  Call or text: "How's it going? Getting any calls from it?"
+  This is where you pitch:
+  - Monthly retainer if they haven't taken it
+  - Print assets now that logo is done
+  - Google Workspace email if they want it
+
+STEP 8 — MONTH 3-6
+  Check in. Any new services? Updated hours? Staff changes?
+  Natural retainer conversation if not already on one.
+  If they mention losing track of leads: introduce Jobber.
+
+STEP 9 — MONTH 11-12
+  Pitch the annual refresh.
+  "It's been almost a year — let's make sure everything is current
+  and accurate going into next year. I can do that for $350."
+  Also: domain renewal, any new add-ons they're ready for.
+
+
+--------------------------------------------------------------------------------
+PART 7 — FULL SALES SCRIPT (ROLAND / ANY TRADES CLIENT)
+--------------------------------------------------------------------------------
+
+BEFORE YOU DIAL:
+  Demo link ready to text
+  Contract ready to send
+  Intake form ready to send
+  Venmo/Zelle info ready
+
+
+OPENING:
+"Hey, is this Roland? My name's [name] — I'm a web developer based in
+the area. Quick question before anything else — who am I actually speaking
+with? I want to make sure I have the right person."
+
+(Get their name. Use it from here on.)
+
+"Perfect. So [name], I'm not calling to pitch you anything right now —
+I actually already built something for you and I want two minutes of your
+time to see if it's even worth a conversation."
+
+
+THE HOOK:
+"I was looking around York County for local trades businesses without a
+website and your name came up. You've been doing this 26 years — that's
+a serious reputation. But right now if someone in Red Lion or Shrewsbury
+searches 'plumber near me' at 9pm when something breaks, they're not
+finding you. They're finding whoever has a website. That's real business
+going somewhere else every single week without you even knowing it."
+
+
+THE DEMO:
+"So I went ahead and put a demo together — your name, your phone number,
+your service area, everything. Can I text you the link right now so you
+can pull it up while we talk?"
+
+(Text the link. Wait 20-30 seconds of silence. Let him look.)
+
+"What do you think?"
+
+(Shut up. Let him react first.)
+
+
+HANDLING HIS REACTION:
+
+If he likes it:
+"Good — everything you're seeing I pulled from your Google listing and
+public info, so some of it's going to be right and some of it's probably
+off. I don't know if you do emergency calls, I don't know your exact
+hours. I made educated guesses. The real build is where we sit down and
+make it exactly yours. Does the direction feel right?"
+
+If he nitpicks something:
+"Write that down — that's exactly what we'd go through together once
+we're working. Right now I just want to know if the overall feel works."
+
+If he's skeptical about needing a website:
+"That's fair. Can I ask — how are people finding you right now?"
+(Whatever he says — referrals, word of mouth — follow with:)
+"Those are people who already know you. A website is people who've never
+heard of you but need exactly what you do tonight. Right now you're
+invisible to all of them."
+
+If he mentions he's busy:
+"It sounds like you stay pretty busy — which is great. But I'd guess
+there are people calling around when something breaks, and if they can't
+reach you they're moving on to whoever comes up next on Google. A website
+with a contact form captures those leads even when you're on a job and
+can't answer. They fill it out, you call them back when you're free.
+You don't lose the job just because you were busy."
+
+
+LEARN ABOUT HIM (work in naturally, not rapid-fire):
+"What does your typical week look like? What are you getting called for most?"
+"Is it just you, or do you have guys working with you?"
+"Do you cover the whole county or stick to certain areas?"
+
+If he has multiple techs: more capacity = website pays for itself faster.
+If he's solo and only does plumbing: simplify the site and pitch accordingly.
+
+
+THE PRICE:
+"Here's how I structure it. A full site — homepage, your service pages,
+contact form — is $1,500. That's a one-time build, you own it outright.
+If you want local pages on top of that, where you show up when people
+search from Red Lion or Glen Rock or Shrewsbury specifically — that's
+$2,000. Either way no ongoing fee from me."
+
+(Pause. Let him respond.)
+
+If he asks about hosting:
+"Hosting is $35 a month — keeps the site live, keeps it secure, and
+means you call me if anything goes wrong instead of tech support.
+I handle everything on the backend."
+
+If he hesitates on price:
+"What are you charging for a service call these days? One new customer
+a month from Google covers the whole site inside of 90 days."
+
+
+NATURAL ADD-ON MOMENTS:
+
+If he has no logo:
+"I can put together a simple logo for you — clean text-based mark that
+works on the site, on cards, everywhere. That's $150 and I'll have a
+couple of options for you."
+
+If he seems reluctant to fill out paperwork:
+"Or if you'd rather just talk me through everything, I can handle all
+the writing for you. That's $250 and you just answer my questions on
+a quick call."
+
+If he seems open and engaged:
+"One other thing worth mentioning — your Google listing. You probably
+have one but I'd bet the hours are off, maybe no photos, wrong category.
+Fixing that is usually the fastest way to start getting calls. I can
+clean it up while I'm building the site. That's $150 and it's one of
+the best things you can do for local search."
+
+
+THE CLOSE:
+"I'm not asking you to decide everything today. But if this makes sense,
+here's how it works — you sign a simple one-page agreement, put down
+half upfront, fill out a quick info sheet I send you, and I have a draft
+back to you within a week of getting your answers. Other half when you're
+happy with it and it goes live. Pretty straightforward."
+
+"Does that sound like something worth moving forward on?"
+
+
+OBJECTION RESPONSES:
+
+"I need to think about it."
+"Totally fair. Can I follow up with you [specific day]?"
+(Always get a specific day. No day = slow no.)
+
+"I already have someone working on something."
+"Good to know. If it falls through or you want a second opinion on what
+they put together, keep my number. No pressure."
+
+"I can't afford it right now."
+"Is it a timing thing or is the price the issue? If it's timing I can
+work with that — we can structure the payment around when it works."
+
+"I don't think I need a website."
+"You might be right. But you've got 26 years of reputation that nobody
+can find online. Even if it gets you two or three new customers a year
+it's paid for itself. What would one new customer a year be worth to you?"
+
+"My nephew / someone I know does websites."
+"Do they do it professionally? The difference is usually in the details —
+SEO, mobile, making sure it actually shows up on Google. If they're
+handling it, great. But if it's been on the to-do list for a while and
+hasn't happened, that usually means it needs someone whose whole job it is."
+
+
+ENDING THE CALL:
+
+If he says yes:
+"Perfect. I'll text you the contract and info sheet within the hour.
+Once I have those back and the deposit I'll get started. You're going
+to be glad you did this."
+
+If he's not ready:
+"No problem. I'll follow up [specific day]. The demo link I texted
+stays live — feel free to poke around and show whoever you want."
+
+
+SAME DAY FOLLOW-UP TEXT (within 1 hour):
+"Hey [name], great talking with you. Here's everything:
+Demo: [link]
+Agreement: [link or attachment]
+Info sheet: [link or attachment]
+Venmo/Zelle: [your info]
+Any questions just call or text. Looking forward to working with you."
+
+
+--------------------------------------------------------------------------------
+PART 8 — CLIENT INTAKE FORM
+--------------------------------------------------------------------------------
+
+Frame it as: "This is the only homework I'll give you. Fill out as much
+as you can — we'll cover anything you skip on a quick follow-up call."
+
+
+ABOUT YOUR BUSINESS
+  Full legal business name:
+  Name you want on the website (e.g. "Roland" vs "Roland Plumbing"):
+  How long in business:
+  Solo operation or employees/technicians? How many?
+  Best email for website inquiries to route to:
+  Main phone number:
+  Business address (even if clients don't come to you):
+
+
+YOUR SERVICES
+  What do you get called for most often?
+  Any services you used to offer that you no longer do?
+  Any services you want to offer more of?
+  Do you do emergency / after-hours calls? Different rate?
+  Do you offer free estimates?
+  Any services you do NOT want advertised?
+
+
+YOUR CUSTOMERS
+  Typical customer type (homeowner, business, landlord, contractor)?
+  Roughly how many customers served over the years (ballpark fine)?
+  Where do most customers come from now (referrals, repeat, etc.)?
+
+
+SERVICE AREA
+  Towns / zip codes you regularly work in:
+  Anywhere you won't go?
+  Free delivery or service to local businesses?
+
+
+HOURS
+  Monday:
+  Tuesday:
+  Wednesday:
+  Thursday:
+  Friday:
+  Saturday:
+  Sunday:
+  Do you answer calls outside those hours?
+
+
+CREDENTIALS
+  Any licenses to list (PA license numbers, etc.)?
+  Any certifications (NATE, BBB, EPA, etc.)?
+  Are you insured? (Worth stating on the site)
+
+
+BRANDING
+  Do you have a logo? Can you email the file?
+  Preferred colors or open to recommendations?
+  Any websites whose look you like?
+  Any colors or styles you definitely don't want?
+
+
+PHOTOS
+  Do you have photos of your work, truck, or team?
+  Can you text or email them?
+  Okay with professional stock photos in the meantime?
+
+
+DOMAIN
+  Do you already own a domain name?
+  Any preferences? (We'll check availability together)
+
+
+ANYTHING ELSE
+  Anything you want on the site we haven't covered?
+  Anything about competitors' sites you want to avoid?
+  Questions or concerns before we get started?
+
+
+--------------------------------------------------------------------------------
+PART 9 — CONTRACT SUMMARY (KEY TERMS TO ALWAYS INCLUDE)
+--------------------------------------------------------------------------------
+
+SCOPE:
+  Define exactly what's included. Anything not listed is out of scope.
+  "Additional pages, features, or redesigns are quoted separately."
+
+REVISION ROUND:
+  ONE round of revisions is included — AFTER the real site is built with
+  client's actual content. The demo does not count as a draft.
+  Additional rounds: $75/hour.
+
+PAYMENT:
+  50% deposit due at signing — work begins on receipt.
+  50% balance due before launch.
+  Deposit non-refundable if client cancels after work begins.
+
+CONTENT DEADLINE:
+  Client provides info, photos, and materials within 14 days of signing.
+  Timeline extends if client delays.
+
+PHOTOS:
+  If client provides no photos, designer sources royalty-free stock at
+  no extra cost. Client may supply real photos at any time — swapping
+  them in after launch is covered under retainer or billed hourly.
+
+HOSTING & DOMAIN:
+  Client's responsibility and cost unless on managed hosting package.
+  Domain is client's property — transferred to them if they ever leave.
+
+OWNERSHIP:
+  Client owns the site upon final payment.
+  Designer retains right to display in portfolio.
+
+POST-LAUNCH CHANGES:
+  Covered under retainer ($100/month, 2 hours) or hourly ($75/hour).
+  New features quoted separately.
+
+STALL CLAUSE:
+  If client goes 30 days without responding, project closes.
+  Deposit is forfeited. Restart requires new deposit.
+
+LIABILITY:
+  No guarantees on search rankings or lead volume.
+  No ongoing warranty beyond included revision round.
+
+
+--------------------------------------------------------------------------------
+PART 10 — YEAR ONE ROADMAP
+--------------------------------------------------------------------------------
+
+MONTH 1-2: PROVE THE MODEL
+  Goal: Close Roland. Deliver fast. Get a testimonial.
+  Metrics: 1 signed client, 1 launched site, 1 happy customer.
+  Revenue target: $1,500-2,500
+
+MONTH 2-3: REPEAT IT
+  Goal: 2-3 more trades clients using same playbook.
+  Start building a small portfolio. Get referrals — trades guys know
+  each other. "Who else do you know that doesn't have a website?"
+  Revenue target: $3,000-5,000
+
+MONTH 3-4: ADD RESTAURANTS
+  Goal: Use the restaurant template (John's Asian Cuisine style).
+  Different pitch, same process. Different aesthetic.
+  Revenue target: $4,000-6,000/month
+
+MONTH 4-6: BUILD RECURRING BASE
+  Goal: Get every client on managed hosting ($35/month).
+  Start pitching retainers to active clients.
+  Target: 8-10 clients on hosting = $280-350/month passive.
+  Revenue target: $4,500-7,000/month
+
+MONTH 6: EVALUATION POINT
+  Are you consistently closing 2+ clients a month?
+  Do you have $2,000-3,000/month in recurring revenue?
+  If yes: this is your "consider leaving the job" signal.
+  If no: keep building. Don't rush the jump.
+
+MONTH 6-9: SYSTEMIZE
+  Create templates for different industries.
+  Start the config refactor (Tier 1+2) so builds get faster.
+  Hire a virtual assistant for intake form follow-up if volume justifies.
+  Target: 15+ clients, $4,000-5,000 MRR.
+
+MONTH 9-12: SCALE
+  Add upsells systematically: GBP cleanup, print, email setup.
+  Start annual refresh conversations with month-3 clients.
+  Consider raising base site price to $2,000 if booked 3+ weeks out.
+  Target: $6,000-8,000/month total revenue.
+
+
+--------------------------------------------------------------------------------
+PART 11 — YEAR TWO ROADMAP
+--------------------------------------------------------------------------------
+
+YEAR TWO GOAL: Passive income covers your baseline. Active work is profit.
+
+RECURRING REVENUE TARGETS:
+  20 hosting clients:   $700/month
+  10 retainer clients:  $1,000/month
+  Domain renewals:      ~$250/month (at scale)
+  TOTAL MRR TARGET:     $1,950-2,500/month
+
+ACTIVE WORK (2-3 sites/month):
+  2 sites at avg $1,750:  $3,500/month
+  Add-ons avg:            $500/month
+  TOTAL ACTIVE:           ~$4,000/month
+
+YEAR TWO TOTAL TARGET:  $5,500-6,500/month
+
+NEW REVENUE STREAMS TO ADD IN YEAR TWO:
+  Monthly blog posts / Google Business updates: $200-300/month per client
+  (This is passive SEO work that compounds over time)
+
+  Jobber setup and training for trades clients: $300-500 setup fee
+  (Only for clients who've grown into needing it)
+
+  Referral partnerships: connect with accountants, insurance brokers,
+  business coaches who serve the same client type. They send you clients,
+  you send them clients.
+
+WHEN TO RAISE PRICES:
+  When you're turning down work or booked more than 3 weeks out.
+  Raise base site to $2,000. Full site to $2,750.
+  Never raise prices before you have demand to justify it.
+
+THE LONG GAME:
+  At 40 hosting clients + 15 retainer clients:
+  Hosting:   $1,400/month
+  Retainers: $1,500/month
+  Domains:   $500/month
+  MRR TOTAL: $3,400/month — doing nothing new.
+
+  That's rent, food, and bills covered by clients you already have.
+  Every new site build after that is pure growth.
+
+
+--------------------------------------------------------------------------------
+PART 12 — TOOLS YOU'LL USE
+--------------------------------------------------------------------------------
+
+BUILDING SITES:
+  React + Vite + Tailwind CSS (what you already have)
+  GitHub for version control and client branches
+
+DOMAINS:
+  Namecheap (namecheap.com) — $10-15/year per domain
+
+HOSTING:
+  Start: Netlify free tier
+  Scale: Hostinger Business Reseller (~$35/month, unlimited sites)
+
+EMAIL:
+  Google Workspace — $6/month per user (client pays directly)
+  You charge $75 setup fee
+
+STOCK PHOTOS (free, royalty-free, commercial use):
+  Unsplash (unsplash.com) — best quality
+  Pexels (pexels.com) — large library
+  Pixabay (pixabay.com) — good variety
+  All three: free, no attribution required, safe to use on multiple sites
+
+DESIGN / LOGOS:
+  Canva (canva.com) — good enough for wordmarks and print layouts
+  Free tier is sufficient to start
+
+CONTRACTS:
+  Google Docs — write it, share as PDF
+  DocuSign or HelloSign for e-signatures (optional but professional)
+
+INVOICING / PAYMENT:
+  Venmo / Zelle / Cash / Check — fine for now
+  Wave (waveapps.com) — free invoicing software when you need it
+  Stripe — if you want to accept cards professionally
+
+CRM (FOR YOUR OWN LEADS):
+  A simple Google Sheet is fine when starting.
+  Track: Name, Business, Phone, Status, Deal Size, Follow-up Date.
+  Upgrade to HubSpot Free when you have 20+ leads to manage.
+
+GOOGLE TOOLS:
+  Google Search Console — submit client sites, track rankings (free)
+  Google Business Profile — manage and optimize client listings (free)
+  Google Analytics — basic traffic tracking (free)
+
+
+--------------------------------------------------------------------------------
+PART 13 — WHAT MAKES YOU DIFFERENT FROM THE $500 FIVERR GUY
+--------------------------------------------------------------------------------
+
+1. You already built their site before you called.
+2. You are local. You can meet them. You understand the area.
+3. You handle everything: domain, hosting, copy, Google listing, print.
+4. You are not disappearing after launch.
+5. You speak their language — not "conversion funnels," just "get the
+   phone to ring."
+6. You have a print partner. Full identity, not just a website.
+7. You are the marketing department they never had.
+
+That is the pitch. Not just a website. A reason to get found.
+
+
+================================================================================
+END OF PLAYBOOK
+================================================================================
