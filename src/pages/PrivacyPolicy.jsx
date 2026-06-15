@@ -5,8 +5,8 @@ export default function PrivacyPolicy() {
   return (
     <>
       <Helmet>
-        <title>Privacy Policy | Cornerstone HVAC &amp; Plumbing | York, PA</title>
-        <meta name="description" content="Privacy Policy for Cornerstone HVAC & Plumbing in York, PA. Learn how we collect, use, and protect your personal information." />
+        <title>Privacy Policy | Roland Plumbing Heating &amp; Air | York, PA</title>
+        <meta name="description" content="Privacy Policy for Roland Plumbing Heating & Air in York, PA. Learn how we collect, use, and protect your personal information." />
         <meta name="robots" content="noindex" />
       </Helmet>
 
@@ -28,7 +28,7 @@ export default function PrivacyPolicy() {
         <div className="max-w-3xl mx-auto prose prose-gray">
 
           <p className="text-gray-700 text-lg leading-relaxed mb-8">
-            Cornerstone HVAC &amp; Plumbing ("we," "us," or "our") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, and safeguard your personal information when you visit our website or contact us for service in York, Pennsylvania.
+            Roland Plumbing Heating &amp; Air ("we," "us," or "our") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, and safeguard your personal information when you visit our website or contact us for service in York, Pennsylvania.
           </p>
 
           <div className="space-y-10">
@@ -38,8 +38,8 @@ export default function PrivacyPolicy() {
               <p className="text-gray-700 leading-relaxed mb-3">We collect information you voluntarily provide when you:</p>
               <ul className="list-disc list-inside text-gray-700 space-y-2 mb-3">
                 <li>Submit a quote request or contact form on our website</li>
-                <li>Call us at (267) 300-2400</li>
-                <li>Email us at info@cornerstonehvac.com</li>
+                <li>Call us at (717) 246-3270</li>
+                <li>Email us at info@rolandplumbing.com</li>
                 <li>Schedule a service appointment</li>
               </ul>
               <p className="text-gray-700 leading-relaxed">This information may include your <strong>name, phone number, email address, service address, and a description of your HVAC or plumbing needs</strong>. We do not collect payment information through our website — payments are handled securely at the time of service.</p>
@@ -60,7 +60,7 @@ export default function PrivacyPolicy() {
             <div>
               <h2 className="text-2xl font-bold text-gray-900 mb-4">3. We Do Not Sell Your Information</h2>
               <p className="text-gray-700 leading-relaxed">
-                Cornerstone HVAC &amp; Plumbing <strong>does not sell, rent, or trade your personal information</strong> to third parties for marketing purposes. As a local York, PA small business, we value the trust you place in us and take that responsibility seriously.
+                Roland Plumbing Heating &amp; Air <strong>does not sell, rent, or trade your personal information</strong> to third parties for marketing purposes. As a local York, PA small business, we value the trust you place in us and take that responsibility seriously.
               </p>
             </div>
 
@@ -119,18 +119,18 @@ export default function PrivacyPolicy() {
                 If you have questions or concerns about this Privacy Policy or how we handle your personal information, please contact us:
               </p>
               <div className="space-y-2 text-gray-700">
-                <p><strong>Cornerstone HVAC &amp; Plumbing</strong></p>
-                <p>123 Commerce Dr, York, PA 17401</p>
+                <p><strong>Roland Plumbing Heating &amp; Air</strong></p>
+                <p>745 Summit Dr, Dallastown, PA 17313</p>
                 <p>
                   Phone:{' '}
-                  <a href="tel:2673002400" className="text-orange-500 font-semibold hover:text-orange-700">
-                    (267) 300-2400
+                  <a href="tel:7172463270" className="text-orange-500 font-semibold hover:text-orange-700">
+                    (717) 246-3270
                   </a>
                 </p>
                 <p>
                   Email:{' '}
-                  <a href="mailto:info@cornerstonehvac.com" className="text-orange-500 hover:text-orange-700">
-                    info@cornerstonehvac.com
+                  <a href="mailto:info@rolandplumbing.com" className="text-orange-500 hover:text-orange-700">
+                    info@rolandplumbing.com
                   </a>
                 </p>
               </div>

@@ -43,7 +43,7 @@ const coolingFaqs = [
   },
   {
     question: 'Why is my air conditioner blowing warm air?',
-    answer: 'Warm air from your AC could indicate several issues: low refrigerant (possible leak), a dirty air filter restricting airflow, a failing compressor, a frozen evaporator coil, or a malfunctioning thermostat. Our York, PA AC technicians can diagnose the problem quickly and get your cooling restored. Call (267) 300-2400 for same-day service.',
+    answer: 'Warm air from your AC could indicate several issues: low refrigerant (possible leak), a dirty air filter restricting airflow, a failing compressor, a frozen evaporator coil, or a malfunctioning thermostat. Our York, PA AC technicians can diagnose the problem quickly and get your cooling restored. Call (717) 246-3270 for same-day service.',
   },
   {
     question: 'How long does an air conditioner last?',
@@ -55,7 +55,7 @@ const coolingFaqs = [
   },
   {
     question: 'Do you offer financing for AC replacement in York, PA?',
-    answer: 'Yes, we work with financing partners to offer affordable payment options for AC installation and replacement in York, Pennsylvania. Ask our technician or call (267) 300-2400 to discuss financing options that fit your budget.',
+    answer: 'Yes, we work with financing partners to offer affordable payment options for AC installation and replacement in York, Pennsylvania. Ask our technician or call (717) 246-3270 to discuss financing options that fit your budget.',
   },
 ]
 
@@ -63,8 +63,8 @@ export default function Cooling() {
   return (
     <>
       <Helmet>
-        <title>AC Repair &amp; Air Conditioning Installation York PA | Cornerstone HVAC</title>
-        <meta name="description" content="Fast AC repair and air conditioning installation in York, PA. Central air, ductless mini-splits, AC tune-ups. Same-day available. Call (267) 300-2400." />
+        <title>AC Repair &amp; Air Conditioning Installation York PA | Roland</title>
+        <meta name="description" content="Fast AC repair and air conditioning installation in York, PA. Central air, ductless mini-splits, AC tune-ups. Same-day available. Call (717) 246-3270." />
       </Helmet>
 
       {/* Hero Banner */}
@@ -84,14 +84,14 @@ export default function Cooling() {
             AC Repair &amp; Air Conditioning Service in York, PA
           </h1>
           <p className="text-blue-100 text-lg max-w-2xl">
-            Certified AC technicians serving York, Springettsbury, West York, Red Lion, Dallastown &amp; all of York County, PA.
+            Certified AC technicians serving York, Dallastown, Shrewsbury, Glen Rock, Seven Valleys &amp; all of York County, PA.
           </p>
           <a
-            href="tel:2673002400"
+            href="tel:7172463270"
             className="mt-6 inline-flex items-center gap-2 text-white font-bold px-7 py-3 rounded-xl transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-blue-900"
             style={{ backgroundColor: '#c2410c' }}
           >
-            <span aria-hidden="true">📞</span> Call (267) 300-2400
+            <span aria-hidden="true">📞</span> Call (717) 246-3270
           </a>
         </div>
       </section>
@@ -100,10 +100,10 @@ export default function Cooling() {
       <section className="py-12 px-4 bg-white">
         <div className="max-w-4xl mx-auto">
           <p className="text-gray-700 text-lg leading-relaxed mb-4">
-            When your AC breaks down during a York, PA summer, you need fast, reliable air conditioning repair. <strong>Cornerstone HVAC &amp; Plumbing</strong> provides expert AC repair, installation, and maintenance throughout York, Pennsylvania. Our NATE-certified cooling technicians service central air conditioners, ductless mini-splits, and heat pumps for both residential and light commercial customers.
+            When your AC breaks down during a York, PA summer, you need fast, reliable air conditioning repair. <strong>Roland Plumbing Heating &amp; Air</strong> provides expert AC repair, installation, and maintenance throughout York, Pennsylvania. Our NATE-certified cooling technicians service central air conditioners, ductless mini-splits, and heat pumps for both residential and light commercial customers.
           </p>
           <p className="text-gray-700 text-lg leading-relaxed">
-            We serve all of York County including Springettsbury Township, West York, Red Lion, Dallastown, Spring Garden Township, and surrounding areas. Same-day AC repair appointments are available — call <strong>(267) 300-2400</strong> and we'll get your home cool again fast.
+            We serve all of York County including Dallastown, Shrewsbury, Glen Rock, Seven Valleys, Spring Garden Township, and surrounding areas. Same-day AC repair appointments are available — call <strong>(717) 246-3270</strong> and we'll get your home cool again fast.
           </p>
         </div>
       </section>

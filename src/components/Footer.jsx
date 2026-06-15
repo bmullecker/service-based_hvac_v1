@@ -7,16 +7,13 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Column 1: Company Info */}
           <div>
-            <img
-              src="https://placehold.co/150x50/ffffff/1a365d?text=Cornerstone"
-              alt="Cornerstone HVAC & Plumbing"
-              className="h-10 w-auto mb-4"
-            />
+            <p className="text-white font-black text-2xl mb-1">Roland</p>
+            <p className="text-blue-300 text-xs mb-4">Plumbing Heating &amp; Air</p>
             <p className="text-blue-200 text-sm mb-4 leading-relaxed">
-              York, PA's trusted HVAC &amp; Plumbing experts since 2012. Over 1,000 local families served with honest, reliable home comfort services.
+              Dallastown & York County's trusted plumbing, heating & air conditioning experts since 1998. 26 years of honest, reliable service.
             </p>
             <p className="text-blue-200 text-xs mb-4">
-              <strong className="text-white">Your Trusted York, PA Home Comfort Experts</strong>
+              <strong className="text-white">Serving All of York County, PA</strong>
             </p>
             <div className="flex gap-4 mt-2">
               <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="text-blue-300 hover:text-white text-sm transition-colors">
@@ -82,18 +79,18 @@ export default function Footer() {
             <ul className="space-y-3 text-sm text-blue-200">
               <li className="flex items-start gap-2">
                 <span className="text-orange-400 mt-0.5">📍</span>
-                <span>123 Commerce Dr<br />York, PA 17401</span>
+                <span>745 Summit Dr<br />Dallastown, PA 17313</span>
               </li>
               <li className="flex items-center gap-2">
                 <span className="text-orange-400">📞</span>
-                <a href="tel:2673002400" className="hover:text-white transition-colors">
-                  (267) 300-2400
+                <a href="tel:7172463270" className="hover:text-white transition-colors">
+                  (717) 246-3270
                 </a>
               </li>
               <li className="flex items-center gap-2">
                 <span className="text-orange-400">✉️</span>
-                <a href="mailto:info@cornerstonehvac.com" className="hover:text-white transition-colors">
-                  info@cornerstonehvac.com
+                <a href="mailto:info@rolandplumbing.com" className="hover:text-white transition-colors">
+                  info@rolandplumbing.com
                 </a>
               </li>
               <li className="mt-3">
@@ -106,15 +103,11 @@ export default function Footer() {
                     </tr>
                     <tr>
                       <th scope="row" className="pr-3 py-0.5 font-normal text-left">Mon–Fri:</th>
-                      <td>7am – 7pm</td>
+                      <td>7:30am – 5pm</td>
                     </tr>
                     <tr>
-                      <th scope="row" className="pr-3 py-0.5 font-normal text-left">Saturday:</th>
-                      <td>8am – 5pm</td>
-                    </tr>
-                    <tr>
-                      <th scope="row" className="pr-3 py-0.5 font-normal text-left">Sunday:</th>
-                      <td>Emergency only</td>
+                      <th scope="row" className="pr-3 py-0.5 font-normal text-left">Sat–Sun:</th>
+                      <td>Closed</td>
                     </tr>
                   </tbody>
                 </table>
@@ -127,8 +120,8 @@ export default function Footer() {
       {/* Bottom Bar */}
       <div className="border-t border-blue-800">
         <div className="max-w-7xl mx-auto px-4 py-4 flex flex-col md:flex-row items-center justify-between gap-2 text-xs text-blue-300">
-          <p>© 2024 Cornerstone HVAC &amp; Plumbing. All rights reserved.</p>
-          <p>PA License #HVAC-12345 | Plumbing #PL-67890</p>
+          <p>© 2026 Roland Plumbing Heating &amp; Air. All rights reserved.</p>
+          <p>745 Summit Dr, Dallastown, PA 17313</p>
         </div>
       </div>
     </footer>

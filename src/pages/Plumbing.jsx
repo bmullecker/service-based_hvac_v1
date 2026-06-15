@@ -39,11 +39,11 @@ const plumbingServices = [
 const plumbingFaqs = [
   {
     question: 'How quickly can you respond to a plumbing emergency in York, PA?',
-    answer: 'For plumbing emergencies like burst pipes, flooding, or sewage backups, we typically arrive within 60–90 minutes anywhere in York County. We offer 24/7 emergency plumbing service throughout York, Springettsbury, West York, Red Lion, Dallastown, and surrounding communities — with no extra charge for nights or weekends.',
+    answer: 'For plumbing emergencies like burst pipes, flooding, or sewage backups, we typically arrive within 60–90 minutes anywhere in York County. We offer 24/7 emergency plumbing service throughout York, Dallastown, Shrewsbury, Glen Rock, Seven Valleys, and surrounding communities — with no extra charge for nights or weekends.',
   },
   {
     question: 'What should I do if I have a burst pipe?',
-    answer: 'If you have a burst pipe, immediately turn off the main water shut-off valve to your home (usually in the basement or utility room). Then call Cornerstone HVAC & Plumbing at (267) 300-2400. Move valuables away from water and take photos for insurance purposes while you wait. Our emergency plumbers will arrive quickly to repair the pipe and assess any damage.',
+    answer: 'If you have a burst pipe, immediately turn off the main water shut-off valve to your home (usually in the basement or utility room). Then call Roland Plumbing Heating & Air at (717) 246-3270. Move valuables away from water and take photos for insurance purposes while you wait. Our emergency plumbers will arrive quickly to repair the pipe and assess any damage.',
   },
   {
     question: 'Do you replace water heaters in York, PA?',
@@ -51,11 +51,11 @@ const plumbingFaqs = [
   },
   {
     question: 'Why do I have low water pressure throughout my house?',
-    answer: 'Low water pressure throughout your entire home (not just one fixture) typically indicates a problem with your main water line, pressure regulator, or a significant leak somewhere in your system. It could also be a municipal water supply issue. Our York, PA plumbers can diagnose the cause and restore proper water pressure. Call (267) 300-2400 for a diagnostic visit.',
+    answer: 'Low water pressure throughout your entire home (not just one fixture) typically indicates a problem with your main water line, pressure regulator, or a significant leak somewhere in your system. It could also be a municipal water supply issue. Our York, PA plumbers can diagnose the cause and restore proper water pressure. Call (717) 246-3270 for a diagnostic visit.',
   },
   {
     question: 'Are your plumbers licensed in Pennsylvania?',
-    answer: 'Yes, all of our plumbers are fully licensed in Pennsylvania (License #PL-67890) and carry comprehensive liability insurance. We\'re also background-checked and drug-tested for your safety and peace of mind. When Cornerstone sends a plumber to your York, PA home, you can trust they\'re qualified, professional, and trustworthy.',
+    answer: 'Yes, all of our plumbers are fully licensed in Pennsylvania (License #PL-67890) and carry comprehensive liability insurance. We\'re also background-checked and drug-tested for your safety and peace of mind. When Roland sends a plumber to your York, PA home, you can trust they\'re qualified, professional, and trustworthy.',
   },
 ]
 
@@ -63,8 +63,8 @@ export default function Plumbing() {
   return (
     <>
       <Helmet>
-        <title>Plumber York PA | Pipe Repair, Drain Cleaning &amp; Water Heaters | Cornerstone</title>
-        <meta name="description" content="Licensed plumbers in York, PA. Water heater repair & replacement, drain cleaning, leak detection, pipe repair. Same-day service. Call (267) 300-2400." />
+        <title>Plumber York PA | Pipe Repair, Drain Cleaning &amp; Water Heaters | Roland</title>
+        <meta name="description" content="Licensed plumbers in York, PA. Water heater repair & replacement, drain cleaning, leak detection, pipe repair. Same-day service. Call (717) 246-3270." />
       </Helmet>
 
       {/* Hero Banner */}
@@ -84,14 +84,14 @@ export default function Plumbing() {
             Licensed Plumbing Services in York, PA
           </h1>
           <p className="text-blue-100 text-lg max-w-2xl">
-            Licensed York, PA plumbers serving Springettsbury, West York, Red Lion, Dallastown &amp; all of York County.
+            Licensed York, PA plumbers serving Dallastown, Shrewsbury, Glen Rock, Seven Valleys &amp; all of York County.
           </p>
           <a
-            href="tel:2673002400"
+            href="tel:7172463270"
             className="mt-6 inline-flex items-center gap-2 text-white font-bold px-7 py-3 rounded-xl transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-blue-900"
             style={{ backgroundColor: '#c2410c' }}
           >
-            <span aria-hidden="true">📞</span> Call (267) 300-2400
+            <span aria-hidden="true">📞</span> Call (717) 246-3270
           </a>
         </div>
       </section>
@@ -100,10 +100,10 @@ export default function Plumbing() {
       <section className="py-12 px-4 bg-white">
         <div className="max-w-4xl mx-auto">
           <p className="text-gray-700 text-lg leading-relaxed mb-4">
-            When you have a plumbing problem in York, PA, you need a licensed, reliable plumber who responds fast. <strong>Cornerstone HVAC &amp; Plumbing</strong> provides comprehensive plumbing services throughout York, Pennsylvania — from routine drain cleaning and faucet repairs to emergency burst pipe repair and water heater replacement. Our PA-licensed plumbers (License #PL-67890) are background-checked, drug-tested, and trained to solve any plumbing issue.
+            When you have a plumbing problem in York, PA, you need a licensed, reliable plumber who responds fast. <strong>Roland Plumbing Heating &amp; Air</strong> provides comprehensive plumbing services throughout York, Pennsylvania — from routine drain cleaning and faucet repairs to emergency burst pipe repair and water heater replacement. Our PA-licensed plumbers (License #PL-67890) are background-checked, drug-tested, and trained to solve any plumbing issue.
           </p>
           <p className="text-gray-700 text-lg leading-relaxed">
-            We serve all of York County including York City, Springettsbury Township, West York, Red Lion, Dallastown, Spring Garden Township, and surrounding communities. Call <strong>(267) 300-2400</strong> for same-day plumbing service or 24/7 emergency plumbing repair.
+            We serve all of York County including York City, Dallastown, Shrewsbury, Glen Rock, Seven Valleys, Spring Garden Township, and surrounding communities. Call <strong>(717) 246-3270</strong> for same-day plumbing service or 24/7 emergency plumbing repair.
           </p>
         </div>
       </section>
@@ -129,7 +129,7 @@ export default function Plumbing() {
       {/* Benefits */}
       <section className="py-14 px-4 bg-white">
         <div className="max-w-7xl mx-auto">
-          <h2 className="text-3xl font-bold text-gray-900 text-center mb-10">Why Choose Cornerstone for Plumbing?</h2>
+          <h2 className="text-3xl font-bold text-gray-900 text-center mb-10">Why Choose Roland for Plumbing?</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
               {

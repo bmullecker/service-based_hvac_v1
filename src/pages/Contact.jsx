@@ -6,8 +6,8 @@ export default function Contact() {
   return (
     <>
       <Helmet>
-        <title>Contact Cornerstone HVAC &amp; Plumbing | York, PA | (267) 300-2400</title>
-        <meta name="description" content="Contact Cornerstone HVAC & Plumbing in York, PA. Call (267) 300-2400, email us, or fill out our contact form. 24/7 emergency service available." />
+        <title>Contact Roland Plumbing Heating &amp; Air | York, PA | (717) 246-3270</title>
+        <meta name="description" content="Contact Roland Plumbing Heating & Air in York, PA. Call (717) 246-3270, email us, or fill out our contact form. 24/7 emergency service available." />
       </Helmet>
 
       {/* Hero Banner */}
@@ -37,7 +37,7 @@ export default function Contact() {
             {/* Left: Form */}
             <div className="bg-white rounded-2xl p-6 md:p-8 shadow-md">
               <h2 className="text-2xl font-bold text-gray-900 mb-2">Send Us a Message</h2>
-              <p className="text-gray-600 mb-6">We'll respond within 2 hours during business hours. For emergencies, call <a href="tel:2673002400" className="text-orange-700 font-semibold hover:text-orange-700">(267) 300-2400</a>.</p>
+              <p className="text-gray-600 mb-6">We'll respond within 2 hours during business hours. For emergencies, call <a href="tel:7172463270" className="text-orange-700 font-semibold hover:text-orange-700">(717) 246-3270</a>.</p>
               <QuoteForm />
             </div>
 
@@ -50,8 +50,8 @@ export default function Contact() {
                     <span className="text-2xl mt-0.5" aria-hidden="true">📞</span>
                     <div>
                       <p className="font-semibold text-gray-900">Phone</p>
-                      <a href="tel:2673002400" className="text-orange-700 hover:text-orange-700 text-lg font-bold transition-colors">
-                        (267) 300-2400
+                      <a href="tel:7172463270" className="text-orange-700 hover:text-orange-700 text-lg font-bold transition-colors">
+                        (717) 246-3270
                       </a>
                       <p className="text-gray-500 text-sm">24/7 Emergency Service Available</p>
                     </div>
@@ -60,8 +60,8 @@ export default function Contact() {
                     <span className="text-2xl mt-0.5" aria-hidden="true">✉️</span>
                     <div>
                       <p className="font-semibold text-gray-900">Email</p>
-                      <a href="mailto:info@cornerstonehvac.com" className="text-orange-700 hover:text-orange-700 transition-colors">
-                        info@cornerstonehvac.com
+                      <a href="mailto:info@rolandplumbing.com" className="text-orange-700 hover:text-orange-700 transition-colors">
+                        info@rolandplumbing.com
                       </a>
                     </div>
                   </div>
@@ -69,7 +69,7 @@ export default function Contact() {
                     <span className="text-2xl mt-0.5" aria-hidden="true">📍</span>
                     <div>
                       <p className="font-semibold text-gray-900">Address</p>
-                      <p className="text-gray-700">123 Commerce Dr<br />York, PA 17401</p>
+                      <p className="text-gray-700">745 Summit Dr<br />Dallastown, PA 17313</p>
                     </div>
                   </div>
                   <div className="flex items-start gap-4">
@@ -105,7 +105,7 @@ export default function Contact() {
               <div className="bg-white rounded-2xl p-6 shadow-md">
                 <h3 className="text-lg font-bold text-gray-900 mb-3">Service Area</h3>
                 <p className="text-gray-600 text-sm leading-relaxed">
-                  We serve York, PA and all surrounding communities including Springettsbury Township, West York, Red Lion, Dallastown, Spring Garden Township, Manchester Township, East York, Hanover, and throughout York County, Pennsylvania.
+                  We serve York, PA and all surrounding communities including Dallastown, Shrewsbury, Glen Rock, Seven Valleys, Red Lion, Felton, East Prospect, Loganville, and throughout York County, Pennsylvania.
                 </p>
               </div>
             </div>
@@ -119,12 +119,12 @@ export default function Contact() {
           <div className="rounded-2xl overflow-hidden shadow-md">
             <img
               src="https://placehold.co/800x400/cccccc/333333?text=Map+Coming+Soon"
-              alt="Cornerstone HVAC & Plumbing location map - York, PA"
+              alt="Roland Plumbing Heating & Air location map - York, PA"
               className="w-full h-64 md:h-96 object-cover"
             />
           </div>
           <p className="text-center text-gray-500 text-sm mt-3">
-            123 Commerce Dr, York, PA 17401 — Serving all of York County, Pennsylvania
+            745 Summit Dr, Dallastown, PA 17313 — Serving all of York County, Pennsylvania
           </p>
         </div>
       </section>

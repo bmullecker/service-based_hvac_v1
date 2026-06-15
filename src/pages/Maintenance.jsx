@@ -51,7 +51,7 @@ const maintenanceFaqs = [
   },
   {
     question: 'What is your Priority Maintenance Plan?',
-    answer: 'Our Priority Plan is an annual maintenance agreement that covers one heating tune-up and one cooling tune-up per year, priority scheduling (you go to the front of the line for appointments), 10% discount on parts and labor for any repairs, and annual plumbing inspection. Plan members also receive reminder calls before each season so you never forget to schedule. Contact us at (267) 300-2400 for current pricing.',
+    answer: 'Our Priority Plan is an annual maintenance agreement that covers one heating tune-up and one cooling tune-up per year, priority scheduling (you go to the front of the line for appointments), 10% discount on parts and labor for any repairs, and annual plumbing inspection. Plan members also receive reminder calls before each season so you never forget to schedule. Contact us at (717) 246-3270 for current pricing.',
   },
   {
     question: 'Will maintenance void my HVAC warranty?',
@@ -81,8 +81,8 @@ export default function Maintenance() {
   return (
     <>
       <Helmet>
-        <title>Preventive HVAC &amp; Plumbing Maintenance York PA | Cornerstone</title>
-        <meta name="description" content="Preventive HVAC and plumbing maintenance plans in York, PA. Annual tune-ups, priority plans, and whole-home inspections. Keep your system running efficiently. Call (267) 300-2400." />
+        <title>Preventive HVAC &amp; Plumbing Maintenance York PA | Roland</title>
+        <meta name="description" content="Preventive HVAC and plumbing maintenance plans in York, PA. Annual tune-ups, priority plans, and whole-home inspections. Keep your system running efficiently. Call (717) 246-3270." />
       </Helmet>
 
       {/* Hero Banner */}
@@ -105,11 +105,11 @@ export default function Maintenance() {
             Keep your home comfortable year-round and avoid costly emergency repairs with our comprehensive maintenance plans.
           </p>
           <a
-            href="tel:2673002400"
+            href="tel:7172463270"
             className="mt-6 inline-flex items-center gap-2 text-white font-bold px-7 py-3 rounded-xl transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-blue-900"
             style={{ backgroundColor: '#c2410c' }}
           >
-            <span aria-hidden="true">📞</span> Call (267) 300-2400
+            <span aria-hidden="true">📞</span> Call (717) 246-3270
           </a>
         </div>
       </section>
@@ -118,7 +118,7 @@ export default function Maintenance() {
       <section className="py-12 px-4 bg-white">
         <div className="max-w-4xl mx-auto">
           <p className="text-gray-700 text-lg leading-relaxed mb-4">
-            The most expensive HVAC and plumbing repairs are almost always preventable. <strong>Cornerstone HVAC &amp; Plumbing</strong> offers comprehensive preventive maintenance services throughout York, Pennsylvania — helping homeowners in York, Springettsbury, West York, Red Lion, and Dallastown extend the life of their equipment, reduce energy bills, and avoid unexpected breakdowns.
+            The most expensive HVAC and plumbing repairs are almost always preventable. <strong>Roland Plumbing Heating &amp; Air</strong> offers comprehensive preventive maintenance services throughout York, Pennsylvania — helping homeowners in York, Shrewsbury, West York, Red Lion, and Dallastown extend the life of their equipment, reduce energy bills, and avoid unexpected breakdowns.
           </p>
           <p className="text-gray-700 text-lg leading-relaxed">
             Our NATE-certified technicians perform thorough inspections and tune-ups with no hidden fees and no pressure to buy things you don't need. We give you an honest, written report of your system's condition — and if we find a problem, we'll explain it clearly before recommending any repairs.
@@ -203,11 +203,11 @@ export default function Maintenance() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="tel:2673002400"
+              href="tel:7172463270"
               className="text-white font-bold px-8 py-4 rounded-xl transition-colors duration-200 shadow-lg focus:outline-none focus:ring-2 focus:ring-orange-700 focus:ring-offset-2"
               style={{ backgroundColor: '#c2410c' }}
             >
-              <span aria-hidden="true">📞</span> Call (267) 300-2400
+              <span aria-hidden="true">📞</span> Call (717) 246-3270
             </a>
             <Link
               to="/contact"
@@ -230,7 +230,7 @@ export default function Maintenance() {
 
       <CTABanner
         heading="Schedule Your Maintenance Tune-Up Today"
-        subtext="York, PA's trusted HVAC & plumbing maintenance team. NATE-certified, no-pressure service."
+        subtext="York County's trusted HVAC & plumbing maintenance team. NATE-certified, no-pressure service."
       />
     </>
   )

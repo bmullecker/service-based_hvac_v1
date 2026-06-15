@@ -43,7 +43,7 @@ const heatingFaqs = [
   },
   {
     question: 'What are signs that my furnace needs repair?',
-    answer: 'Watch for these warning signs: unusual noises (banging, squealing, rattling), increased energy bills, uneven heating throughout your home, the furnace cycling on and off frequently, yellow or orange pilot light instead of blue, or age over 15 years. If you notice any of these, call Cornerstone HVAC at (267) 300-2400.',
+    answer: 'Watch for these warning signs: unusual noises (banging, squealing, rattling), increased energy bills, uneven heating throughout your home, the furnace cycling on and off frequently, yellow or orange pilot light instead of blue, or age over 15 years. If you notice any of these, call Roland at (717) 246-3270.',
   },
   {
     question: 'How long does a furnace last?',
@@ -51,7 +51,7 @@ const heatingFaqs = [
   },
   {
     question: 'Do you offer emergency heating service in York, PA?',
-    answer: 'Yes! We offer 24/7 emergency heating service throughout York, PA and surrounding areas including Springettsbury, West York, Red Lion, and Dallastown. We answer every call — nights, weekends, and holidays — with no extra charge for after-hours emergency service.',
+    answer: 'Yes! We offer 24/7 emergency heating service throughout York, PA and surrounding areas including Shrewsbury, West York, Red Lion, and Dallastown. We answer every call — nights, weekends, and holidays — with no extra charge for after-hours emergency service.',
   },
   {
     question: 'What brands of heating equipment do you service?',
@@ -63,8 +63,8 @@ export default function Heating() {
   return (
     <>
       <Helmet>
-        <title>Furnace Repair &amp; Heating Service York PA | Cornerstone HVAC</title>
-        <meta name="description" content="Expert furnace repair, heat pump service & boiler repair in York, PA. Same-day heating service available 24/7. Licensed technicians. Call (267) 300-2400." />
+        <title>Furnace Repair &amp; Heating Service York PA | Roland</title>
+        <meta name="description" content="Expert furnace repair, heat pump service & boiler repair in York, PA. Same-day heating service available 24/7. Licensed technicians. Call (717) 246-3270." />
       </Helmet>
 
       {/* Hero Banner */}
@@ -84,14 +84,14 @@ export default function Heating() {
             Furnace Repair &amp; Heating Service in York, PA
           </h1>
           <p className="text-blue-100 text-lg max-w-2xl">
-            NATE-certified heating technicians serving York, Springettsbury, West York, Red Lion, Dallastown &amp; all of York County, PA.
+            NATE-certified heating technicians serving York, Dallastown, Shrewsbury, Glen Rock, Seven Valleys &amp; all of York County, PA.
           </p>
           <a
-            href="tel:2673002400"
+            href="tel:7172463270"
             className="mt-6 inline-flex items-center gap-2 text-white font-bold px-7 py-3 rounded-xl transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-blue-900"
             style={{ backgroundColor: '#c2410c' }}
           >
-            <span aria-hidden="true">📞</span> Call (267) 300-2400
+            <span aria-hidden="true">📞</span> Call (717) 246-3270
           </a>
         </div>
       </section>
@@ -100,10 +100,10 @@ export default function Heating() {
       <section className="py-12 px-4 bg-white">
         <div className="max-w-4xl mx-auto">
           <p className="text-gray-700 text-lg leading-relaxed mb-4">
-            When your furnace breaks down in the middle of a York, PA winter, you need a trusted heating repair company that responds fast. <strong>Cornerstone HVAC &amp; Plumbing</strong> has provided expert heating service to York, Pennsylvania homeowners since 2012. Our NATE-certified technicians handle furnace repair, heat pump service, boiler repair, and full heating system replacements — all with upfront pricing and a 1-year parts warranty.
+            When your furnace breaks down in the middle of a York, PA winter, you need a trusted heating repair company that responds fast. <strong>Roland Plumbing Heating &amp; Air</strong> has provided expert heating service to York, Pennsylvania homeowners for over 26 years. Our NATE-certified technicians handle furnace repair, heat pump service, boiler repair, and full heating system replacements — all with upfront pricing and a 1-year parts warranty.
           </p>
           <p className="text-gray-700 text-lg leading-relaxed">
-            We service all of York County including Springettsbury Township, West York Borough, Red Lion, Dallastown, Spring Garden Township, and beyond. Whether you need a simple furnace tune-up or emergency heating repair at 2am, <strong>Cornerstone is your local heating expert</strong>.
+            We service all of York County including Springettsbury Township, West York Borough, Red Lion, Dallastown, Spring Garden Township, and beyond. Whether you need a simple furnace tune-up or emergency heating repair at 2am, <strong>Roland is your local heating expert</strong>.
           </p>
         </div>
       </section>
@@ -129,7 +129,7 @@ export default function Heating() {
       {/* Benefits */}
       <section className="py-14 px-4 bg-white">
         <div className="max-w-7xl mx-auto">
-          <h2 className="text-3xl font-bold text-gray-900 text-center mb-10">Why Choose Cornerstone for Heating?</h2>
+          <h2 className="text-3xl font-bold text-gray-900 text-center mb-10">Why Choose Roland for Heating?</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
               {

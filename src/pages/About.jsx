@@ -4,10 +4,10 @@ import CTABanner from '../components/CTABanner'
 
 const teamMembers = [
   {
-    name: 'Mike Cornerstone',
+    name: 'Mike Roland',
     role: 'Founder & Master HVAC Technician',
     image: 'https://i.pravatar.cc/300?img=51',
-    bio: 'Mike founded Cornerstone HVAC & Plumbing in 2012 with a simple mission: bring honest, expert HVAC service to York, PA homeowners. NATE-certified with 20+ years of experience.',
+    bio: 'Mike founded Roland Plumbing Heating & Air in 2012 with a simple mission: bring honest, expert HVAC service to York, PA homeowners. NATE-certified with 20+ years of experience.',
   },
   {
     name: 'Sarah Johnson',
@@ -45,8 +45,8 @@ export default function About() {
   return (
     <>
       <Helmet>
-        <title>About Cornerstone HVAC &amp; Plumbing | York, PA Since 2012</title>
-        <meta name="description" content="Cornerstone HVAC & Plumbing has served York, PA homeowners since 2012. Local, family-owned, NATE-certified. Learn our story and meet the team." />
+        <title>About Roland Plumbing Heating &amp; Air | York, PA Since 2012</title>
+        <meta name="description" content="Roland Plumbing Heating & Air has served York, PA homeowners for over 26 years. Local, family-owned, NATE-certified. Learn our story and meet the team." />
       </Helmet>
 
       {/* Hero Banner */}
@@ -63,10 +63,10 @@ export default function About() {
             <span className="text-white" aria-current="page">About Us</span>
           </nav>
           <h1 className="text-3xl md:text-5xl font-bold text-white mb-4">
-            About Cornerstone HVAC &amp; Plumbing
+            About Roland Plumbing Heating &amp; Air
           </h1>
           <p className="text-blue-100 text-lg max-w-2xl">
-            Serving York, Pennsylvania with honest, expert home comfort services since 2012.
+            Serving York, Pennsylvania with honest, expert home comfort services for over 26 years.
           </p>
         </div>
       </section>
@@ -77,13 +77,13 @@ export default function About() {
           <h2 className="text-3xl font-bold text-gray-900 mb-6">Our Story</h2>
           <div className="prose prose-lg max-w-none text-gray-700 space-y-4">
             <p className="text-lg leading-relaxed">
-              Cornerstone HVAC &amp; Plumbing was founded in 2012 by Mike Cornerstone with a single service van and a commitment to doing things the right way. After watching too many York, PA homeowners get overcharged and underserved by large, impersonal HVAC companies, Mike decided to build something different — a locally-owned company that puts customers first.
+              Roland Plumbing Heating &amp; Air was founded in 2012 by Mike Roland with a single service van and a commitment to doing things the right way. After watching too many York, PA homeowners get overcharged and underserved by large, impersonal HVAC companies, Mike decided to build something different — a locally-owned company that puts customers first.
             </p>
             <p className="text-lg leading-relaxed">
               Over the past 12+ years, we've grown from a one-man operation to a team of NATE-certified HVAC technicians and licensed plumbers. We've served <strong>over 1,000 York, PA families</strong> — from York City and Springettsbury Township to West York, Red Lion, Dallastown, and communities throughout York County, Pennsylvania.
             </p>
             <p className="text-lg leading-relaxed">
-              We're proud to be a York, Pennsylvania small business. Our team lives in this community, our kids go to school here, and we care deeply about the neighbors we serve. When Cornerstone sends a technician to your home, you're getting a trusted neighbor — not a stranger.
+              We're proud to be a York, Pennsylvania small business. Our team lives in this community, our kids go to school here, and we care deeply about the neighbors we serve. When Roland sends a technician to your home, you're getting a trusted neighbor — not a stranger.
             </p>
           </div>
 
@@ -110,7 +110,7 @@ export default function About() {
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-gray-900 mb-4">Our Mission &amp; Values</h2>
             <p className="text-gray-600 text-lg max-w-2xl mx-auto">
-              Everything we do at Cornerstone HVAC &amp; Plumbing is guided by three core values.
+              Everything we do at Roland Plumbing Heating &amp; Air is guided by three core values.
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -184,7 +184,7 @@ export default function About() {
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl font-bold text-gray-900 mb-6">Supporting York, PA</h2>
           <p className="text-gray-700 text-lg leading-relaxed mb-6">
-            Cornerstone HVAC &amp; Plumbing is proud to be an active part of the York, Pennsylvania community. We sponsor local youth sports teams, participate in community events, and support the York County Food Bank. When you choose Cornerstone, you're not just getting great service — you're supporting a business that gives back to York, PA.
+            Roland Plumbing Heating &amp; Air is proud to be an active part of the York, Pennsylvania community. We sponsor local youth sports teams, participate in community events, and support the York County Food Bank. When you choose Roland, you're not just getting great service — you're supporting a business that gives back to York, PA.
           </p>
           <p className="text-gray-700 text-lg leading-relaxed">
             We also believe in hiring locally. Our entire team is made up of York County, PA residents who take pride in serving their neighbors with the highest level of professionalism and care.

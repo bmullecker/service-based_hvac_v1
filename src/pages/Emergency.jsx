@@ -38,7 +38,7 @@ const responseTimeline = [
   {
     step: '1',
     title: 'You Call',
-    description: 'Call (267) 300-2400. A live person answers every call — no answering machines, no waiting for a callback.',
+    description: 'Call (717) 246-3270. A live person answers every call — no answering machines, no waiting for a callback.',
   },
   {
     step: '2',
@@ -61,8 +61,8 @@ export default function Emergency() {
   return (
     <>
       <Helmet>
-        <title>24/7 Emergency HVAC &amp; Plumbing York PA | Cornerstone — We Answer Every Call</title>
-        <meta name="description" content="24/7 emergency HVAC and plumbing service in York, PA. Burst pipes, no heat, AC failure — we respond fast. No extra charge for nights & weekends. Call now: (267) 300-2400." />
+        <title>24/7 Emergency HVAC &amp; Plumbing York PA | Roland — We Answer Every Call</title>
+        <meta name="description" content="24/7 emergency HVAC and plumbing service in York, PA. Burst pipes, no heat, AC failure — we respond fast. No extra charge for nights & weekends. Call now: (717) 246-3270." />
       </Helmet>
 
       {/* Emergency Hero */}
@@ -79,10 +79,10 @@ export default function Emergency() {
             No heat. No AC. Burst pipe. Flooding. We respond to every emergency — nights, weekends, holidays — with <strong className="text-white">no extra charge</strong>.
           </p>
           <a
-            href="tel:2673002400"
+            href="tel:7172463270"
             className="inline-flex items-center gap-3 bg-red-600 hover:bg-red-700 text-white font-bold text-2xl md:text-3xl px-10 py-6 rounded-2xl transition-colors duration-200 shadow-2xl mb-8"
           >
-            📞 (267) 300-2400
+            📞 (717) 246-3270
           </a>
           <p className="text-gray-400 text-lg">
             <strong className="text-white">We pick up every call.</strong> No voicemail. No waiting. A real person answers 24/7.
@@ -95,10 +95,10 @@ export default function Emergency() {
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">We Pick Up Every Call — Guaranteed</h2>
           <p className="text-red-100 text-xl mb-6 leading-relaxed">
-            When your furnace dies at midnight or a pipe bursts on Christmas morning, you can't afford to leave a voicemail. That's why <strong className="text-white">Cornerstone HVAC &amp; Plumbing guarantees a live person answers your call 24 hours a day, 7 days a week, 365 days a year</strong> — including every holiday.
+            When your furnace dies at midnight or a pipe bursts on Christmas morning, you can't afford to leave a voicemail. That's why <strong className="text-white">Roland Plumbing Heating &amp; Air guarantees a live person answers your call 24 hours a day, 7 days a week, 365 days a year</strong> — including every holiday.
           </p>
           <p className="text-red-100 text-lg leading-relaxed">
-            We serve York, Springettsbury, West York, Red Lion, Dallastown, and all of York County, Pennsylvania. Our emergency-equipped trucks are strategically positioned across the area so we can reach your home fast.
+            We serve York, Dallastown, Shrewsbury, Glen Rock, Seven Valleys, and all of York County, Pennsylvania. Our emergency-equipped trucks are strategically positioned across the area so we can reach your home fast.
           </p>
           <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
             <div className="bg-white bg-opacity-20 text-white px-6 py-3 rounded-xl font-semibold">
@@ -158,13 +158,13 @@ export default function Emergency() {
       {/* Why Choose Us for Emergencies */}
       <section className="py-16 px-4 bg-gray-900">
         <div className="max-w-7xl mx-auto">
-          <h2 className="text-3xl font-bold text-white text-center mb-10">Why York, PA Trusts Cornerstone for Emergencies</h2>
+          <h2 className="text-3xl font-bold text-white text-center mb-10">Why York, PA Trusts Roland for Emergencies</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
               {
                 icon: '💵',
                 title: 'No After-Hours Surcharges',
-                description: 'Unlike many HVAC companies that charge extra for nights, weekends, and holidays, Cornerstone charges the same fair rates 24/7. Our price is our price — no surprise fees.',
+                description: 'Unlike many HVAC companies that charge extra for nights, weekends, and holidays, Roland charges the same fair rates 24/7. Our price is our price — no surprise fees.',
               },
               {
                 icon: '🚚',
@@ -197,12 +197,12 @@ export default function Emergency() {
             A real person answers every call. We're ready for your emergency in York, PA right now.
           </p>
           <a
-            href="tel:2673002400"
+            href="tel:7172463270"
             className="inline-flex items-center gap-3 bg-white text-red-600 font-bold text-2xl md:text-3xl px-10 py-6 rounded-2xl hover:bg-red-50 transition-colors duration-200 shadow-2xl"
           >
-            📞 (267) 300-2400
+            📞 (717) 246-3270
           </a>
-          <p className="text-red-100 mt-6 text-lg">York, PA's 24/7 Emergency HVAC &amp; Plumbing Service</p>
+          <p className="text-red-100 mt-6 text-lg">York County's Plumbing, Heating &amp; Air Service</p>
         </div>
       </section>
     </>

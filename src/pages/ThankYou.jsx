@@ -5,8 +5,8 @@ export default function ThankYou() {
   return (
     <>
       <Helmet>
-        <title>Thank You | Cornerstone HVAC &amp; Plumbing</title>
-        <meta name="description" content="Thank you for contacting Cornerstone HVAC & Plumbing. We'll be in touch within 2 hours." />
+        <title>Thank You | Roland Plumbing Heating &amp; Air</title>
+        <meta name="description" content="Thank you for contacting Roland Plumbing Heating & Air. We'll be in touch within 2 hours." />
         <meta name="robots" content="noindex, nofollow" />
       </Helmet>
 
@@ -26,10 +26,10 @@ export default function ThankYou() {
           <div className="bg-orange-50 border border-orange-200 rounded-xl p-6 mb-8">
             <p className="text-gray-700 font-medium mb-2">For immediate help, call us now:</p>
             <a
-              href="tel:2673002400"
+              href="tel:7172463270"
               className="text-2xl font-bold text-orange-500 hover:text-orange-700 transition-colors"
             >
-              📞 (267) 300-2400
+              📞 (717) 246-3270
             </a>
             <p className="text-gray-500 text-sm mt-2">Available 24/7 for emergencies</p>
           </div>

@@ -9,11 +9,11 @@ export default function StickyCallSidebar() {
         <p className="text-white font-black text-2xl mb-1">Need Help Now?</p>
         <p className="text-gray-400 text-sm mb-6">We answer every call.</p>
         <a
-          href="tel:2673002400"
+          href="tel:7172463270"
           className="block text-white text-center font-black text-xl py-4 rounded-xl mb-3 transition-colors"
           style={{ backgroundColor: '#c2410c' }}
         >
-          (267) 300-2400
+          (717) 246-3270
         </a>
         <Link
           to="/contact"

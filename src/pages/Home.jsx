@@ -7,35 +7,29 @@ import QuoteForm from '../components/QuoteForm'
 const schemaData = {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
-  "name": "Cornerstone HVAC & Plumbing",
-  "telephone": "(267) 300-2400",
-  "email": "info@cornerstonehvac.com",
+  "name": "Roland Plumbing Heating & Air",
+  "telephone": "(717) 246-3270",
+  "email": "info@rolandplumbing.com",
   "address": {
     "@type": "PostalAddress",
-    "streetAddress": "123 Commerce Dr",
-    "addressLocality": "York",
+    "streetAddress": "745 Summit Dr",
+    "addressLocality": "Dallastown",
     "addressRegion": "PA",
-    "postalCode": "17401",
+    "postalCode": "17313",
     "addressCountry": "US"
   },
-  "url": "https://www.cornerstonehvac.com",
+  "url": "https://www.rolandplumbing.com",
   "priceRange": "$$",
-  "description": "York, PA's trusted HVAC and plumbing experts. Fast furnace repair, AC service & plumbing repairs. Over 1,000 local families served.",
+  "description": "Dallastown & York County PA's trusted plumbing, heating & air conditioning experts. 26 years serving York County families.",
   "openingHoursSpecification": [
     {
       "@type": "OpeningHoursSpecification",
       "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
-      "opens": "07:00",
-      "closes": "19:00"
-    },
-    {
-      "@type": "OpeningHoursSpecification",
-      "dayOfWeek": "Saturday",
-      "opens": "08:00",
+      "opens": "07:30",
       "closes": "17:00"
     }
   ],
-  "areaServed": ["York PA", "Springettsbury PA", "West York PA", "Red Lion PA", "Dallastown PA"]
+  "areaServed": ["Dallastown PA", "York PA", "Shrewsbury PA", "Glen Rock PA", "Felton PA", "Seven Valleys PA"]
 }
 
 const services = [
@@ -69,18 +63,18 @@ const testimonials = [
   {
     name: 'Tom S.',
     location: 'York, PA',
-    quote: 'Fast response, fixed our furnace on a cold night! The technician was professional, explained everything clearly, and had us warm again in no time. Highly recommend Cornerstone!',
+    quote: 'Fast response, fixed our furnace on a cold night! The technician was professional, explained everything clearly, and had us warm again in no time. Highly recommend Roland!',
     rating: 5,
   },
   {
     name: 'Maria D.',
-    location: 'York, PA',
+    location: 'Dallastown, PA',
     quote: 'Fair pricing and super clean work. Our AC has never been better. They showed up on time, gave us an upfront price, and did a fantastic job. Will definitely use them again.',
     rating: 5,
   },
   {
     name: 'James K.',
-    location: 'Springettsbury, PA',
+    location: 'Shrewsbury, PA',
     quote: 'Cleared a nasty drain clog same day. Highly recommend! Called in the morning and they were at my door by noon. Professional, quick, and reasonably priced.',
     rating: 5,
   },
@@ -128,7 +122,7 @@ const whyChooseUs = [
   {
     icon: '🏠',
     title: 'Local Small Business',
-    description: 'York family serving York families since 2012. We live and work in this community.',
+    description: 'Dallastown-based, York County-focused. We\'ve been your neighbors for over 26 years.',
   },
 ]
 
@@ -138,8 +132,8 @@ export default function Home() {
   return (
     <>
       <Helmet>
-        <title>HVAC &amp; Plumbing Repair York PA | Cornerstone HVAC &amp; Plumbing | 24/7 Service</title>
-        <meta name="description" content="York, PA's trusted HVAC and plumbing experts. Fast furnace repair, AC service & plumbing repairs. Over 1,000 local families served. Licensed & insured. Call (267) 300-2400." />
+        <title>Plumbing Heating &amp; Air Dallastown PA | Roland | (717) 246-3270</title>
+        <meta name="description" content="Dallastown & York County PA's trusted plumbing, heating & AC experts. 26 years serving local families. Licensed & insured. Call (717) 246-3270." />
         <script type="application/ld+json">{JSON.stringify(schemaData)}</script>
       </Helmet>
 
@@ -152,26 +146,26 @@ export default function Home() {
           {/* Section 1 — Hero */}
           <section className="bg-[#1a365d] pt-20 pb-24 px-6 md:px-12">
             <p className="text-blue-300 text-xs font-bold tracking-widest uppercase mb-6">
-              York, PA's Trusted HVAC &amp; Plumbing
+              York County's Trusted Plumbing, Heating &amp; Air
             </p>
 
             <h1 style={{ fontSize: 'clamp(2.8rem, 7vw, 6.5rem)', lineHeight: 1, fontWeight: 900, color: 'white' }}>
-              We Fix It Fast.
+              We Fix It Right.
               <br />
               <span style={{ color: '#c2410c' }}>Every Time.</span>
             </h1>
 
             <p className="text-blue-200 text-xl leading-relaxed max-w-xl mt-6 mb-10">
-              From furnace failures to burst pipes, Cornerstone has served over 1,000 York, PA homeowners since 2012.
+              From furnace failures to burst pipes, Roland has served York County homeowners for over 26 years — from Dallastown to Shrewsbury and everywhere in between.
             </p>
 
             <div className="flex gap-4 flex-wrap">
               <a
-                href="tel:2673002400"
+                href="tel:7172463270"
                 className="text-white font-black px-8 py-4 rounded-xl text-lg"
                 style={{ backgroundColor: '#c2410c' }}
               >
-                (267) 300-2400
+                (717) 246-3270
               </a>
               <a
                 href="#services"
@@ -185,9 +179,9 @@ export default function Home() {
             {/* Stats row */}
             <div className="flex gap-8 mt-12 border-t border-blue-700 pt-8 flex-wrap">
               {[
-                { value: '1,000+', label: 'Families Served' },
-                { value: '24/7', label: 'Emergency' },
-                { value: 'Since 2012', label: '' },
+                { value: '26+', label: 'Years Serving York County' },
+                { value: 'Mon–Fri', label: '7:30 AM – 5:00 PM' },
+                { value: 'Since 1998', label: '' },
               ].map((stat) => (
                 <div key={stat.value}>
                   <div className="text-white font-black text-3xl">{stat.value}</div>
@@ -239,7 +233,7 @@ export default function Home() {
               className="font-black text-white mb-10"
               style={{ fontSize: 'clamp(2rem, 4vw, 3.5rem)' }}
             >
-              Why York Chooses Us
+              Why York County Chooses Roland
             </h2>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -262,7 +256,7 @@ export default function Home() {
               className="text-white font-black mb-10"
               style={{ fontSize: 'clamp(2rem, 4vw, 3.5rem)' }}
             >
-              Real York Homeowners
+              Real York County Homeowners
             </h2>
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -331,11 +325,11 @@ export default function Home() {
             <p className="text-gray-400 text-sm mb-6">We answer every call.</p>
 
             <a
-              href="tel:2673002400"
+              href="tel:7172463270"
               className="block text-white text-center font-black text-xl py-4 rounded-xl mb-3"
               style={{ backgroundColor: '#c2410c' }}
             >
-              (267) 300-2400
+              (717) 246-3270
             </a>
 
             <Link

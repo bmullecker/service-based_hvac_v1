@@ -40,15 +40,8 @@ export default function Header() {
       <div className="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
         {/* Logo */}
         <Link to="/" className="flex items-center gap-3" onClick={() => setMenuOpen(false)}>
-          <img
-            src="https://placehold.co/150x50/1a365d/ffffff?text=Cornerstone"
-            alt="Cornerstone HVAC & Plumbing Logo"
-            className="h-10 w-auto"
-          />
-          <span className="hidden sm:block text-navy font-bold text-lg leading-tight" style={{ color: '#1a365d' }}>
-            Cornerstone<br />
-            <span className="text-sm font-normal text-gray-600">HVAC &amp; Plumbing</span>
-          </span>
+          <span className="font-black text-2xl" style={{ color: '#1a365d' }}>Roland</span>
+          <span className="hidden sm:block font-normal text-sm text-gray-600">Plumbing Heating &amp; Air</span>
         </Link>
 
         {/* Desktop Nav */}
@@ -68,11 +61,11 @@ export default function Header() {
         {/* Desktop CTA */}
         <div className="hidden md:flex items-center">
           <a
-            href="tel:2673002400"
+            href="tel:7172463270"
             className="text-white font-bold px-5 py-2 rounded-lg transition-colors duration-200 flex items-center gap-2 focus:outline-none focus:ring-2 focus:ring-orange-700 focus:ring-offset-2"
             style={{ backgroundColor: '#c2410c' }}
           >
-            <span aria-hidden="true">📞</span> (267) 300-2400
+            <span aria-hidden="true">📞</span> (717) 246-3270
           </a>
         </div>
 
@@ -114,12 +107,12 @@ export default function Header() {
               </NavLink>
             ))}
             <a
-              href="tel:2673002400"
+              href="tel:7172463270"
               className="mt-3 text-white font-bold px-4 py-3 rounded-lg text-center transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-orange-700 focus:ring-offset-2"
               style={{ backgroundColor: '#c2410c' }}
               onClick={() => setMenuOpen(false)}
             >
-              <span aria-hidden="true">📞</span> Call (267) 300-2400
+              <span aria-hidden="true">📞</span> Call (717) 246-3270
             </a>
           </nav>
         </div>

@@ -12,10 +12,10 @@ export default function CTABanner({ heading, subtext }) {
         )}
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
           <a
-            href="tel:2673002400"
+            href="tel:7172463270"
             className="bg-white text-orange-700 font-bold text-xl px-8 py-4 rounded-xl hover:bg-orange-50 transition-colors duration-200 shadow-lg focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-orange-700"
           >
-            <span aria-hidden="true">📞</span> (267) 300-2400
+            <span aria-hidden="true">📞</span> (717) 246-3270
           </a>
           <Link
             to="/contact"
