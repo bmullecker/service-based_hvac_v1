@@ -59,11 +59,13 @@ Accepted: Zelle / Check / Cash
 
 Designer manages everything on Client's behalf. Client does not need accounts with any third-party services — Designer handles all setup, renewals, and technical management.
 
-| Service | Monthly | Annual (save ~15%) |
-|---|---|---|
-| Managed hosting | $35/month | $350/year |
-| Domain registration & renewal | $2/month | $25/year |
-| Professional email (name@yourdomain.com) | $10/month | — |
+| Service | Monthly |
+|---|---|
+| Managed hosting | $35 |
+| Domain registration & renewal | $2 |
+| Professional email (name@yourdomain.com) | $10 |
+
+All services billed monthly via card on file. No annual contracts.
 
 **Hosting is paid in advance before the site goes live.**
 Client may choose monthly or annual billing. Annual is recommended — saves ~$70 and removes the hassle of monthly payments.
