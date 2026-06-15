@@ -6,32 +6,32 @@ import CTABanner from '../components/CTABanner'
 const maintenancePlans = [
   {
     title: 'Annual HVAC Tune-Up',
-    image: 'https://picsum.photos/seed/hvac-tune-up/800/500',
+    image: 'https://placehold.co/800x500/1e3a5f/93c5fd?text=Photo+Coming+Soon',
     description: 'A comprehensive inspection and tune-up of your heating or cooling system. Includes cleaning, lubrication, safety checks, and efficiency testing. Recommended every year before each season.',
   },
   {
     title: 'Furnace Maintenance',
-    image: 'https://picsum.photos/seed/furnace-maintenance/800/500',
+    image: 'https://placehold.co/800x500/1e3a5f/93c5fd?text=Photo+Coming+Soon',
     description: 'Full furnace inspection covering heat exchanger, burners, igniter, blower motor, flue, and all safety controls. Keep your York, PA home warm and safe all winter.',
   },
   {
     title: 'AC Maintenance',
-    image: 'https://picsum.photos/seed/ac-maintenance-plan/800/500',
+    image: 'https://placehold.co/800x500/1e3a5f/93c5fd?text=Photo+Coming+Soon',
     description: 'Complete air conditioner tune-up including coil cleaning, refrigerant check, capacitor test, and airflow measurement. Prevent summer breakdowns before they happen.',
   },
   {
     title: 'Plumbing Inspection',
-    image: 'https://picsum.photos/seed/plumbing-inspection/800/500',
+    image: 'https://placehold.co/800x500/1e3a5f/93c5fd?text=Photo+Coming+Soon',
     description: 'Annual whole-home plumbing inspection covering water heater, supply lines, shut-off valves, drain health, and water pressure. Catch small issues before they become expensive repairs.',
   },
   {
     title: 'Duct Inspection & Sealing',
-    image: 'https://picsum.photos/seed/duct-inspection/800/500',
+    image: 'https://placehold.co/800x500/1e3a5f/93c5fd?text=Photo+Coming+Soon',
     description: 'Leaky ducts waste 20–30% of your heating and cooling energy. Our duct inspection identifies leaks, blockages, and insulation gaps — then we seal and correct them for maximum efficiency.',
   },
   {
     title: 'Priority Maintenance Plan',
-    image: 'https://picsum.photos/seed/priority-service-plan/800/500',
+    image: 'https://placehold.co/800x500/1e3a5f/93c5fd?text=Photo+Coming+Soon',
     description: 'Our annual Priority Plan covers one heating tune-up, one cooling tune-up, discounted repairs, and priority scheduling year-round. The best value for York, PA homeowners.',
   },
 ]
@@ -86,10 +86,8 @@ export default function Maintenance() {
       </Helmet>
 
       {/* Hero Banner */}
-      <section className="relative py-20 md:py-28 flex items-center" style={{ minHeight: '300px' }}>
+      <section className="relative py-20 md:py-28 flex items-center bg-[#1a365d]" style={{ minHeight: '300px' }}>
         <div
-          className="absolute inset-0 bg-cover bg-center"
-          style={{ backgroundImage: 'url(https://picsum.photos/seed/preventive-maintenance/1920/400)' }}
         />
         <div className="absolute inset-0" style={{ backgroundColor: 'rgba(26, 54, 93, 0.85)' }} />
         <div className="relative z-10 max-w-7xl mx-auto px-4 w-full">

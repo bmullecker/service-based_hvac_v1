@@ -50,10 +50,8 @@ export default function About() {
       </Helmet>
 
       {/* Hero Banner */}
-      <section className="relative py-20 md:py-28 flex items-center" style={{ minHeight: '300px' }}>
+      <section className="relative py-20 md:py-28 flex items-center bg-[#1a365d]" style={{ minHeight: '300px' }}>
         <div
-          className="absolute inset-0 bg-cover bg-center"
-          style={{ backgroundImage: 'url(https://picsum.photos/seed/professional-team/1920/400)' }}
         />
         <div className="absolute inset-0" style={{ backgroundColor: 'rgba(26, 54, 93, 0.85)' }} />
         <div className="relative z-10 max-w-7xl mx-auto px-4 w-full">

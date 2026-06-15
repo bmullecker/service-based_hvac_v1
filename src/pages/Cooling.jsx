@@ -6,32 +6,32 @@ import CTABanner from '../components/CTABanner'
 const coolingServices = [
   {
     title: 'Central AC Repair',
-    image: 'https://picsum.photos/seed/central-air/800/500',
+    image: 'https://placehold.co/800x500/1e3a5f/93c5fd?text=Photo+Coming+Soon',
     description: 'Fast central air conditioner repair in York, PA. Our certified technicians diagnose and fix all AC problems — refrigerant leaks, compressor issues, frozen coils, and more.',
   },
   {
     title: 'AC Installation & Replacement',
-    image: 'https://picsum.photos/seed/hvac-installation/800/500',
+    image: 'https://placehold.co/800x500/1e3a5f/93c5fd?text=Photo+Coming+Soon',
     description: 'New air conditioner installation and full AC system replacements throughout York County. We help you choose the right system for your home and budget.',
   },
   {
     title: 'Ductless Mini-Split Systems',
-    image: 'https://picsum.photos/seed/mini-split-wall/800/500',
+    image: 'https://placehold.co/800x500/1e3a5f/93c5fd?text=Photo+Coming+Soon',
     description: 'Ductless mini-split installation and repair for York, PA homes without existing ductwork, additions, sunrooms, and zones with specific comfort needs.',
   },
   {
     title: 'AC Tune-Up & Maintenance',
-    image: 'https://picsum.photos/seed/ac-service/800/500',
+    image: 'https://placehold.co/800x500/1e3a5f/93c5fd?text=Photo+Coming+Soon',
     description: 'Annual AC maintenance to maximize efficiency, extend equipment life, and prevent summer breakdowns. Schedule your York, PA AC tune-up today.',
   },
   {
     title: 'Air Duct Cleaning',
-    image: 'https://picsum.photos/seed/duct-cleaning/800/500',
+    image: 'https://placehold.co/800x500/1e3a5f/93c5fd?text=Photo+Coming+Soon',
     description: 'Professional air duct cleaning improves indoor air quality and HVAC efficiency. Recommended every 3–5 years for York, PA homes.',
   },
   {
     title: 'Indoor Air Quality Solutions',
-    image: 'https://picsum.photos/seed/indoor-air-quality/800/500',
+    image: 'https://placehold.co/800x500/1e3a5f/93c5fd?text=Photo+Coming+Soon',
     description: 'Whole-home air purifiers, humidifiers, dehumidifiers, and UV germicidal systems to improve the air quality in your York, Pennsylvania home.',
   },
 ]
@@ -68,10 +68,8 @@ export default function Cooling() {
       </Helmet>
 
       {/* Hero Banner */}
-      <section className="relative py-20 md:py-28 flex items-center" style={{ minHeight: '300px' }}>
+      <section className="relative py-20 md:py-28 flex items-center bg-[#1a365d]" style={{ minHeight: '300px' }}>
         <div
-          className="absolute inset-0 bg-cover bg-center"
-          style={{ backgroundImage: 'url(https://picsum.photos/seed/air-conditioning-summer/1920/400)' }}
         />
         <div className="absolute inset-0" style={{ backgroundColor: 'rgba(26, 54, 93, 0.85)' }} />
         <div className="relative z-10 max-w-7xl mx-auto px-4 w-full">

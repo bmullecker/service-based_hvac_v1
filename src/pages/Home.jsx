@@ -36,25 +36,25 @@ const services = [
   {
     title: 'Heating Services',
     description: 'Expert furnace repair, heat pump service & boiler maintenance. Stay warm all winter with our certified heating technicians.',
-    image: 'https://picsum.photos/seed/heating-warmth/800/500',
+    image: 'https://placehold.co/800x500/1e3a5f/93c5fd?text=Photo+Coming+Soon',
     link: '/heating',
   },
   {
     title: 'Cooling Services',
     description: 'AC repair, installation & tune-ups for central air and ductless mini-split systems across York, PA.',
-    image: 'https://picsum.photos/seed/cooling-comfort/800/500',
+    image: 'https://placehold.co/800x500/1e3a5f/93c5fd?text=Photo+Coming+Soon',
     link: '/cooling',
   },
   {
     title: 'Plumbing Services',
     description: 'Water heater repair, drain cleaning, leak detection & pipe repair. Licensed York, PA plumbers.',
-    image: 'https://picsum.photos/seed/plumbing-repair/800/500',
+    image: 'https://placehold.co/800x500/1e3a5f/93c5fd?text=Photo+Coming+Soon',
     link: '/plumbing',
   },
   {
     title: '24/7 Emergency Service',
     description: 'No heat? Burst pipe? We answer every call — nights, weekends, and holidays. No extra charge.',
-    image: 'https://picsum.photos/seed/emergency-service/800/500',
+    image: 'https://placehold.co/800x500/1e3a5f/93c5fd?text=Photo+Coming+Soon',
     link: '/emergency',
   },
 ]
