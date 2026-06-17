@@ -47,25 +47,26 @@ export default function PlumbingDemo() {
       {/* Header */}
       <header className="sticky top-0 z-50 bg-white shadow-sm">
         <div className="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
-          <button onClick={() => scroll('top')} className="leading-tight text-left">
-            <span className="font-black text-2xl block" style={{ color: '#1a365d' }}>Roland</span>
-            <span className="text-xs text-gray-500 font-normal">Plumbing</span>
+          <button onClick={() => scroll('top')} className="text-left shrink-0">
+            <span className="font-black text-xl md:text-2xl" style={{ color: '#1a365d' }}>Roland Plumbing</span>
           </button>
-          <nav className="hidden md:flex items-center gap-6 text-sm font-medium text-gray-700">
-            <button onClick={() => scroll('services')} className="hover:text-orange-700 transition-colors">
-              Plumbing Services
-            </button>
-            <button onClick={() => scroll('contact')} className="hover:text-orange-700 transition-colors">
-              Contact
-            </button>
-          </nav>
-          <a
-            href="tel:7172463270"
-            className="text-white font-bold px-5 py-2 rounded-lg text-sm transition-colors"
-            style={{ backgroundColor: '#c2410c' }}
-          >
-            (717) 246-3270
-          </a>
+          <div className="flex items-center gap-6">
+            <nav className="hidden md:flex items-center gap-6 text-sm font-medium text-gray-700">
+              <button onClick={() => scroll('services')} className="hover:text-orange-700 transition-colors">
+                Plumbing Services
+              </button>
+              <button onClick={() => scroll('contact')} className="hover:text-orange-700 transition-colors">
+                Contact
+              </button>
+            </nav>
+            <a
+              href="tel:7172463270"
+              className="text-white font-bold px-5 py-2 rounded-lg text-sm transition-colors shrink-0"
+              style={{ backgroundColor: '#c2410c' }}
+            >
+              (717) 246-3270
+            </a>
+          </div>
         </div>
       </header>
 
