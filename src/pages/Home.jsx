@@ -146,7 +146,7 @@ export default function Home() {
           {/* Section 1 — Hero */}
           <section className="bg-[#1a365d] pt-20 pb-24 px-6 md:px-12">
             <p className="text-blue-300 text-xs font-bold tracking-widest uppercase mb-6">
-              York County's Trusted Plumbing, Heating &amp; Air
+              York County's Trusted Plumbing, Heating &amp; Air Conditioning
             </p>
 
             <h1 style={{ fontSize: 'clamp(2.8rem, 7vw, 6.5rem)', lineHeight: 1, fontWeight: 900, color: 'white' }}>

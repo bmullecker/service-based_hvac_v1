@@ -13,7 +13,6 @@ import Maintenance from './pages/Maintenance'
 import ThankYou from './pages/ThankYou'
 import PrivacyPolicy from './pages/PrivacyPolicy'
 import NotFound from './pages/NotFound'
-import PlumbingDemo from './pages/PlumbingDemo'
 
 function MainLayout() {
   return (
@@ -38,7 +37,6 @@ export default function App() {
     <HashRouter>
       <ScrollToTop />
       <Routes>
-        <Route path="/plumbing-demo" element={<PlumbingDemo />} />
         <Route element={<MainLayout />}>
           <Route path="/" element={<Home />} />
           <Route path="/heating" element={<Heating />} />
