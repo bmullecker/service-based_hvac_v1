@@ -8,7 +8,7 @@ export default function Footer() {
           {/* Column 1: Company Info */}
           <div>
             <p className="text-white font-black text-2xl mb-1">Roland</p>
-            <p className="text-blue-300 text-xs mb-4">Plumbing Heating &amp; Air</p>
+            <p className="text-blue-300 text-xs mb-4">Plumbing Heating &amp; Air Conditioning Inc.</p>
             <p className="text-blue-200 text-sm mb-4 leading-relaxed">
               Dallastown & York County's trusted plumbing, heating & air conditioning experts since 1998. 26 years of honest, reliable service.
             </p>
@@ -120,7 +120,7 @@ export default function Footer() {
       {/* Bottom Bar */}
       <div className="border-t border-blue-800">
         <div className="max-w-7xl mx-auto px-4 py-4 flex flex-col md:flex-row items-center justify-between gap-2 text-xs text-blue-300">
-          <p>© 2026 Roland Plumbing Heating &amp; Air. All rights reserved.</p>
+          <p>© 2026 Roland Plumbing Heating &amp; Air Conditioning Inc. All rights reserved.</p>
           <p>745 Summit Dr, Dallastown, PA 17313</p>
         </div>
       </div>

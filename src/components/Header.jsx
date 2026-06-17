@@ -40,8 +40,10 @@ export default function Header() {
       <div className="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
         {/* Logo */}
         <Link to="/" className="flex items-center gap-3" onClick={() => setMenuOpen(false)}>
-          <span className="font-black text-2xl" style={{ color: '#1a365d' }}>Roland</span>
-          <span className="hidden sm:block font-normal text-sm text-gray-600">Plumbing Heating &amp; Air</span>
+          <div className="leading-tight">
+            <span className="font-black text-2xl block" style={{ color: '#1a365d' }}>Roland</span>
+            <span className="font-normal text-xs text-gray-600">Plumbing Heating &amp; Air Conditioning Inc.</span>
+          </div>
         </Link>
 
         {/* Desktop Nav */}

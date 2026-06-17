@@ -7,7 +7,7 @@ import QuoteForm from '../components/QuoteForm'
 const schemaData = {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
-  "name": "Roland Plumbing Heating & Air",
+  "name": "Roland Plumbing Heating & Air Conditioning Inc.",
   "telephone": "(717) 246-3270",
   "email": "info@rolandplumbing.com",
   "address": {
