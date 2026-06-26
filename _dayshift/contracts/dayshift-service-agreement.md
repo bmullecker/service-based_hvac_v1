@@ -190,6 +190,18 @@ A real `you@yourbusiness.com` inbox. Customers see your business name when you r
 - **Paid stock services** (Shutterstock, Adobe Stock): Client pays license cost ($2-20/image) plus $50 sourcing/integration fee. Standard licenses are non-transferable for website use only.
 - **AI-generated imagery:** Custom-created images at $100-150 per image. If the AI generation tool requires a subscription or credit purchase, those costs are passed through to the client at cost (typically $1-5 per image). Client receives full ownership rights upon payment. All AI images will be clearly marked as AI-generated in promotional materials.
 
+#### Typography & Icons
+
+| Service | Price |
+|---|---|
+| [ ] Basic Google Fonts integration (1-2 families) | Included |
+| [ ] Extended font selection & testing (3+ families) | $50 one-time |
+| [ ] Custom font licensing & integration | $150-300 |
+| [ ] Lucide React icons (included with build) | Included |
+| [ ] FontAwesome free tier icons | Included |
+| [ ] Custom icon sourcing (from paid libraries) | $50 one-time |
+| [ ] Custom icon design (hand-drawn/branded) | $50-100 per icon |
+
 #### Other Services
 
 | Item | Price |
@@ -327,6 +339,13 @@ This protects both parties: _dayshift. does not hold work indefinitely, and the 
 **Post-Launch Support (If Monthly Services Not Selected):**
 If the client chooses not to sign up for monthly hosting or retainer services, all post-launch support is the client's responsibility. _dayshift. will provide the final website files and offer a one-time transfer assistance session to help the client move to their own hosting provider or set up self-management. After launch, any updates, maintenance, hosting management, or domain renewal are the client's responsibility. _dayshift. is not liable for downtime, expired domains, or lapsed hosting if services are not retained.
 
+**Upon Launch, Client Receives:**
+- [ ] Live website on their domain
+- [ ] Site functions and is fully tested
+- [ ] Retainer support agreement confirmation (if applicable)
+- [ ] Monthly billing setup confirmed
+- [ ] _dayshift. handles all ongoing technical management (domain, hosting, updates)
+
 ---
 
 ## 8. Hosting & Domain
@@ -352,22 +371,68 @@ _dayshift. retains ownership of any proprietary components, templates, design sy
 
 ---
 
-## 10. Cancellation
+## 10. Change Requests & Scope Changes
 
-- If the client cancels after work has begun, the deposit is non-refundable.
-- If _dayshift. cancels the project for any reason, the deposit will be refunded in full.
-- Either party may cancel monthly services with **30 days written notice**.
-- Annual plans cancelled after 30 days are non-refundable.
+Any changes to the original scope of work require written approval and a change order before work begins. This includes:
+- Adding pages or sections beyond the agreed build
+- Changing the agreed page types (e.g., "make this a standard page instead of SEO page")
+- Adding integrations, APIs, or third-party services not in the original scope
+- Expanding copy or design work significantly
+
+Upon written request for a scope change, _dayshift. will provide a revised quote and timeline. Work does not proceed on the change until the client approves the new quote in writing. Scope changes may extend the estimated launch date.
 
 ---
 
-## 11. Limitation of Liability
+## 11. Post-Launch Support & Launch Definition
+
+**Launch Definition:**
+A website is considered "launched" when it is live on the client's domain and the client has approved the final QA checklist. The final payment is due within 3 business days of launch.
+
+**Post-Launch Grace Period:**
+For 14 days following launch, _dayshift. will fix any critical bugs at no charge (broken forms, links, missing images, layout issues). Feature requests, design tweaks, and non-critical issues fall under retainer or hourly billing.
+
+After the 14-day grace period, all changes are handled via the retainer (if active) or billed hourly at $85/hr.
+
+---
+
+## 12. Retainer Details & Hour Rollover
+
+**Monthly Hours:**
+The retainer includes up to 2 hours of work per month. These hours are allocated monthly and **do not roll over** from month to month. Unused hours in a given month are forfeited.
+
+**Billing Cycle:**
+- If retainer begins before the end of the calendar month, the first month is **pro-rated based on days remaining**. 
+- Subsequent months are billed on the 1st of each month.
+- Example: If retainer begins on the 20th, the client pays a pro-rated amount for 11 days in month 1, then full price on the 1st of month 2 onward.
+
+**Overage Work:**
+Work beyond the 2 monthly hours is billed at $85/hr (or $125/hr for rush work under 24 hours).
+
+---
+
+## 13. Cancellation
+
+**Project Cancellation:**
+- **Work has begun** is defined as the moment the initial design mockup or development work is presented to the client for approval.
+- If the client cancels after work has begun, the deposit is **non-refundable**.
+- If _dayshift. cancels the project for any reason, the deposit will be **refunded in full**.
+- If the client cancels before work has begun (before any designs are shown), the client receives a **50% refund** of the deposit to cover initial setup costs; _dayshift. retains 50%.
+
+**Monthly Services Cancellation:**
+- Either party may cancel monthly services with **30 days written notice**.
+- Cancellation takes effect on the last day of the billing month.
+- Annual plans cancelled after 30 days are **fully non-refundable**.
+- Annual plans cancelled within 30 days are refunded minus the first month of setup costs (as outlined in Section 3).
+
+---
+
+## 14. Limitation of Liability
 
 _dayshift. is not liable for losses resulting from website downtime, third-party service outages (hosting providers, domain registrars, etc.), search engine ranking changes, or client-provided content that is inaccurate or legally problematic. The client is responsible for ensuring all content provided is accurate, truthful, and legally compliant.
 
 ---
 
-## 12. Agreement
+## 15. Agreement
 
 By signing below, both parties agree to the terms outlined in this document.
 
