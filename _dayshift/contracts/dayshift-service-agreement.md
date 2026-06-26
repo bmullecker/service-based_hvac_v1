@@ -130,6 +130,23 @@ Both services combined at a bundled rate. Recommended for businesses that want o
 
 ---
 
+### Email Setup
+
+**Email Forwarding — Included with hosting**
+Emails sent to `info@yourbusiness.com` are automatically forwarded to your existing inbox. You can read them, but replies will come from your personal email address. Good for getting started — not ideal for client-facing communication where you want to look professional.
+
+**Professional Email (Google Workspace) — Send & receive from your business address**
+A real `you@yourbusiness.com` inbox. Customers see your business name when you reply, not a personal Gmail. Includes Google Drive, Calendar, and Meet.
+
+| Option | Price |
+|---|---|
+| [ ] Email forwarding only (receive-only, no business sending) | Included with hosting |
+| [ ] 1 professional email address | $10/mo |
+| [ ] Up to 3 email addresses | $25/mo |
+| [ ] Up to 5 email addresses | $35/mo |
+
+---
+
 ### One-Time Add-Ons
 
 | Item | Price |
@@ -138,7 +155,9 @@ Both services combined at a bundled rate. Recommended for businesses that want o
 | [ ] Social media header/profile setup | $75 |
 | [ ] Google Business Profile setup (new listing) | $100 |
 | [ ] Domain acquisition assistance | $25 + cost of domain |
-| [ ] Professional email address setup | $10/mo |
+| [ ] SMS form notifications setup | $75 one-time |
+
+**SMS Form Notifications** — When a customer fills out your contact form, you get a text message instantly so you never miss a lead. Setup involves connecting your contact form to an SMS delivery service (Twilio) via automation (Zapier or Make). After setup it runs automatically. If SMS delivery costs apply (typically fractions of a cent per message), those are passed through to the client at cost. Most small businesses pay less than $1-2/month in SMS costs at standard volume.
 
 ---
 
