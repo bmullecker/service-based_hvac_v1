@@ -292,7 +292,24 @@ Delays caused by missing client materials are not the responsibility of _dayshif
 
 ---
 
-## 6. Project Timeline & Communication
+## 6. Design & Development Process
+
+**Pre-Contract Mockups (By Request Only):**
+In some cases, _dayshift. may provide preliminary design mockups or concepts before a contract is signed, at the client's request and _dayshift.'s discretion. This is offered as a goodwill gesture to qualified prospects and is not guaranteed for all inquiries.
+
+**If pre-contract mockups are provided:**
+- Client receives **one round of mockups** at no charge
+- Mockups are concept-only and are created in Claude Design or Figma to explore design direction
+- If the client requests changes to the mockups before signing the contract, additional mockup rounds are billed at **$150 per round** (same rules as revision rounds: up to 3 major changes per round)
+- Alternatively, the client may sign the contract and any mockup feedback will be rolled into the included revision rounds (Section 4)
+- **Mockups are created in design tools and are concept previews. The final built website may differ in rendering, interaction, and performance from static mockups. The mockup serves as a design direction reference, not a pixel-perfect build specification.**
+
+**Post-Contract Design Process:**
+Once the contract is signed and deposit is received, all design feedback and revisions follow the revision clause (Section 4) and are included in the two revision rounds. Mockup revisions count toward this allocation.
+
+---
+
+## 7. Project Timeline & Communication
 
 The project deposit reserves _dayshift.'s time and resources for 60 days from the agreement date. Client agrees to respond to all requests for materials, approvals, or feedback within 5 business days (already noted above).
 
@@ -309,7 +326,7 @@ If the client chooses not to sign up for monthly hosting or retainer services, a
 
 ---
 
-## 7. Hosting & Domain
+## 8. Hosting & Domain
 
 - _dayshift. will register and manage the client's domain unless the client already owns one.
 - The client owns their domain at all times. Transfer is available upon request with 30 days notice.
@@ -318,7 +335,7 @@ If the client chooses not to sign up for monthly hosting or retainer services, a
 
 ---
 
-## 8. Intellectual Property & Ownership
+## 9. Intellectual Property & Ownership
 
 Upon receipt of final payment, the client owns all custom content created for their site including copy, design, and layouts. _dayshift. retains the right to display the completed project in its portfolio and use it as a work sample.
 
@@ -332,7 +349,7 @@ _dayshift. retains ownership of any proprietary components, templates, design sy
 
 ---
 
-## 9. Cancellation
+## 10. Cancellation
 
 - If the client cancels after work has begun, the deposit is non-refundable.
 - If _dayshift. cancels the project for any reason, the deposit will be refunded in full.
@@ -341,13 +358,13 @@ _dayshift. retains ownership of any proprietary components, templates, design sy
 
 ---
 
-## 10. Limitation of Liability
+## 11. Limitation of Liability
 
 _dayshift. is not liable for losses resulting from website downtime, third-party service outages (hosting providers, domain registrars, etc.), search engine ranking changes, or client-provided content that is inaccurate or legally problematic. The client is responsible for ensuring all content provided is accurate, truthful, and legally compliant.
 
 ---
 
-## 11. Agreement
+## 12. Agreement
 
 By signing below, both parties agree to the terms outlined in this document.
 
