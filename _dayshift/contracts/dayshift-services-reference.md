@@ -106,10 +106,10 @@ Answer: You can — but your emails will say `davemiller88@gmail.com` not `dave@
 
 ## Content Retainer
 
-### What 3 hours/month actually covers
-At a $65/hr internal rate, 3 hours = $195 worth of work. You charge $125. Why?
+### What 2 hours/month actually covers
+At $85/hr, 2 hours = $170 worth of work. You charge $125. Why?
 
-Because most months clients don't use anywhere near 3 hours. Average retainer client probably uses 1-1.5 hours/month. The 3-hour cap is your protection, not their expectation. It's priced for the relationship, not the hours.
+Because most months clients don't use anywhere near 2 hours. Average retainer client probably uses 45-90 minutes/month. The 2-hour cap is your protection, not their expectation. It's priced for the relationship, not the hours.
 
 **What's in:**
 - Swap photos on existing pages (new staff photos, seasonal shots, etc.)
@@ -125,6 +125,16 @@ Because most months clients don't use anywhere near 3 hours. Average retainer cl
 - New features (booking integrations, new forms, galleries, etc.)
 - SEO campaigns or new keyword targeting
 - Anything requiring more than 3 hours in a given month without pre-approval
+
+**Hourly rates:**
+
+| Situation | Rate |
+|---|---|
+| Retainer clients (within included 2 hrs/mo) | Covered |
+| Retainer clients (overage beyond 2 hrs) | $85/hr |
+| Non-retainer clients needing ad-hoc updates | $85/hr |
+| Rush work (under 24hr turnaround) | $125/hr |
+| Revision rounds beyond included 2 | $100/round or $85/hr |
 
 **How to handle scope creep:**
 Before doing any work that falls outside the retainer, send a quick message: *"Hey, this looks like it's beyond the retainer scope — I can do it for $X or we can add it to the next invoice. Let me know how you'd like to proceed."* Never do the work and bill a surprise.
@@ -196,6 +206,6 @@ When a client chooses full copy, get these answers before writing:
 | Google Workspace 1 seat | $6 | $10 | $4 |
 | Google Workspace 3 seats | $18 | $25 | $7 |
 | Twilio SMS (100 texts) | ~$0.79 | pass-through | setup fee |
-| Landing page build | your time | $600 | your time |
+| Landing page build | your time | $750 | your time |
 | Full site build | your time | $1,200 | your time |
-| Content retainer | ~1-1.5 hrs avg | $125 | ~$40-60/hr effective |
+| Content retainer | ~1-1.5 hrs avg | $125 | ~$85/hr effective |

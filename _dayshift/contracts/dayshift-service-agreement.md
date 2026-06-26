@@ -27,7 +27,7 @@ A single-page website covering your core message, services, and a way for custom
 
 | Package | Price |
 |---|---|
-| [ ] Landing Page (1 page) | $600 |
+| [ ] Landing Page (1 page) | $750 |
 | [ ] Full Site Build (up to 5 pages) | $1,200 |
 | [ ] Custom Build (scope defined below) | $[CUSTOM] |
 
@@ -103,12 +103,14 @@ Includes domain registration or renewal, managed hosting, uptime monitoring, and
 
 **$125/month — or $1,250/year (save $250)**
 
-Up to 3 hours of work per month toward keeping your site current and your presence active. This includes:
+Up to 2 hours of work per month toward keeping your site current and your presence active. This includes:
 
 - Seasonal photo and copy updates on existing pages
 - Google Business Profile posts and updates
 - Minor text or content changes across the site
 - Basic monthly performance report
+
+Additional work beyond the included 2 hours is billed at **$85/hr**. Work needed on short notice (under 24 hours) is billed at **$125/hr**. _dayshift. will always confirm scope and cost before any overage work begins.
 
 **What the retainer does not include:**
 New pages, structural redesigns, or any work requiring a new scope conversation. If you need a new page (e.g., a seasonal services page, a new service offering), that is scoped and billed separately at $175/page plus any applicable copy or SEO work. _dayshift. will always flag when a request falls outside the retainer before any work begins.
@@ -196,7 +198,7 @@ Late payments beyond 14 days of due date are subject to a $25 late fee per week.
 
 Two (2) rounds of revisions are included in the project price. A revision round is defined as a single consolidated list of changes submitted by the client at one time.
 
-Additional revision rounds: **$100 per round** or **$65/hr**, whichever the client prefers.
+Additional revision rounds: **$100 per round** or **$85/hr**, whichever the client prefers.
 
 Revision requests must be submitted in writing (email or text). Verbal revision requests are not binding.
 
