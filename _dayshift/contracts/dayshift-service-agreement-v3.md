@@ -292,6 +292,9 @@ Available when your business requires connections to third-party tools or custom
 | [ ] Facebook Pixel / conversion tracking | $50 one-time |
 | [ ] Social media header/profile setup | $75 |
 | [ ] Google Business Profile setup (new listing, no SEO package) | $100 one-time |
+| Privacy Policy (standard template, customized for your business) | Included with every build |
+| [ ] Terms of Service (standard template, customized for your business) | $75 |
+| [ ] Termly / Iubenda integration (auto-updating compliance policy) | $10-15/mo |
 
 Third-party service costs (Twilio usage, Zapier subscriptions, stock licenses, etc.) are billed separately at cost and are the client's responsibility. _dayshift. will not front these costs.
 
@@ -597,7 +600,17 @@ _dayshift. does not guarantee specific search rankings or traffic improvements. 
 
 ---
 
-## 25. Governing Law & Dispute Resolution
+## 25. Legal Documents Disclaimer
+
+_dayshift. provides standard template Privacy Policies and Terms of Service as a courtesy included with or available as an add-on to every website build. These documents are customized with your business name, contact information, and services, but they are not legal advice and do not constitute an attorney-client relationship.
+
+For businesses in regulated industries (healthcare, finance, childcare, food service), businesses that process payments or subscriptions, or businesses with significant exposure to California or EU customers (CCPA/GDPR), we strongly recommend having a licensed attorney review your legal documents before publishing.
+
+_dayshift. is not liable for any legal consequences arising from the use of provided template documents.
+
+---
+
+## 26. Governing Law & Dispute Resolution
 
 This agreement is governed by the laws of the Commonwealth of Pennsylvania. Venue for any legal disputes is York County, Pennsylvania.
 
@@ -608,7 +621,7 @@ This agreement is governed by the laws of the Commonwealth of Pennsylvania. Venu
 
 ---
 
-## 26. Agreement
+## 27. Agreement
 
 This document constitutes the entire agreement between _dayshift. and the client. It supersedes any prior conversations, emails, or verbal agreements. Changes to this agreement must be made in writing and signed by both parties.
 
