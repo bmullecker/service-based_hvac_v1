@@ -198,6 +198,21 @@ When a client chooses full copy, get these answers before writing:
 
 ---
 
+## Page Type Pricing
+
+| Page Type | Price | Notes |
+|---|---|---|
+| Standard page | $175 | Homepage, About, Contact, Services overview — full design + layout |
+| Service detail page | $150 | Deep dive on a single service offering |
+| SEO / local landing page | $100 | Town or keyword targeted, consistent template layout |
+| Blog / content page | $75 | Minimal design, content-focused, templated |
+
+**Why tiered?** Not all pages are equal effort. An SEO landing page reuses the same layout with different copy and a town name — it shouldn't cost the same as a fully designed About page. Tiering lets you price honestly and makes upselling a Local SEO package feel like a deal ($100/page vs $350 for 3 = same math, packaged better).
+
+**Full site build math:** 5 standard pages at $175 = $875 in page value alone. The $1,400 build price includes setup, design system, hosting config, DNS, contact form, mobile optimization, performance tuning — all the infrastructure work that happens once. The per-page rate after that is just content, not infrastructure.
+
+---
+
 ## Quick Margin Summary
 
 | Service | Your cost | Client pays | Margin |
@@ -207,5 +222,7 @@ When a client chooses full copy, get these answers before writing:
 | Google Workspace 3 seats | $18 | $25 | $7 |
 | Twilio SMS (100 texts) | ~$0.79 | pass-through | setup fee |
 | Landing page build | your time | $750 | your time |
-| Full site build | your time | $1,200 | your time |
+| Full site build (5 pages) | your time | $1,400 | your time |
+| Additional standard page | your time | $175 | your time |
+| Additional SEO page | your time | $100 | your time |
 | Content retainer | ~1-1.5 hrs avg | $125 | ~$85/hr effective |

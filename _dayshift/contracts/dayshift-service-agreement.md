@@ -28,15 +28,22 @@ A single-page website covering your core message, services, and a way for custom
 | Package | Price |
 |---|---|
 | [ ] Landing Page (1 page) | $750 |
-| [ ] Full Site Build (up to 5 pages) | $1,200 |
+| [ ] Full Site Build (up to 5 pages) | $1,400 |
 | [ ] Custom Build (scope defined below) | $[CUSTOM] |
 
 **Full Site Build** includes: Homepage, Services, About, Contact, + 1 additional page of your choosing. Built for businesses ready to establish a complete online presence with room to grow.
 
-**Additional Pages** (beyond base package): $175/page
+**Additional Pages** (beyond base package)
 Each additional page is scoped, designed, and built to match your site's look and feel. New pages always require a brief content and scope conversation before work begins — this ensures the page serves a real purpose and performs well in search.
 
-- Number of additional pages: [#]
+| Page Type | Description | Price |
+|---|---|---|
+| Standard page | Full design, layout, and content integration (About, Contact, Services overview, etc.) | $175 |
+| Service detail page | In-depth page covering a single service offering | $150 |
+| SEO / local landing page | Targeted to a specific town or keyword, consistent layout, optimized for local search | $100 |
+| Blog / content page | Templated, minimal design, content-focused | $75 |
+
+- Number and type of additional pages: [LIST]
 - Additional pages subtotal: $[SUBTOTAL]
 
 **Pages included in this build:**
