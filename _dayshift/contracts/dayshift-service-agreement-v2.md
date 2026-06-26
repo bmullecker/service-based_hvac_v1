@@ -87,31 +87,46 @@ Choose your copy level:
 
 ---
 
-## 5. Hosting & Monthly Services
+## 5. Hosting & Domain (Required)
 
-### Hosting & Domain
 **$50/month — or $500/year (save $100)**
 
 Includes: domain registration, managed hosting, uptime monitoring, email forwarding, minor content updates (hours, phone, address, etc.).
 
-### Retainer Options (Choose One)
+Every website includes hosting and domain management. Choose monthly or annual billing.
 
-Pick the retainer that matches your site size:
+**Monthly services begin:** [DATE — typically on launch]
 
-**Landing Page Retainer — $75/mo or $750/yr**
+---
+
+## 6. Retainer Services (Optional)
+
+Choose one retainer package below, or skip if you prefer to manage updates yourself.
+
+### Landing Page Retainer
+**$75/mo or $750/yr (save $50)**
+
 Up to 1 hour/month. Includes:
 - Monthly Google Business Profile posts
 - Minor text/photo updates on homepage
 - Basic monthly reporting
 
-**Full Site Retainer — $125/mo or $1,250/yr**
+Best for single-page sites with minimal content changes.
+
+### Full Site Retainer
+**$125/mo or $1,250/yr (save $100)**
+
 Up to 2 hours/month. Includes:
 - Seasonal page updates across site
 - Google Business Profile optimization + local page updates
 - Copy/content changes across pages
 - Monthly performance report
 
-**SEO Retainer — $250/mo or $2,500/yr**
+Best for 5+ page sites with regular updates.
+
+### SEO Retainer
+**$250/mo or $2,500/yr (save $500)**
+
 Up to 4 hours/month. Includes:
 - Keyword ranking monitoring
 - Content optimization for ranking pages
@@ -119,22 +134,14 @@ Up to 4 hours/month. Includes:
 - Monthly detailed SEO report
 - Quarterly strategy review
 
-### Retainer Bundles (Save Money)
+Best for clients serious about organic search growth.
 
-| Bundle | Monthly | Annual | Savings |
-|---|---|---|---|
-| Hosting only | $50/mo | $500/yr | — |
-| Hosting + Landing Page Retainer | $115/mo | $1,150/yr | $50 |
-| Hosting + Full Site Retainer | $165/mo | $1,650/yr | $125 |
-| Hosting + SEO Retainer | $280/mo | $2,800/yr | $250 |
-| Hosting + Full Site + SEO | $370/mo | $3,700/yr | $380 |
-
-**Monthly services selected:** [ ] Monthly [ ] Annual
-**Monthly services begin:** [DATE — typically on launch]
+### No Retainer
+If you prefer to manage updates yourself or use another provider, hosting-only is available at $50/mo.
 
 ---
 
-## 6. Email Services
+## 7. Email Services (Optional)
 
 | Option | Price |
 |---|---|
@@ -145,7 +152,7 @@ Up to 4 hours/month. Includes:
 
 ---
 
-## 7. Visual Content: Photography & Imagery
+## 8. Visual Content: Photography & Imagery (Optional)
 
 Every site needs high-quality visuals. Choose how you'd like to handle them:
 
@@ -175,7 +182,7 @@ Free stock images have no cost but may have attribution requirements. Paid licen
 
 ---
 
-## 8. Logo & Branding
+## 9. Logo & Branding (Optional)
 
 | Service | Price |
 |---|---|
@@ -185,7 +192,7 @@ Free stock images have no cost but may have attribution requirements. Paid licen
 
 ---
 
-## 9. Typography & Icons
+## 10. Typography & Icons (Optional)
 
 | Service | Price |
 |---|---|
@@ -199,7 +206,7 @@ Free stock images have no cost but may have attribution requirements. Paid licen
 
 ---
 
-## 10. Optional Integrations & Advanced Services
+## 11. Optional Integrations & Advanced Services
 
 These services are available if needed for your specific business:
 
@@ -218,7 +225,7 @@ These services are available if needed for your specific business:
 
 ---
 
-## 11. Project Pricing Summary
+## 12. Project Pricing Summary
 
 | Line Item | Amount |
 |---|---|
@@ -246,7 +253,7 @@ These services are available if needed for your specific business:
 
 ---
 
-## 12. Payment Terms
+## 13. Payment Terms
 
 **Payment Schedule:**
 - **Deposit (due to begin work):** 50% of site build + first month of all recurring services — $[AMOUNT]
@@ -273,7 +280,7 @@ If an annual plan is cancelled within 30 days of the agreement date, the client 
 
 ---
 
-## 13. Revisions & Change Requests
+## 14. Revisions & Change Requests
 
 **Included Revisions:**
 Two (2) revision rounds are included in the project price. Each round = one consolidated submission of feedback from the client via email.
@@ -294,7 +301,7 @@ If a revision requires more than 3 hours of work, we'll notify you of the cost b
 
 ---
 
-## 14. Client Responsibilities
+## 15. Client Responsibilities
 
 You agree to provide the following in a timely manner:
 
@@ -310,7 +317,7 @@ Delays caused by missing materials are not our responsibility and may affect the
 
 ---
 
-## 15. Design & Development Process
+## 16. Design ## 15. Design & Development Development Process
 
 ### Pre-Contract Mockups (By Request Only)
 
@@ -329,7 +336,7 @@ Once contract is signed and deposit is received, all design feedback follows Sec
 
 ---
 
-## 16. Project Timeline & Communication
+## 17. Project Timeline & Communication
 
 The project deposit reserves our time and resources for 60 days from the agreement date.
 
@@ -353,7 +360,7 @@ This protects both of us: we don't hold work indefinitely, and you receive clear
 
 ---
 
-## 17. Post-Launch Support & Launch Definition
+## 18. Post-Launch Support & Launch Definition
 
 **Launch Definition:**
 A website is "launched" when it is live on your domain and you've approved the final QA checklist. Final payment is due within 3 business days of launch.
@@ -368,7 +375,7 @@ If you don't sign up for monthly hosting or retainer services, all post-launch s
 
 ---
 
-## 18. Change Requests & Scope Changes
+## 19. Change Requests & Scope Changes
 
 Any changes to the original scope of work require written approval and a change order before work begins. This includes:
 - Adding pages or sections beyond the agreed build
@@ -380,7 +387,7 @@ Upon your written request for a scope change, we'll provide a revised quote and 
 
 ---
 
-## 19. Retainer Details & Monthly Hours
+## 20. Retainer Details & Monthly Hours
 
 **Monthly Hours:**
 The retainer includes up to [1/2/4] hours of work per month (depending on package). These hours are allocated monthly and **do not roll over** from month to month. Unused hours in a given month are forfeited.
@@ -398,7 +405,7 @@ Either party may cancel monthly services with **30 days written notice**. Cancel
 
 ---
 
-## 20. Hosting & Domain
+## 21. Hosting ## 20. Hosting & Domain Domain
 
 - _dayshift. will register and manage your domain unless you already own one.
 - You own your domain at all times. Transfer is available on request with 30 days notice.
@@ -407,7 +414,7 @@ Either party may cancel monthly services with **30 days written notice**. Cancel
 
 ---
 
-## 21. Intellectual Property & Ownership
+## 22. Intellectual Property & Ownership
 
 Upon receipt of final payment, you own all custom content created for your site including copy, design, and layouts. _dayshift. retains the right to display the completed project in our portfolio and use it as a work sample.
 
@@ -421,7 +428,7 @@ _dayshift. retains ownership of any proprietary components, templates, design sy
 
 ---
 
-## 22. Cancellation
+## 23. Cancellation
 
 **Project Cancellation:**
 - **Work has begun** is defined as the moment the initial design mockup or development work is presented to you for approval.
@@ -437,13 +444,13 @@ _dayshift. retains ownership of any proprietary components, templates, design sy
 
 ---
 
-## 23. Limitation of Liability
+## 24. Limitation of Liability
 
 _dayshift. is not liable for losses resulting from website downtime, third-party service outages (hosting providers, domain registrars, etc.), search engine ranking changes, or client-provided content that is inaccurate or legally problematic. You are responsible for ensuring all content provided is accurate, truthful, and legally compliant.
 
 ---
 
-## 24. Agreement
+## 25. Agreement
 
 By signing below, both parties agree to the terms outlined in this document.
 
