@@ -600,7 +600,36 @@ _dayshift. does not guarantee specific search rankings or traffic improvements. 
 
 ---
 
-## 25. Legal Documents Disclaimer
+## 25. Add-On Services
+
+Any service listed in this agreement — or any service offered by _dayshift. not listed here — may be added at any time after signing. Add-ons do not require a new contract.
+
+**To add a service after signing:**
+1. Client submits a written request via email describing what they need
+2. _dayshift. responds with a written confirmation including cost and estimated timeline
+3. Both parties agree on payment terms before work begins
+4. Work proceeds under the same terms as this agreement
+
+**Payment for add-ons:**
+Add-on services are either invoiced upfront (for one-time services) or added to the next monthly billing cycle (for ongoing services). This will be confirmed in the written quote.
+
+**Common add-ons clients request after launch:**
+- Photography session
+- Additional pages (standard, service detail, SEO, or blog)
+- SEO package (if not taken at build)
+- Logo or brand guidelines
+- Email setup (Google Workspace)
+- SMS form notifications
+- Social media profile setup
+- Retainer upgrade (e.g., moving from Landing Page to Full Site Retainer, or adding SEO Retainer)
+- Privacy Policy or Terms of Service
+- Any service listed in Sections 3-11 of this agreement
+
+A written confirmation email from both parties serves as the amendment to this agreement. No new contract is required.
+
+---
+
+## 26. Legal Documents Disclaimer
 
 _dayshift. provides standard template Privacy Policies and Terms of Service as a courtesy included with or available as an add-on to every website build. These documents are customized with your business name, contact information, and services, but they are not legal advice and do not constitute an attorney-client relationship.
 
@@ -610,7 +639,7 @@ _dayshift. is not liable for any legal consequences arising from the use of prov
 
 ---
 
-## 26. Governing Law & Dispute Resolution
+## 27. Governing Law & Dispute Resolution
 
 This agreement is governed by the laws of the Commonwealth of Pennsylvania. Venue for any legal disputes is York County, Pennsylvania.
 
@@ -621,7 +650,7 @@ This agreement is governed by the laws of the Commonwealth of Pennsylvania. Venu
 
 ---
 
-## 27. Agreement
+## 28. Agreement
 
 This document constitutes the entire agreement between _dayshift. and the client. It supersedes any prior conversations, emails, or verbal agreements. Changes to this agreement must be made in writing and signed by both parties.
 
