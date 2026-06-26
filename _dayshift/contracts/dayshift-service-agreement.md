@@ -22,7 +22,7 @@ The following services are included in this agreement. Checked items are active 
 
 ### Site Build
 
-**Landing Page — $600**
+**Landing Page — $750**
 A single-page website covering your core message, services, and a way for customers to contact you. Fast to launch, mobile-optimized, and built to convert visitors into leads. Ideal for businesses that want a strong web presence without a large upfront investment.
 
 | Package | Price |
@@ -62,7 +62,7 @@ Search engine optimization is what determines whether your site shows up when so
 | Package | Price |
 |---|---|
 | [ ] On-Page Basics | Included |
-| [ ] Local SEO Starter | $350 |
+| [ ] Local SEO Starter | $400 |
 | [ ] Full SEO Package | $2,000 |
 
 **On-Page Basics** — Included with every build. Proper page titles, meta descriptions, heading structure, image alt text, and page speed optimization. The foundation every site needs.
@@ -156,15 +156,45 @@ A real `you@yourbusiness.com` inbox. Customers see your business name when you r
 
 ---
 
-### One-Time Add-Ons
+### One-Time Add-Ons & Services
+
+#### Logo Design
+
+| Service | Price |
+|---|---|
+| [ ] Wordmark logo (text-based, simple mark) | $150 |
+| [ ] Custom logo (illustration, icon, custom mark) | $350 |
+| [ ] Logo + Brand Guidelines (colors, fonts, usage) | $500 |
+
+#### Photography & Image Services
+
+| Service | Price |
+|---|---|
+| [ ] On-site photography session (2-3 hours) | $350 |
+| [ ] Additional photo session hours | $85/hr |
+| [ ] Travel (beyond 15 miles from York, PA) | $0.50/mile or $50 flat |
+| [ ] Rush editing (same-day turnaround) | +50% of session price |
+
+**On-Site Photography** — Professional photography for business locations, product shots, before/after documentation, team photos, and service demos. Sessions include 30-50 edited photos in digital format, and the client retains full ownership and usage rights. Must be scheduled at least 1 week in advance.
+
+#### Image Sourcing & Stock Photography
+
+| Service | Price |
+|---|---|
+| [ ] Free stock photography sourcing | $25-50 (selection/integration) |
+| [ ] Paid stock photo licenses | Cost of license + $50 sourcing fee |
+| [ ] AI-generated hero images (Midjourney) | $100-150 per image |
+
+**Image Sourcing** — _dayshift. can source images for your site from free stock libraries (Unsplash, Pexels, Pixabay), paid stock services (Shutterstock, Adobe Stock), or generate custom images via AI. Free stock images may have attribution requirements. Paid stock licenses are standard (non-transferable for website use only). AI-generated images are custom-created and the client receives full ownership rights upon payment. All AI images will be clearly marked as AI-generated in promotional materials.
+
+#### Other Services
 
 | Item | Price |
 |---|---|
-| [ ] Logo design (basic) | $150 |
 | [ ] Social media header/profile setup | $75 |
 | [ ] Google Business Profile setup (new listing) | $100 |
 | [ ] Domain acquisition assistance | $25 + cost of domain |
-| [ ] SMS form notifications setup | $75 one-time |
+| [ ] SMS form notifications setup | $100 one-time |
 
 **SMS Form Notifications** — When a customer fills out your contact form, you get a text message instantly so you never miss a lead. Setup involves connecting your contact form to an SMS delivery service (Twilio) via automation (Zapier or Make). After setup it runs automatically. If SMS delivery costs apply (typically fractions of a cent per message), those are passed through to the client at cost. Most small businesses pay less than $1-2/month in SMS costs at standard volume.
 
@@ -207,7 +237,7 @@ Work does not begin until the deposit is received. The site will not be made liv
 
 **Monthly vs. Annual Services:**
 - **Monthly plans:** Billed month-to-month starting month 2. Cancel anytime with 30 days notice.
-- **Annual plans:** Paid in full upfront. Includes one month free (effectively 13 months for 12 months' cost).
+- **Annual plans:** Paid in full upfront for 12 months of service. Locks in a lower rate than monthly billing.
 
 **Annual Plan Cancellation & Refunds:**
 If an annual plan is cancelled within 30 days of the agreement date, the client receives a refund for all unused months, minus the first month of service costs. The first month covers domain registration, hosting setup, email configuration, and initial infrastructure work that cannot be reversed. After 30 days, annual prepayments are fully non-refundable.
@@ -223,13 +253,26 @@ Late payments beyond 14 days of due date are subject to a $25 late fee per week.
 
 ---
 
-## 4. Revisions
+## 4. Revisions & Change Requests
 
-Two (2) rounds of revisions are included in the project price. A revision round is defined as a single consolidated list of changes submitted by the client at one time.
+**Included Revisions:**
+Two (2) revision rounds are included in the project price. Each revision round is defined as one consolidated submission of feedback from the client, delivered via email.
 
-Additional revision rounds: **$100 per round** or **$85/hr**, whichever the client prefers.
+**What counts as one revision round:**
+- Up to 3 major changes per round (layout restructuring, color scheme changes, section reordering, significant content rewriting, addition/removal of major elements, hero image swaps, etc.)
+- Unlimited minor tweaks per round (copy edits, text corrections, small spacing adjustments, color swaps within the same palette, font sizing tweaks, punctuation, grammar)
 
-Revision requests must be submitted in writing (email or text). Verbal revision requests are not binding.
+**Timeline:** Each revision round will be completed and presented back to the client within 3 business days of submission.
+
+**Additional Revision Rounds:**
+Revisions beyond the two included rounds are billed as follows:
+- **3rd and 4th rounds:** $100 per round (up to 3 major changes per round, unlimited minor tweaks)
+- **5th round and beyond:** $150 per round or $85/hr, whichever is less
+
+If a single revision request requires more than 3 hours of work, _dayshift. will notify the client of the estimated cost before proceeding.
+
+**Revision Submission:**
+Revision requests must be submitted in writing (email or text). Verbal revision requests are not binding. All revisions for a given round must be submitted together in one email/message to qualify as a single round.
 
 ---
 
@@ -253,9 +296,16 @@ Delays caused by missing client materials are not the responsibility of _dayshif
 
 The project deposit reserves _dayshift.'s time and resources for 60 days from the agreement date. Client agrees to respond to all requests for materials, approvals, or feedback within 5 business days (already noted above).
 
-**If communication ceases:** If the client does not communicate with _dayshift. for 14 consecutive days, work pauses and the client is notified in writing. If communication does not resume within an additional 14 days (28 days total from the last communication), the project is considered abandoned. The deposit is non-refundable and the project is cancelled. Any response from the client with materials or approvals resets the 14-day communication clock.
+**Preferred Contact Method:**
+Primary contact should be via email with a 24-hour response target. Urgent updates can be requested via phone or text but will be handled on a case-by-case basis. All revision requests and formal feedback must be submitted in writing (email).
+
+**If communication ceases:**
+If the client does not communicate with _dayshift. for 14 consecutive days, work pauses and the client is notified in writing. If communication does not resume within an additional 14 days (28 days total from the last communication), the project is considered abandoned. The deposit is non-refundable and the project is cancelled. Any response from the client with materials or approvals resets the 14-day communication clock.
 
 This protects both parties: _dayshift. does not hold work indefinitely, and the client receives clear notice before their project is cancelled.
+
+**Post-Launch Support (If Monthly Services Not Selected):**
+If the client chooses not to sign up for monthly hosting or retainer services, all post-launch support is the client's responsibility. _dayshift. will provide the final website files and offer a one-time transfer assistance session to help the client move to their own hosting provider or set up self-management. After launch, any updates, maintenance, hosting management, or domain renewal are the client's responsibility. _dayshift. is not liable for downtime, expired domains, or lapsed hosting if services are not retained.
 
 ---
 
@@ -270,9 +320,15 @@ This protects both parties: _dayshift. does not hold work indefinitely, and the 
 
 ## 8. Intellectual Property & Ownership
 
-Upon receipt of final payment, the client owns all custom content created for their site including copy, photography arrangements, and design. _dayshift. retains the right to display the completed project in its portfolio and use it as a work sample.
+Upon receipt of final payment, the client owns all custom content created for their site including copy, design, and layouts. _dayshift. retains the right to display the completed project in its portfolio and use it as a work sample.
 
-_dayshift. retains ownership of any proprietary components, templates, or systems used to build the site. The client owns the final output, not the underlying framework.
+**Photography & Image Rights:**
+- **Client-provided photos:** Client warrants they own or have rights to use all provided images. Client is responsible for obtaining any necessary model releases or permissions.
+- **_dayshift. sourced images:** Free stock images (Unsplash, Pexels, Pixabay) are provided under their respective licenses; client is responsible for any attribution requirements. Paid stock images are licensed for website use only and are non-transferable to other projects without purchasing an additional license. AI-generated images produced by _dayshift. are owned by the client upon payment.
+- **On-site photography:** All photos taken by _dayshift. during on-site photography sessions are owned by the client upon final payment. _dayshift. retains the right to use before/after photos in its portfolio with client permission.
+
+**Templates & Framework Ownership:**
+_dayshift. retains ownership of any proprietary components, templates, design systems, or code frameworks used to build the site. The client owns the final website output and published content, not the underlying technology or reusable components.
 
 ---
 
