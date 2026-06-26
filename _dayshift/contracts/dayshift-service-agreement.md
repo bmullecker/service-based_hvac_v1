@@ -183,9 +183,12 @@ A real `you@yourbusiness.com` inbox. Customers see your business name when you r
 |---|---|
 | [ ] Free stock photography sourcing | $25-50 (selection/integration) |
 | [ ] Paid stock photo licenses | Cost of license + $50 sourcing fee |
-| [ ] AI-generated hero images (Midjourney) | $100-150 per image |
+| [ ] AI-generated hero images | $100-150 per image + tool costs |
 
-**Image Sourcing** — _dayshift. can source images for your site from free stock libraries (Unsplash, Pexels, Pixabay), paid stock services (Shutterstock, Adobe Stock), or generate custom images via AI. Free stock images may have attribution requirements. Paid stock licenses are standard (non-transferable for website use only). AI-generated images are custom-created and the client receives full ownership rights upon payment. All AI images will be clearly marked as AI-generated in promotional materials.
+**Image Sourcing** — _dayshift. can source images for your site from:
+- **Free stock libraries** (Unsplash, Pexels, Pixabay): No image cost; sourcing/selection fee of $25-50. Images are free-licensed but may have attribution requirements.
+- **Paid stock services** (Shutterstock, Adobe Stock): Client pays license cost ($2-20/image) plus $50 sourcing/integration fee. Standard licenses are non-transferable for website use only.
+- **AI-generated imagery:** Custom-created images at $100-150 per image. If the AI generation tool requires a subscription or credit purchase, those costs are passed through to the client at cost (typically $1-5 per image). Client receives full ownership rights upon payment. All AI images will be clearly marked as AI-generated in promotional materials.
 
 #### Other Services
 
@@ -299,10 +302,10 @@ In some cases, _dayshift. may provide preliminary design mockups or concepts bef
 
 **If pre-contract mockups are provided:**
 - Client receives **one round of mockups** at no charge
-- Mockups are concept-only and are created in Claude Design or Figma to explore design direction
+- Mockups are concept-only and are created to explore design direction
 - If the client requests changes to the mockups before signing the contract, additional mockup rounds are billed at **$150 per round** (same rules as revision rounds: up to 3 major changes per round)
 - Alternatively, the client may sign the contract and any mockup feedback will be rolled into the included revision rounds (Section 4)
-- **Mockups are created in design tools and are concept previews. The final built website may differ in rendering, interaction, and performance from static mockups. The mockup serves as a design direction reference, not a pixel-perfect build specification.**
+- **Mockups are concept previews. The final built website may differ in rendering, interaction, and performance from static mockups. The mockup serves as a design direction reference, not a pixel-perfect build specification.**
 
 **Post-Contract Design Process:**
 Once the contract is signed and deposit is received, all design feedback and revisions follow the revision clause (Section 4) and are included in the two revision rounds. Mockup revisions count toward this allocation.
