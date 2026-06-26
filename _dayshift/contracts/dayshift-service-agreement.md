@@ -181,19 +181,41 @@ A real `you@yourbusiness.com` inbox. Customers see your business name when you r
 | Add-ons | $[AMOUNT] |
 | **Subtotal** | **$[AMOUNT]** |
 | Discount ([REASON — e.g. founding client, referral]) | -$[AMOUNT] |
-| **Project Total** | **$[AMOUNT]** |
-| **Monthly recurring** | **$[AMOUNT]/mo or $[AMOUNT]/yr** |
+| Site build subtotal | **$[AMOUNT]** |
+| **Build total** | **$[AMOUNT]** |
+| | |
+| First month — Hosting & Domain | $50 |
+| First month — Email services | $[AMOUNT] |
+| First month — SMS (if applicable) | $[AMOUNT] |
+| Third-party integrations (if applicable) | $[AMOUNT] |
+| **Total first month services** | **$[AMOUNT]** |
+| | |
+| **Total Deposit Due (50% build + month 1 services)** | **$[AMOUNT]** |
+| **Final Payment (50% build)** | **$[AMOUNT]** |
+| **Monthly recurring (begins month 2)** | **$[AMOUNT]/mo or $[AMOUNT]/yr** |
 
 ---
 
 ## 3. Payment Terms
 
-- **Deposit (due to begin work):** 50% of project total — $[AMOUNT]
-- **Final payment (due at launch):** Remaining 50% — $[AMOUNT]
-- **Monthly services:** Billed on the 1st of each month beginning [DATE]
-- **Annual plans:** Paid in full upfront. Non-refundable after 30 days.
+**Payment Schedule:**
+- **Deposit (due to begin work):** 50% of site build + first month of all recurring services (hosting, email, SMS, etc.) — $[AMOUNT]
+- **Final payment (due at launch):** Remaining 50% of site build — $[AMOUNT]
+- **Monthly recurring (begins month 2):** Billed on the 1st of each month starting [DATE]
 
 Work does not begin until the deposit is received. The site will not be made live until the final payment is received.
+
+**Monthly vs. Annual Services:**
+- **Monthly plans:** Billed month-to-month starting month 2. Cancel anytime with 30 days notice.
+- **Annual plans:** Paid in full upfront. Includes one month free (effectively 13 months for 12 months' cost).
+
+**Annual Plan Cancellation & Refunds:**
+If an annual plan is cancelled within 30 days of the agreement date, the client receives a refund for all unused months, minus the first month of service costs. The first month covers domain registration, hosting setup, email configuration, and initial infrastructure work that cannot be reversed. After 30 days, annual prepayments are fully non-refundable.
+
+**Example:** Client pays $550 for annual hosting ($500/yr) + email ($50/yr). If cancelled on day 20, they receive $500 refund and _dayshift. retains $50 to cover setup work.
+
+**Third-party Service Costs:**
+Domain registration, email accounts (Google Workspace), and any SMS delivery or third-party integrations are billed separately from the project build and are the client's responsibility. _dayshift. will not front these costs. Monthly service fees begin on the launch date.
 
 **Accepted payment methods:** [Venmo / Zelle / Check / PayPal — fill in]
 
@@ -227,7 +249,17 @@ Delays caused by missing client materials are not the responsibility of _dayshif
 
 ---
 
-## 6. Hosting & Domain
+## 6. Project Timeline & Communication
+
+The project deposit reserves _dayshift.'s time and resources for 60 days from the agreement date. Client agrees to respond to all requests for materials, approvals, or feedback within 5 business days (already noted above).
+
+**If communication ceases:** If the client does not communicate with _dayshift. for 14 consecutive days, work pauses and the client is notified in writing. If communication does not resume within an additional 14 days (28 days total from the last communication), the project is considered abandoned. The deposit is non-refundable and the project is cancelled. Any response from the client with materials or approvals resets the 14-day communication clock.
+
+This protects both parties: _dayshift. does not hold work indefinitely, and the client receives clear notice before their project is cancelled.
+
+---
+
+## 7. Hosting & Domain
 
 - _dayshift. will register and manage the client's domain unless the client already owns one.
 - The client owns their domain at all times. Transfer is available upon request with 30 days notice.
@@ -236,7 +268,7 @@ Delays caused by missing client materials are not the responsibility of _dayshif
 
 ---
 
-## 7. Intellectual Property & Ownership
+## 8. Intellectual Property & Ownership
 
 Upon receipt of final payment, the client owns all custom content created for their site including copy, photography arrangements, and design. _dayshift. retains the right to display the completed project in its portfolio and use it as a work sample.
 
@@ -244,7 +276,7 @@ _dayshift. retains ownership of any proprietary components, templates, or system
 
 ---
 
-## 8. Cancellation
+## 9. Cancellation
 
 - If the client cancels after work has begun, the deposit is non-refundable.
 - If _dayshift. cancels the project for any reason, the deposit will be refunded in full.
@@ -253,13 +285,13 @@ _dayshift. retains ownership of any proprietary components, templates, or system
 
 ---
 
-## 9. Limitation of Liability
+## 10. Limitation of Liability
 
 _dayshift. is not liable for losses resulting from website downtime, third-party service outages (hosting providers, domain registrars, etc.), search engine ranking changes, or client-provided content that is inaccurate or legally problematic. The client is responsible for ensuring all content provided is accurate, truthful, and legally compliant.
 
 ---
 
-## 10. Agreement
+## 11. Agreement
 
 By signing below, both parties agree to the terms outlined in this document.
 
