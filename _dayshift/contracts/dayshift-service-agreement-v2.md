@@ -63,12 +63,12 @@ Choose your SEO level:
 | Package | What's Included | Price |
 |---|---|---|
 | [ ] On-Page Basics | Included with every build (above) | Included |
-| [ ] Local SEO Starter | GBP optimization + 3 local landing pages targeting your service areas | $400 |
-| [ ] Full SEO Package | Keyword research + site audit + 5+ local pages + ongoing optimization framework | $2,000 |
+| [ ] Local SEO Starter | GBP setup + 3 local landing pages + initial ranking report | $400 |
+| [ ] Full SEO Package | Keyword research + full audit + GBP setup + 5 local pages + 30-day active optimization + strategy roadmap | $1,200 |
 
-**Local SEO Starter** — For businesses that serve a specific region. Includes Google Business Profile setup/optimization, plus 3 dedicated local pages (e.g., "roof cleaning in Red Lion PA"). These pages help you rank for local searches.
+**Local SEO Starter** — For businesses that serve a specific region. Includes Google Business Profile setup and optimization (photos, categories, service areas, hours, Q&A), plus 3 dedicated local landing pages targeting the towns and keywords your customers are searching for. Includes an initial baseline ranking report so you know where you stand.
 
-**Full SEO Package** — Comprehensive setup for businesses ready to compete in search. Includes keyword research, full site SEO audit, 5+ local landing pages, and an ongoing optimization framework. Best paired with SEO Retainer for continued results.
+**Full SEO Package** — For businesses ready to compete seriously in search. Includes full keyword research for your vertical and service area, a complete site SEO audit, Google Business Profile setup, 5+ local landing pages, and 30 days of active optimization work after launch to push for early ranking wins. Delivered with a strategy roadmap you can follow going forward. Best paired with SEO Retainer for continued growth.
 
 ---
 
@@ -103,41 +103,49 @@ Every website includes hosting and domain management. Choose monthly or annual b
 
 Choose one retainer package below, or skip if you prefer to manage updates yourself.
 
-### Landing Page Retainer
-**$75/mo or $750/yr (save $50)**
+Retainers are split into two separate types: **Website Maintenance** and **SEO**. They serve different purposes and can be taken independently or together.
 
+### Website Maintenance Retainers
+
+Focused on keeping your website current and accurate. No SEO work included.
+
+**Landing Page Retainer — $75/mo or $750/yr**
 Up to 1 hour/month. Includes:
-- Monthly Google Business Profile posts
-- Minor text/photo updates on homepage
-- Basic monthly reporting
+- Minor text and photo updates on the homepage
+- Seasonal content swaps on existing sections
+- Basic monthly website performance report (traffic, form submissions)
 
-Best for single-page sites with minimal content changes.
+Best for single-page sites that need minimal but regular upkeep.
 
-### Full Site Retainer
-**$125/mo or $1,250/yr (save $100)**
-
+**Full Site Retainer — $125/mo or $1,250/yr**
 Up to 2 hours/month. Includes:
-- Seasonal page updates across site
-- Google Business Profile optimization + local page updates
-- Copy/content changes across pages
-- Monthly performance report
+- Text, copy, and photo updates across all pages
+- Seasonal content updates on existing pages
+- Minor layout and design tweaks within existing sections
+- Monthly website performance report (traffic, form submissions, page views)
 
-Best for 5+ page sites with regular updates.
+Best for 5+ page sites that change seasonally or need regular content refreshes.
 
 ### SEO Retainer
-**$250/mo or $2,500/yr (save $500)**
 
+Focused on improving and maintaining your search visibility. Completely separate from website maintenance.
+
+**SEO Retainer — $250/mo or $2,500/yr**
 Up to 4 hours/month. Includes:
-- Keyword ranking monitoring
-- Content optimization for ranking pages
-- Google Business Profile optimization
-- Monthly detailed SEO report
-- Quarterly strategy review
+- Google Business Profile posts and ongoing optimization
+- Keyword ranking monitoring (weekly tracking)
+- Content optimization for underperforming pages
+- New local landing page creation as needed
+- Monthly detailed SEO report (rankings, visibility, competitor snapshot)
+- Quarterly strategy review call
 
-Best for clients serious about organic search growth.
+Best for businesses serious about ranking higher and getting more organic leads.
+
+### Stacking Retainers
+Retainers can be combined. Example: Full Site Retainer ($125/mo) + SEO Retainer ($250/mo) = $375/mo total — your website stays fresh AND your rankings improve.
 
 ### No Retainer
-If you prefer to manage updates yourself or use another provider, hosting-only is available at $50/mo.
+If you prefer to handle updates yourself, hosting-only is available at $50/mo. All post-launch support falls under hourly billing ($85/hr).
 
 ---
 
