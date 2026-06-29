@@ -24,7 +24,9 @@
 - Opportunity: unified branding/design language across all 3 sites so they feel cohesive and professional
 - Professional email: switch from Gmail to firstname@domain.com for all three businesses
 - He's already aware of SEO + blog + Facebook ads (doesn't need to be sold on value)
-- **ASK:** Interested in SEO retainer + image upload workflow for all 3 sites? (gallery updates for blog/social)
+- We can take over the blog + Facebook ads work from Amber at the same $500/mo rate
+
+**IMPORTANT:** Before throwing out numbers, ask what he paid the agency before. This tells you his price comfort level.
 
 ---
 
@@ -197,16 +199,66 @@ My recommendation:
 
 ---
 
+---
+
+## PRICING REFERENCE (FOR YOUR USE ONLY)
+
+**Site Pricing (per page count):**
+- 5-page site: $1,200
+- 8-page site: $1,500
+- Each additional page: $150-175
+
+**Logo Pricing:**
+- Custom logo (single): $350
+- 2 custom logos (bundle): $700
+
+**Ongoing Services (Monthly):**
+- Blog writing (3 posts, one per site) + Facebook ads management: $500/mo (taking over from Amber)
+
+**Print Services (sourced through vendor, Bill adds markup):**
+- Business cards: $___
+- Car decals: $___
+- Magnets: $___
+- Apparel: $___
+- *Pricing TBD based on specs*
+
+**SAMPLE PACKAGE QUOTE (if he asks):**
+
+*Standard pricing:*
+- Duct cleaning site redesign (8 pages): $1,500
+- Plumbing site (5-8 pages): $1,200-1,500
+- Contracting site (5-8 pages): $1,200-1,500
+- 2 custom logos: $700
+- Privacy Policy + ToS: $75
+- **Standard subtotal: $4,675-5,275**
+
+*With bundle discount (he gets):*
+- **All three sites + 2 logos: $3,500**
+- Privacy Policy + ToS: Included
+- Professional email setup for all 3: Included
+- **Monthly blog + Facebook ads: $500/mo** (continuing from Amber)
+
+*Plus optional:*
+- Print services (quote separately based on specs)
+
+**KEY QUESTIONS TO ASK FIRST:**
+1. "What did the agency charge you before?" ← Use this to gauge his price comfort
+2. "Are you happy with how they communicated pricing?" ← Listen for pain points
+3. "What would you want to spend on something like this?" ← Let him anchor first
+
+---
+
 ## FOLLOW-UP NEEDED
 
 **Before next call / email, I need to:**
 - [ ] Confirm business names (plumbing, contracting)
 - [ ] Confirm domain ownership status for all three
 - [ ] Get more details on services offered
-- [ ] Discuss logo preferences (1 rebrand, or 3 separate new logos?)
+- [ ] Discuss logo preferences (rebrand all 3, or new logos for 2?)
 - [ ] Ask about on-site photography or stock images
-- [ ] Clarify print material needs
+- [ ] Clarify print material needs (business cards, decals, magnets, apparel)
+- [ ] **IMPORTANT: Ask what he paid the agency before**
 
 **Next action:** 
-[ ] Send contract with scope  [ ] Schedule follow-up call  [ ] Get more info first  [ ] Other: ___________
+[ ] Send pricing/proposal  [ ] Schedule follow-up call  [ ] Get more info first  [ ] Call back when ready
 
