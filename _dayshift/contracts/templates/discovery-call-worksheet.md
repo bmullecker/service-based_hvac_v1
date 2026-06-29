@@ -32,47 +32,58 @@
 
 ## BUSINESS BASICS
 
-**Plumbing business name:** _________________________________________________
+**Business 1 — Plumbing:**
+- Business name: _________________________________________________
+- Phone number: _________________________________________________
+- Years in business: ______________
+- Current website: Yes / No / Needs to register domain
 
-**General contracting business name:** _________________________________________________
+**Business 2 — General Contracting:**
+- Business name: _________________________________________________
+- Phone number: _________________________________________________
+- Years in business: ______________
+- Current website: Yes / No / Needs to register domain
 
-**How long in business with duct cleaning?** ___________________________________
-
-**Current online presence for duct cleaning:**
-- Website: centralpennductcleaning.com (on Wix, needs redesign)
-- Social: Facebook / Instagram / LinkedIn / Other: _____________________________
+**Duct Cleaning (existing):**
+- How long in business: ___________________________________
+- Current website: centralpennductcleaning.com (Wix, needs redesign)
+- Phone: 717-888-0978
+- Domain registrar: ___________________________________
 
 **DOMAIN OWNERSHIP — Ask for all three:**
 - [ ] Duct cleaning domain: owns / needs to register / unsure
 - [ ] Plumbing domain: owns / needs to register / unsure
 - [ ] Contracting domain: owns / needs to register / unsure
 
-**Current domain registrar:** ___________________________________
-
 ---
 
 ## SERVICES & OFFERINGS
 
-**DUCT CLEANING — Main services:**
-1. _________________________________________________________________
-2. _________________________________________________________________
-3. _________________________________________________________________
+**DUCT CLEANING:**
+- Main services: ________________________________________________________________
+- Service areas/radius: __________________________________________________________
+- Most popular/flagship: __________________________________________________________
+- Display pricing on site? Yes / No
+- Estimated number of pages needed: [ ] 4-5  [ ] 6-7  [ ] 8+
 
-**PLUMBING BUSINESS — Main services:**
-1. _________________________________________________________________
-2. _________________________________________________________________
-3. _________________________________________________________________
+**PLUMBING BUSINESS:**
+- Main services: ________________________________________________________________
+- Service areas/radius: __________________________________________________________
+- Most popular/flagship: __________________________________________________________
+- Display pricing on site? Yes / No
+- Estimated number of pages needed: [ ] 4-5  [ ] 6-7  [ ] 8+
 
-**GENERAL CONTRACTING — Main services:**
-1. _________________________________________________________________
-2. _________________________________________________________________
-3. _________________________________________________________________
+**GENERAL CONTRACTING:**
+- Main services: ________________________________________________________________
+- Service areas/radius: __________________________________________________________
+- Most popular/flagship: __________________________________________________________
+- Display pricing on site? Yes / No
+- Estimated number of pages needed: [ ] 4-5  [ ] 6-7  [ ] 8+
 
-**Pricing display?** Show pricing / Hide pricing (quote-based)
-**Most popular/flagship service per business:**
-- Duct cleaning: ________________________________________
-- Plumbing: ________________________________________
-- Contracting: ________________________________________
+**Customer type for each business:**
+- Duct cleaning (residential/commercial/both): ___________________________________
+- Plumbing (residential/commercial/both): _________________________________________
+- Contracting (residential/commercial/both): _____________________________________
 
 ---
 
@@ -202,6 +213,12 @@ My recommendation:
 ---
 
 ## PRICING REFERENCE (FOR YOUR USE ONLY)
+
+**IF HE ASKS FOR NUMBERS:**
+- Don't quote the full breakdown yet
+- You can give "general ballpark" numbers based on page count
+- Say: "We'll put together a detailed proposal, but ballpark-wise for 3 sites we're looking at $X-X range. We can adjust based on exactly what gets included."
+- Always end with: "Let me put together a full proposal and we can discuss specifics."
 
 **Site Pricing (per page count):**
 - 5-page site: $1,200
