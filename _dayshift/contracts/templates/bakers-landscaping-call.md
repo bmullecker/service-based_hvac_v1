@@ -128,7 +128,25 @@ The $750 anchor is already stated in the core offer above — don't repeat it he
 
 ---
 
-## IF HE SAYS NO, FLAT OUT
+## IF HE SAYS NO TO THE WEBSITE — FALLBACK OFFERS
+
+Don't reveal that GBP is actually your top-priority recommendation for him — that undercuts the website pitch if said too early. But if he declines the website outright, it's a fair time to downsell to a smaller, standalone ask instead of walking away empty-handed.
+
+**Fallback #1 — Google Business Profile (offer this first):**
+
+"No worries on the full website right now. Since you're already out working, would it help to at least get you showing up on Google Maps? I can set up a professional Google Business Profile for you — that's the listing with your reviews, hours, and photos that shows up when people search. That one's just a hundred bucks, and it's honestly one of the fastest ways to start pulling in calls even without a full site."
+
+*(If yes: close it like a normal sale — get email/payment, confirm next steps. If no, move to Fallback #2.)*
+
+**Fallback #2 — Facebook Business Page (only if he says no to GBP too):**
+
+"Totally fine. What about just a Facebook business page? I can get that set up and branded for seventy-five bucks, so at least people can find you and see your work when they search Facebook."
+
+*(If yes: close it. If no, stop here — don't offer a third downsell, that starts to feel pushy.)*
+
+---
+
+## IF HE SAYS NO, FLAT OUT (to everything)
 
 "No problem at all, I appreciate you hearing me out. Keep my number — if things change or you want to revisit it down the road, just give me a call. Have a good one."
 
