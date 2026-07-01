@@ -50,6 +50,24 @@
 
 ---
 
+## IF HE WANTS MORE THAN ONE PAGE
+
+"Sure — if you want more than just the one page, like a dedicated services page, an about page, that kind of thing, I can do a full multi-page site for you. Normally that runs twelve hundred to fifteen hundred, but since we're starting at a smaller-business rate, I'd do it for one thousand flat. That gets you a proper homepage, services page, about page, contact page, and a gallery — the whole setup."
+
+*(Only offer this if HE brings up wanting more. Don't upsell into it unprompted — the single page is the right fit for his size, and you already noted that on the call.)*
+
+---
+
+## IF HE HESITATES ON PRICE (concession, not opener)
+
+Don't lead with a discount. Hold five hundred first. Only drop to four hundred if he pushes back or goes quiet on the number.
+
+"Tell you what — since it's your first site with me, I'll bring it down to four hundred. That gets you a single page: info about your business, a contact form so people can reach you, and a gallery of your best work. That's everything you need to start pulling leads. Ready to move forward?"
+
+*(Don't ask "does that sound like a good deal?" — it invites a soft no. Ask for the decision directly.)*
+
+---
+
 ## IF HE SAYS YES → UPSELLS (offer, don't dump all at once)
 
 "Awesome. A couple other things I noticed that'd help a lot —"
@@ -118,11 +136,15 @@
 
 ## QUICK PRICING REFERENCE
 
-| Item | Price |
-|---|---|
-| Website build | $500 |
-| Hosting + domain + professional email | $50/mo |
-| Google Business Profile setup | $100 |
-| Facebook business page | $75 |
-| Logo design | $150 |
-| **Full package (upfront)** | **$825** |
+| Item | Standard Price | Efrium's Price (small business rate) |
+|---|---|---|
+| Landing page (1 page) | $750 | $500 |
+| Landing page, if he hesitates (concession only) | — | $400 |
+| Full multi-page site | $1,200–1,500 | $1,000 |
+| Hosting + domain + professional email | $50/mo | $50/mo |
+| Google Business Profile setup | $100 | $100 |
+| Facebook business page | $75 | $75 |
+| Logo design | $150 | $150 |
+| **Full package (landing page + upsells, upfront)** | — | **$825** |
+
+**Discount logic:** $250 off the standard rate, applied consistently across landing page and full site tiers. Don't discount further than what's listed here.
