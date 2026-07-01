@@ -165,3 +165,101 @@ Instead, say the whole fallback menu in one breath, then let him pick what's use
 **Discount logic:** $250 off the standard rate, applied consistently across landing page and full site tiers. Don't discount further than what's listed here.
 
 **Note on the $50/mo posting fallback:** This is a lightweight, standalone offer for prospects who declined the website — one post each to GBP and Facebook, no strategy or optimization work. It is NOT the same as the $250/mo SEO Retainer in the main service agreement, which includes keyword monitoring, ranking reports, and more. Don't confuse the two if this client upgrades later.
+
+---
+
+## FULL CALL WALKTHROUGH — EXAMPLE #1 (He says yes)
+
+**BILL:** Hey, is this Efrium?
+
+**EFRIUM:** Yeah, who's this?
+
+**BILL:** Hey, this is Bill Mullecker — I'm a web developer and designer local to York. I found your business on Facebook and noticed you don't have a website yet. I build affordable websites for local businesses. You got two minutes?
+
+**EFRIUM:** Uh... yeah, I guess, what's this about?
+
+**BILL:** Totally fair question — I'm not trying to sell you anything shady, I just build sites for trades and local service businesses around here. Quick question for you — where do most of your landscaping leads come from right now? Referrals, word of mouth, Google?
+
+**EFRIUM:** Mostly word of mouth, some Facebook stuff.
+
+**BILL:** Got it. And is this full-time for you, or more of a side thing right now?
+
+**EFRIUM:** Pretty much full-time, yeah, just me and one guy who helps out sometimes.
+
+**BILL:** Nice. So here's what I'm seeing — when someone in York searches "landscaping near me" on Google, you're not gonna show up, because you don't have a website or a Google Business Profile. That's leads going straight to whoever DOES show up. Does that track with what you're seeing?
+
+**EFRIUM:** Yeah, I mean, I know I probably should have a website, I just never got around to it.
+
+**BILL:** Totally get that, most guys in the trades are too busy actually doing the work to worry about it. Here's what I do — for a business your size, I'd build you a website for five hundred bucks. I usually charge seven fifty for that, but I'm taking on a few new clients right now, so you're getting the lower rate. Then fifty bucks a month covers your domain, hosting, and a professional email address — so instead of some Gmail, you've got something like efrium@bakerslandscaping.com. That's the foundation.
+
+**EFRIUM:** Five hundred bucks, huh. I don't know, that's kind of a lot for a website.
+
+**BILL:** *(holds — doesn't drop price yet)* I get it, it's a real investment. Can I ask — is it the price itself, or more just not sure what you'd actually get for it?
+
+**EFRIUM:** I guess... I don't really know what five hundred bucks even gets me.
+
+**BILL:** Fair. So you'd get a real homepage with info about your business, a contact form so people can reach you directly, and a gallery to show off your best work — before and afters, whatever you've got. That's the stuff that actually turns a Google search into a phone call. Tell you what — since it'd be your first site with me, I'll bring it down to four hundred. Same page, same setup. Ready to move forward with that?
+
+**EFRIUM:** Yeah, actually, that sounds pretty reasonable.
+
+**BILL:** Awesome. A couple other things I noticed that'd help a lot — you don't have a Google Business Profile set up either. That's the map listing with your reviews, hours, and photos — I can set that up for a hundred bucks, and honestly it's one of the highest-ROI things I can do for you. Want me to add that too, or just start with the website for now?
+
+**EFRIUM:** Let's just do the website for now, I can always add that later.
+
+**BILL:** No problem at all, that works. I can send the contract over today — you sign it, send the deposit, and I'll get started right away. What's the best email for that?
+
+**EFRIUM:** Yeah, use efrium@bakerslandscaping — wait, I don't got that yet, just use my Gmail, efrium.baker@gmail.com.
+
+**BILL:** Got it, you'll have it in your inbox within the hour. Excited to work with you, man.
+
+*(Log: $400 landing page, no add-ons yet, deposit pending. Status: Awaiting Decision.)*
+
+---
+
+## FULL CALL WALKTHROUGH — EXAMPLE #2 (He says no to the website)
+
+**BILL:** Hey, is this Efrium?
+
+**EFRIUM:** Yeah, this is him.
+
+**BILL:** Hey, this is Bill Mullecker — I'm a web developer and designer local to York. I found your business on Facebook and noticed you don't have a website yet. I build affordable websites for local businesses. You got two minutes?
+
+**EFRIUM:** Sure, what's up.
+
+**BILL:** Quick question — where do most of your landscaping leads come from right now? Referrals, word of mouth, Google?
+
+**EFRIUM:** Mostly word of mouth, honestly. Been doing this ten years, people just know me.
+
+**BILL:** That's solid. And full-time for you, or side work?
+
+**EFRIUM:** Full-time, yeah.
+
+**BILL:** Got it. So here's what I'm seeing — when someone new in York searches "landscaping near me" on Google, they're not gonna find you, since there's no website or Google listing. That's leads going straight to whoever does show up. You seeing any of that?
+
+**EFRIUM:** Eh, maybe, but honestly business has been fine off word of mouth. I don't really need more customers right now.
+
+**BILL:** Fair enough, that's a good problem to have. Just so you know what I do — for a business your size I'd build you a site for five hundred, normally seven fifty. But sounds like that's not really where you're at right now?
+
+**EFRIUM:** Yeah, I don't think I need a whole website. That's kind of a lot of money for something I'm not sure I need.
+
+**BILL:** *(no more pushing on the website — moves straight to the fallback menu, said once)* No worries on the full website. If it'd help at all, I can also just get you set up with a Google Business Profile — that's the map listing with your reviews and hours, a hundred bucks — or a Facebook business page for seventy-five. I can also manage both with a monthly post so they stay active, that's fifty bucks a month on top. Whichever piece is actually useful to you, I can just do that one — no pressure to do it all.
+
+**EFRIUM:** Hm. I mean, I guess the Google thing might be worth it, people probably do look me up sometimes.
+
+**BILL:** Yeah, that one pays for itself fast, honestly. Want me to set that up for you? Hundred bucks, one-time, and you're showing up on the map with your reviews and hours.
+
+**EFRIUM:** Yeah, let's do that one.
+
+**BILL:** Perfect, I can send you a quick agreement for that today. What's the best email or number to send it to?
+
+*(Log: $100 GBP setup only, website declined. Status: Awaiting Decision.)*
+
+**Alternate ending — if he says no to everything:**
+
+**EFRIUM:** Nah, I think I'm good for now, honestly.
+
+**BILL:** No problem at all, I appreciate you hearing me out. Keep my number — if things change or you want to revisit it down the road, just give me a call. Have a good one.
+
+**EFRIUM:** Alright, will do, thanks.
+
+*(Hang up. Log him in Prospects as "Not Interested" — note: "Full-time 10yrs, relies on word of mouth, doesn't see need for website/GBP right now. Revisit in a few months." Move to the next call.)*
