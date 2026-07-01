@@ -128,21 +128,15 @@ The $750 anchor is already stated in the core offer above — don't repeat it he
 
 ---
 
-## IF HE SAYS NO TO THE WEBSITE — FALLBACK OFFERS
+## IF HE SAYS NO TO THE WEBSITE — ONE FALLBACK MENU (say once, don't chain)
 
-Don't reveal that GBP is actually your top-priority recommendation for him — that undercuts the website pitch if said too early. But if he declines the website outright, it's a fair time to downsell to a smaller, standalone ask instead of walking away empty-handed.
+Don't reveal that GBP is actually your top-priority recommendation for him — that undercuts the website pitch if said too early. And don't re-pitch one item at a time after each "no" — that turns into "well, also this, also this" and starts to feel like begging.
 
-**Fallback #1 — Google Business Profile (offer this first):**
+Instead, say the whole fallback menu in one breath, then let him pick what's useful (or nothing):
 
-"No worries on the full website right now. Since you're already out working, would it help to at least get you showing up on Google Maps? I can set up a professional Google Business Profile for you — that's the listing with your reviews, hours, and photos that shows up when people search. That one's just a hundred bucks, and it's honestly one of the fastest ways to start pulling in calls even without a full site."
+"No worries on the full website. If it'd help, I can also just get you set up with a Google Business Profile — that's the map listing with your reviews and hours, a hundred bucks — or a Facebook business page for seventy-five. I can also manage both with a monthly post so they stay active and look current, that's fifty bucks a month on top. Whichever piece is actually useful to you, I can just do that one — no pressure to do it all."
 
-*(If yes: close it like a normal sale — get email/payment, confirm next steps. If no, move to Fallback #2.)*
-
-**Fallback #2 — Facebook Business Page (only if he says no to GBP too):**
-
-"Totally fine. What about just a Facebook business page? I can get that set up and branded for seventy-five bucks, so at least people can find you and see your work when they search Facebook."
-
-*(If yes: close it. If no, stop here — don't offer a third downsell, that starts to feel pushy.)*
+*(Said once. If he picks one or more, close it like a normal sale — email, payment, next steps. If he says no to all of it, move straight to the flat-out no close below. Don't re-offer anything a second time.)*
 
 ---
 
@@ -165,6 +159,9 @@ Don't reveal that GBP is actually your top-priority recommendation for him — t
 | Google Business Profile setup | $100 | $100 |
 | Facebook business page | $75 | $75 |
 | Logo design | $150 | $150 |
+| Monthly GBP + Facebook posting (fallback-tier only, not the full SEO Retainer) | $50/mo | $50/mo |
 | **Full package (landing page + upsells, upfront)** | — | **$825** |
 
 **Discount logic:** $250 off the standard rate, applied consistently across landing page and full site tiers. Don't discount further than what's listed here.
+
+**Note on the $50/mo posting fallback:** This is a lightweight, standalone offer for prospects who declined the website — one post each to GBP and Facebook, no strategy or optimization work. It is NOT the same as the $250/mo SEO Retainer in the main service agreement, which includes keyword monitoring, ranking reports, and more. Don't confuse the two if this client upgrades later.
