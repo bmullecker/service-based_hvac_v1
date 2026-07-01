@@ -42,7 +42,9 @@
 
 ## THE OFFER (core pitch)
 
-"Here's what I do. I build you a professional website — five hundred bucks, one-time. Then fifty bucks a month covers your domain, hosting, and a professional email address, so instead of a Gmail you've got something like efrium@bakerslandscaping.com. That's the foundation."
+"Here's what I do. I build you a professional website. For a business your size, I'd do it for five hundred bucks — I usually charge seven fifty for that, but I'm taking on a few new clients right now, so you're getting the lower rate. Then fifty bucks a month covers your domain, hosting, and a professional email address, so instead of a Gmail you've got something like efrium@bakerslandscaping.com. That's the foundation."
+
+*(Say the $750 → $500 line once, plainly, then move on. Don't over-explain the discount or dwell on it — that undercuts the value instead of reinforcing it.)*
 
 *(Pause. Let it land. Don't rush into upsells yet.)*
 
@@ -60,7 +62,7 @@
 
 ## IF HE HESITATES ON PRICE (concession, not opener)
 
-Don't lead with a discount. Hold five hundred first. Only drop to four hundred if he pushes back or goes quiet on the number.
+The $750 anchor is already stated in the core offer above — don't repeat it here. Just hold five hundred first. Only drop to four hundred if he pushes back or goes quiet on the number.
 
 "Tell you what — since it's your first site with me, I'll bring it down to four hundred. That gets you a single page: info about your business, a contact form so people can reach you, and a gallery of your best work. That's everything you need to start pulling leads. Ready to move forward?"
 
